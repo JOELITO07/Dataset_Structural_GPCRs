@@ -235,20 +235,6 @@ For structure-based methods, extract PDB files from the corresponding class dire
 
 If you use this dataset in your research, please cite:
 
-```bibtex
-@dataset{GPCRdb_MSA_Benchmark,
-  title={GPCRdb Structural Alignment Benchmark Dataset},
-  author={[Your Team/Organization]},
-  year={2024},
-  url={https://github.com/[your-repo-url]}
-}
-```
-
-Additionally, please acknowledge the following data sources:
-
-- **GPCRdb:** Horn et al., *GPCRdb: the G protein-coupled receptor database*, Nucleic Acids Research (2018)
-- **UniProt:** UniProt Consortium, *UniProt: a hub for protein information*, Nucleic Acids Research (2023)
-- **AlphaFold2:** Jumper et al., *Highly accurate protein structure prediction with AlphaFold2*, Nature (2021)
 
 ---
 
@@ -262,28 +248,6 @@ This dataset is provided for **academic, educational, and research purposes only
 - Compiled dataset and derived data: CC-BY 4.0
 
 **Original data sources retain their respective licenses and attribution requirements.**
-
----
-
-## Contributing
-
-To contribute improvements, corrections, or additional alignments:
-
-1. Fork this repository
-2. Create a feature branch (`git checkout -b feature/improvement`)
-3. Commit your changes (`git commit -am 'Add improvement'`)
-4. Push to the branch (`git push origin feature/improvement`)
-5. Submit a Pull Request
-
----
-
-## Support and Issues
-
-For questions, bug reports, or feature requests, please:
-
-- Open an issue on GitHub
-- Check existing documentation in this README
-- Consult the scripts directory for data generation details
 
 ---
 
