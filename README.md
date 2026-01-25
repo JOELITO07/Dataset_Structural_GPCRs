@@ -29,19 +29,18 @@ The complete dataset includes **all available human GPCR sequences** grouped by 
 
 **Composition of the full dataset:**
 
-| Class/Subclass | Dataset Code | Number of sequences |
-|---|---|---|
-| Class A-001 (Rhodopsin – Aminergic) | classA_001 | 19 |
-| Class A-002 (Rhodopsin – Peptide) | classA_002 | 19 |
-| Class A-003 (Rhodopsin – Chemokine) | classA_003 | 19 |
-| Class A-004 (Rhodopsin – Lipid) | classA_004 | 19 |
-| Class B1 (Secretin) | classB1 | 15 |
-| Class B2 (Adhesion) | classB2 | 33 |
-| Class C (Glutamate) | classC | 19 |
-| Class F (Frizzled) | classF | 11 |
-| Class T2 (Taste 2) | classT2 | 25 |
-| **Total (Full Dataset)** | | **179** |
-| **Total (Complete)** | | **284** |
+| Class (group)                    | Number of sequences |
+| -------------------------------- | ------------------- |
+| Class Aα (Rhodopsin – Aminergic) | 36                  |
+| Class Aβ (Rhodopsin – Peptide)   | 76                  |
+| Class Aγ (Rhodopsin – Protein)   | 30                  |
+| Class Aδ (Rhodopsin – Lipid)     | 36                  |
+| Class B1 (Secretin)              | 15                  |
+| Class B2 (Adhesion)              | 33                  |
+| Class C (Glutamate)              | 22                  |
+| Class F (Frizzled)               | 11                  |
+| Class T2 (Taste 2)               | 25                  |
+| **Total**                        | **284**             |
 
 Sequence characteristics:
 - **Length range:** Approximately 290 to 6,000+ amino acids
