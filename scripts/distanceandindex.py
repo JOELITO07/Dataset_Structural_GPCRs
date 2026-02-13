@@ -103,7 +103,7 @@ def process_all_classes():
                 np.savetxt(out_idx, idx, delimiter=",", fmt="%d")
 
                 total_ok += 1
-                # print(f"✅ {base_name}: D={D.shape[0]}x{D.shape[1]} idx={idx.shape[0]}")
+                print(f"✅ {base_name}: D={D.shape[0]}x{D.shape[1]} idx={idx.shape[0]}")
 
             except Exception as e:
                 total_fail += 1
