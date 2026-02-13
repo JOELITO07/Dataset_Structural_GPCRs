@@ -1,0 +1,74 @@
+
+  15 Populations
+
+Neighbor-Joining/UPGMA method version 3.697
+
+
+ UPGMA method
+
+ Negative branch lengths allowed
+
+
+       +-----calcr_huma
+     +-4 
+  +--9 +-----calrl_huma
+  !  ! 
+  !  +------crfr1_huma
+  !  
+  !       +------crfr2_huma
+  !     +-8 
+  !     ! ! +-----pth1r_huma
+  !     ! +-6 
+  !     !   +-----pth2r_huma
+  !     !  
+-14     !             +----ghrhr_huma
+  !     !           +-1 
+  !     !         +-2 +----vipr1_huma
+  !  +-12         ! ! 
+  !  !  !       +-5 +-----sctr_human
+  !  !  !       ! ! 
+  !  !  !     +-7 +-----vipr2_huma
+  !  !  !     ! ! 
+  !  !  !     ! ! +-----glp2r_huma
+  +-13  !  +-10 +-3 
+     !  !  !  !   +-----glr_human.
+     !  +-11  !  
+     !     !  +-------pacr_human
+     !     !  
+     !     +-------glp1r_huma
+     !  
+     +--------gipr_human
+
+
+From     To            Length          Height
+----     --            ------          ------
+  14        9          0.04704         0.04704
+   9        4          0.02178         0.06882
+   4     calcr_huma    0.09635         0.16517
+   4     calrl_huma    0.09635         0.16517
+   9     crfr1_huma    0.11813         0.16517
+  14       13          0.00908         0.00908
+  13       12          0.01374         0.02282
+  12        8          0.02842         0.05124
+   8     crfr2_huma    0.11392         0.16517
+   8        6          0.00912         0.06037
+   6     pth1r_huma    0.10480         0.16517
+   6     pth2r_huma    0.10480         0.16517
+  12       11          0.00871         0.03153
+  11       10          0.00620         0.03774
+  10        7          0.01866         0.05640
+   7        5          0.00947         0.06587
+   5        2          0.00680         0.07267
+   2        1          0.00755         0.08022
+   1     ghrhr_huma    0.08495         0.16517
+   1     vipr1_huma    0.08495         0.16517
+   2     sctr_human    0.09250         0.16517
+   5     vipr2_huma    0.09930         0.16517
+   7        3          0.01512         0.07152
+   3     glp2r_huma    0.09365         0.16517
+   3     glr_human.    0.09365         0.16517
+  10     pacr_human    0.12743         0.16517
+  11     glp1r_huma    0.13364         0.16517
+  13     gipr_human    0.15609         0.16517
+
+

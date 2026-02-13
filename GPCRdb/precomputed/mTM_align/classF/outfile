@@ -1,0 +1,58 @@
+
+  11 Populations
+
+Neighbor-Joining/UPGMA method version 3.697
+
+
+ UPGMA method
+
+ Negative branch lengths allowed
+
+
+          +--------fzd10_huma
+        +-3 
+      +-4 +--------fzd4_human
+      ! ! 
+    +-6 +---------fzd8_human
+    ! ! 
+    ! +----------fzd9_human
+    ! 
+    !         +------fzd1_human
+    !     +---2 
+  +-9     !   ! +------fzd2_human
+  ! !   +-5   +-1 
+  ! !   ! !     +------fzd7_human
+  ! ! +-7 ! 
+  ! ! ! ! +----------fzd5_human
+-10 +-8 ! 
+  !   ! +----------fzd6_human
+  !   ! 
+  !   +----------fzd3_human
+  !  
+  +------------smo_human.
+
+
+From     To            Length          Height
+----     --            ------          ------
+  10        9          0.01644         0.01644
+   9        6          0.01313         0.02958
+   6        4          0.01398         0.04356
+   4        3          0.01940         0.06296
+   3     fzd10_huma    0.15730         0.22026
+   3     fzd4_human    0.15730         0.22026
+   4     fzd8_human    0.17670         0.22026
+   6     fzd9_human    0.19068         0.22026
+   9        8          0.01025         0.02669
+   8        7          0.00132         0.02801
+   7        5          0.01242         0.04043
+   5        2          0.05403         0.09446
+   2     fzd1_human    0.12580         0.22026
+   2        1          0.00585         0.10031
+   1     fzd2_human    0.11995         0.22026
+   1     fzd7_human    0.11995         0.22026
+   5     fzd5_human    0.17983         0.22026
+   7     fzd6_human    0.19225         0.22026
+   8     fzd3_human    0.19357         0.22026
+  10     smo_human.    0.22026         0.22026
+
+
