@@ -1,0 +1,447 @@
+!!AA_MULTIPLE_ALIGNMENT 1.0
+PileUp (MView)
+
+   MSF:   973  Type: P  March 01, 2026 13:55  Check:    0  ..
+
+ Name: 5ht1a_human Len:   973  Check: 3278  Weight:  1.00
+ Name: 5ht1b_human Len:   973  Check: 8622  Weight:  1.00
+ Name: 5ht1d_human Len:   973  Check: 4912  Weight:  1.00
+ Name: 5ht1e_human Len:   973  Check: 9032  Weight:  1.00
+ Name: 5ht1f_human Len:   973  Check: 8722  Weight:  1.00
+ Name: 5ht2a_human Len:   973  Check: 5072  Weight:  1.00
+ Name: 5ht2b_human Len:   973  Check: 9690  Weight:  1.00
+ Name: 5ht2c_human Len:   973  Check: 9587  Weight:  1.00
+ Name: 5ht4r_human Len:   973  Check: 3703  Weight:  1.00
+ Name: 5ht5a_human Len:   973  Check: 7052  Weight:  1.00
+ Name: 5ht6r_human Len:   973  Check: 5940  Weight:  1.00
+ Name: 5ht7r_human Len:   973  Check: 8152  Weight:  1.00
+ Name: acm1_human  Len:   973  Check: 1559  Weight:  1.00
+ Name: acm2_human  Len:   973  Check: 5866  Weight:  1.00
+ Name: drd2_human  Len:   973  Check: 1982  Weight:  1.00
+ Name: acm3_human  Len:   973  Check: 3915  Weight:  1.00
+ Name: acm4_human  Len:   973  Check: 3868  Weight:  1.00
+ Name: acm5_human  Len:   973  Check: 8452  Weight:  1.00
+ Name: ada1a_human Len:   973  Check: 9345  Weight:  1.00
+
+//
+
+            1                                                   50
+5ht1a_human MDV------- ---------- ---------- ---------L SP--------
+5ht1b_human MEEPGAQ--- ---------- ---------- -------CAP PPPAGSETWV
+5ht1d_human ---------- ---------- ---------- ---------M SPLNQSAEGL
+5ht1e_human MNI------- ---------- ---------- ---------- ----------
+5ht1f_human MDF------- ---------- ---------- ---------- --LNSS----
+5ht2a_human MDILCE---- ---ENTSLSS TTNSLMQ--- ------L--- ----------
+5ht2b_human MALSYR---- ----VSELQS TIPEHI---- ------L--- ----------
+5ht2c_human -------MVN LRNAVHSFLV HLIGLLV--- ------W--- ----------
+5ht4r_human MDK------- ---------- ---------- ---------- ----------
+5ht5a_human MDLPVN---- ---------- ---------- ---------L TSFSLSTPSP
+5ht6r_human ---------- ---------- ---------- ---------M VPEPGPT---
+5ht7r_human MMDVNS---- --SGRPDLYG HLRSFLLPEV GRGLPDL--- ----------
+acm1_human  MNT------- ---------- ---------- ---------- ----------
+acm2_human  MNN------- ---------- ---------- ---------- ----------
+drd2_human  MDP------- ---------- ---------- -------LNL SWYDDDLER-
+acm3_human  MTL------- ---HNNSTTS PLFPNISS-- ------S--- ----------
+acm4_human  MAN------- ---------- ---------- ---------F TPVNGS----
+acm5_human  MEG------- ---------- ---------- ---------- ----------
+ada1a_human MVF------- ---------- ---------- ---------- ----------
+
+            51                                                 100
+5ht1a_human --------G- ---------- ---------- -------QGN NTTSP-----
+5ht1b_human PQANLSSA-- ---------- ---------- ---------- ----------
+5ht1d_human PQE--ASN-- ---------- ---------- ---------- ----------
+5ht1e_human ---------- ---------- --TNCT---- ---------- ----------
+5ht1f_human ---------- ---------- ---------- ---------- ----------
+5ht2a_human ---NDDTRL- ---------- ---------- YSNDFNSGEA NTSDAFNWTV
+5ht2b_human --QSTFVHV- ---------- ---------- -------ISS NWSGLQTESI
+5ht2c_human ---------- ---------- ------QSDI ---SVSPVAA IVTDIFN-TS
+5ht4r_human ---------- ---------- --LDAN---- ---------- ----------
+5ht5a_human LET------- ---------- ---------- ---------- ----------
+5ht6r_human ---------- ---------- ---------- ---------- ----------
+5ht7r_human ---------- --SPDGGADP VA-------- ----GSWAPH LLSEVTASPA
+acm1_human  ---------- ---------- --SAPP---- ---------- ----------
+acm2_human  ---------- ---------- --STN----- ---------- ----------
+drd2_human  ---------- ---------- ---------- ---------- ----------
+acm3_human  --------WI HSPSDAGLPP GT-------- --------VT HFGSYNVSRA
+acm4_human  ---------- ---------- ---------- ---------- ----------
+acm5_human  ---------- ----D----- ---SYH---- ---------- ----------
+ada1a_human ---------- ---------- --LSGN---- ---------- ----------
+
+            101                                                150
+5ht1a_human PAPFETG--- ------G--- -N-------- --T-----T- GISDVTVSYQ
+5ht1b_human --PSQNC--- ---------- -------SAK DYI------- YQDSISLPWK
+5ht1d_human --RSLNA--- ---------- -------TET SEA------- WDPRTLQALK
+5ht1e_human -------TEA S--------- ---------- ---------M AIRPKTITEK
+5ht1f_human -------DQN L--------- ---------- --T------S EELLNRMPSK
+5ht2a_human DSENRTN--- ---------- ------LS-C EGCLSP---S CLSLLHLQEK
+5ht2b_human PEEMKQI--- ---------- ---------- ------VE-- ----EQGNKL
+5ht2c_human DG-GRFK--- ---------- ---------- ------F--- -----PDGVQ
+5ht4r_human ------V-SS --E------- ---------- --------E- ---GFGSVEK
+5ht5a_human ----NHS--- ---------- -------LGK DDL------R PSSPLLSVFG
+5ht6r_human ----ANS--- -T-PAWGAGP P--------- ---------- SAPGGSG---
+5ht7r_human PTWDAPP--- --D------- -----NASGC GEQINY---- -----GRVEK
+acm1_human  ---AVSP--- ---------- ---------- NIT------V LAPGKGPWQV
+acm2_human  -----SS--N --N------- ---------- -SL------A LTSPYKTFEV
+drd2_human  QNWSRPF--- ---------- -----NGSD- --G------K ADRPHYN---
+acm3_human  AGNFSSP--- ---------- -------DG- TTD------D PLGGHTVWQV
+acm4_human  -----SG--- ---------- --NQS-VRL- VTS------S SHNRYETVEM
+acm5_human  --NATTV--- ---------- -----NGTP- VNH------Q PLERHRLWEV
+ada1a_human ------A-SD SS-------- -----NCT-- ---------Q PPAPVNISKA
+
+            151                                                200
+5ht1a_human VITSLLLGTL IFCAVLGNAC VVAAIALERS LQN-VANYLI GSLAVTDLMV
+5ht1b_human VLLVMLLALI TLATTLSNAF VIATVYRTRK LHT-PANYLI ASLAVTDLLV
+5ht1d_human ISLAVVLSVI TLATVLSNAF VLTTILLTRK LHT-PANYLI GSLATTDLLV
+5ht1e_human MLICMTLVVI TTLTTLLNLA VIMAIGTTKK LHQ-PANYLI CSLAVTDLLV
+5ht1f_human ILVSLTLSGL ALMTTTINSL VIAAIIVTRK LHH-PANYLI CSLAVTDFLV
+5ht2a_human NWSALLTAVV IILTIAGNIL VIMAVSLEKK LQN-ATNYFL MSLAIADMLL
+5ht2b_human HWAALLILMV IIPTIGGNTL VILAVSLEKK LQY-ATNYFL MSLAVADLLV
+5ht2c_human NWPALSIVII IIMTIGGNIL VIMAVSMEKK LHN-ATNYFL MSLAIADMLV
+5ht4r_human VVLLTFLSTV ILMAILGNLL VMVAVCWDRQ LRKIKTNYFI VSLAFADLLV
+5ht5a_human VLILTLLGFL VAATFAWNLL VLATILRVRT FHR-VPHNLV ASMAVSDVLV
+5ht6r_human -WVAAALCVV IALTAAANSL LIALICTQPA LRN-TSNFFL VSLFTSDLMV
+5ht7r_human VVIGSILTLI TLLTIAGNCL VVISVCFVKK LRQ-PSNYLI VSLALADLSV
+acm1_human  AFIGITTGLL SLATVTGNLL VLISFKVNTE LKT-VNNYFL LSLACADLII
+acm2_human  VFIVLVAGSL SLVTIIGNIL VMVSIKVNRH LQT-VNNYFL FSLACADLII
+drd2_human  -YYATLLTLL IAVIVFGNVL VCMAVSREKA LQT-TTNYLI VSLAVADLLV
+acm3_human  VFIAFLTGIL ALVTIIGNIL VIVSFKVNKQ LKT-VNNYFL LSLACADLII
+acm4_human  VFIATVTGSL SLVTVVGNIL VMLSIKVNRQ LQT-VNNYFL FSLACADLII
+acm5_human  ITIAAVTAVV SLITIVGNVL VMISFKVNSQ LKT-VNNYYL LSLACADLII
+ada1a_human ILLGVILGGL ILFGVLGNIL VILSVACHRH LHS-VTHYYI VNLAVADLLL
+
+            201                                                250
+5ht1a_human SVLVLPMAAL YQVLN-KWTL GQVTCDLFIA LDVLCCTSSI LHLCAIALDR
+5ht1b_human SILVMPISTM YTVTG-RWTL GQVVCDFWLS SDITCCTASI LHLCVIALDR
+5ht1d_human SILVMPISIA YTITH-TWNF GQILCDIWLS SDITCCTASI LHLCVIALDR
+5ht1e_human AVLVMPLSII YIVMD-RWKL GYFLCEVWLS VDMTCCTCSI LHLCVIALDR
+5ht1f_human AVLVMPFSIV YIVRE-SWIM GQVVCDIWLS VDITCCTCSI LHLSAIALDR
+5ht2a_human GFLVMPVSML TILYGYRWPL PSKLCAVWIY LDVLFSTASI MHLCAISLDR
+5ht2b_human GLFVMPIALL TIMFEAMWPL PLVLCPAWLF LDVLFSTASI MHLCAISVDR
+5ht2c_human GLLVMPLSLL AILYDYVWPL PRYLCPVWIS LDVLFSTASI MHLCAISLDR
+5ht4r_human SVLVMPFGAI ELVQD-IWIY GEVFCLVRTS LDVLLTTASI FHLCCISLDR
+5ht5a_human AALVMPLSLV HELSGRRWQL GRRLCQLWIA CDVLCCTASI WNVTAIALDR
+5ht6r_human GLVVMPPAML NALYG-RWVL ARGLCLLWTA FDVMCCSASI LNLCLISLDR
+5ht7r_human AVAVMPFVSV TDLIGGKWIF GHFFCNVFIA MDVMCCTASI MTLCVISIDR
+acm1_human  GTFSMNLYTT YLLMG-HWAL GTLACDLWLA LDYVASNASV MNLLLISFDR
+acm2_human  GVFSMNLYTL YTVIG-YWPL GPVVCDLWLA LDYVVSNASV MNLLIISFDR
+drd2_human  ATLVMPWVVY LEVVG-EWKF SRIHCDIFVT LDVMMCTASI LNLCAISIDR
+acm3_human  GVISMNLFTT YIIMN-RWAL GNLACDLWLA IDYVASNASV MNLLVISFDR
+acm4_human  GAFSMNLYTV YIIKG-YWPL GAVVCDLWLA LDYVVSNASV MNLLIISFDR
+acm5_human  GIFSMNLYTT YILMG-RWAL GSLACDLWLA LDYVASNASV MNLLVISFDR
+ada1a_human TSTVLPFSAI FEVLG-YWAF GRVFCNIWAA VDVLCCTASI MGLCIISIDR
+
+            251                                                300
+5ht1a_human YWAIT-DPID YVNKR-TPRR AAALISLTWL IGFLISIP-P ML-GWR----
+5ht1b_human YWAIT-DAVE YSAKR-TPKR AAVMIALVWV FSISISLP-P FF--WR----
+5ht1d_human YWAIT-DALE YSKRR-TAGH AATMIAIVWA ISICISIP-P LF--WR----
+5ht1e_human YWAIT-NAIE YARKR-TAKR AALMILTVWT ISIFISMP-P LF--WRS---
+5ht1f_human YRAIT-DAVE YARKR-TPKH AGIMITIVWI ISVFISMP-P LF--WRH---
+5ht2a_human YVAIQ-NPIH HSRFN-SRTK AFLKIIAVWT ISVGISMPIP VF-GLQ----
+5ht2b_human YIAIK-KPIQ ANQYN-SRAT AFIKITVVWL ISIGIAIPVP IK-GIET---
+5ht2c_human YVAIR-NPIE HSRFN-SRTK AIMKIAIVWA ISIGVSVPIP VI-GLRD---
+5ht4r_human YYAICCQPLV YRNKM-TPLR IALMLGGCWV IPTFISFL-P IMQGWNNIGI
+5ht5a_human YWSIT-RHME YTLRT-RKCV SNVMIALTWA LSAVISLA-P LLFGWGE---
+5ht6r_human YLLIL-SPLR YKLRM-TPLR ALALVLGAWS LAALASFL-P LLLGWHE---
+5ht7r_human YLGIT-RPLT YPVRQ-NGKC MAKMILSVWL LSASITLP-P LF-GWA----
+acm1_human  YFSVT-RPLS YRAKR-TPRR AALMIGLAWL VSFVLWAP-A IL-FWQY---
+acm2_human  YFCVT-KPLT YPVKR-TTKM AGMMIAAAWV LSFILWAP-A IL-FWQF---
+drd2_human  YTAVA-MPML YNTRYSSKRR VTVMISIVWV LSFTISCP-L LF-GLN----
+acm3_human  YFSIT-RPLT YRAKR-TTKR AGVMIGLAWV ISFVLWAP-A IL-FWQY---
+acm4_human  YFCVT-KPLT YPARR-TTKM AGLMIAAAWV LSFVLWAP-A IL-FWQF---
+acm5_human  YFSIT-RPLT YRAKR-TPKR AGIMIGLAWL ISFILWAP-A IL-CWQY---
+ada1a_human YIGVS-YPLR YPTIV-TQRR GLMALLCVWA LSLVISIG-P LF-GWRQ---
+
+            301                                                350
+5ht1a_human -------TPE DRSDPDACTI S--KD--HGY TIYSTFGAFY IPLLLMLVLY
+5ht1b_human -------QAK AEEEVSECVV N--TDH-ILY TVYSTVGAFY FPTLLLIALY
+5ht1d_human -------QAK AQEEMSDCLV N--TSQ-ISY TIYSTCGAFY IPSVLLIILY
+5ht1e_human -------HRR LSPPPSQCTI Q--HDH-VIY TIYSTLGAFY IPLTLILILY
+5ht1f_human ---------Q GTSRDDECII K--HDH-IVS TIYSTFGAFY IPLALILILY
+5ht2a_human -------DDS KVFKEGSCLL A--DD---NF VLIGSFVSFF IPLTIMVITY
+5ht2b_human -------DVD NP-NNITCVL T--KERFGDF MLFGSLAAFF TPLAIMIVTY
+5ht2c_human -------EEK VFVNNTTCVL N--DP---NF VLIGSFVAFF IPLTIMVITY
+5ht4r_human IDLIEKRKFN QNSNSTYCVF --MVN--KPY AITCSVVAFY IPFLLMVLAY
+5ht5a_human ---------T YSEGSEECQV S--RE--PSY AVFSTVGAFY LPLCVVLFVY
+5ht6r_human ------LGHA RPPVPGQCRL L--AS--LPF VLVASGLTFF LPSGAICFTY
+5ht7r_human ---------Q NVNDDKVCLI S--QD--FGY TIYSTAVAFY IPMSVMLFMY
+acm1_human  ------LVGE RTVLAGQCYI QFLSQ--PII TFGTAMAAFY LPVTVMCTLY
+acm2_human  ------IVGV RTVEDGECYI QFFSN--AAV TFGTAIAAFY LPVIIMTVLY
+drd2_human  ---------- -NADQNECII A---N--PAF VVYSSIVSFY VPFIVTLLVY
+acm3_human  ------FVGK RTVPPGECFI QFLSE--PTI TFGTAIAAFY MPVTIMTILY
+acm4_human  ------VVGK RTVPDNQCFI QFLSN--PAV TFGTAIAAFY LPVVIMTVLY
+acm5_human  ------LVGK RTVPLDECQI QFLSE--PTI TFGTAIAAFY IPVSVMTILY
+ada1a_human ---------P APEDETICQI N--EE--PGY VLFSALGSFY LPLAIILVMY
+
+            351                                                400
+5ht1a_human GRIFRAARFR IRKTVKKVEK TGADTRHGAS -PA------- ----------
+5ht1b_human GRIYVEARSR ILK------- ---------- ---------- -QTPNRTGKR
+5ht1d_human GRIYRAARNR IL-------- ---------- ---------- N-PPSLYGKR
+5ht1e_human YRIYHAAKSL YQK------- ---------- ---------- -RGSSRHLSN
+5ht1f_human YKIYRAAKTL YHK------- ---------- ---------- -RQASRIAKE
+5ht2a_human FLTIKSLQKE ATL-CV---- ---------- ---------- ---SDLGTRA
+5ht2b_human FLTIHALQKK AYL-VK---- ---------- ---------- ---NKPPQRL
+5ht2c_human CLTIYVLRRQ ALM-LL---- ---------- ---------- ---HGHTEEP
+5ht4r_human YRIYVTAKEH AHQ------- ---------- ---------- -IQMLQRAG-
+5ht5a_human WKIYKAAKFR VGS------- ---------- ---------- -RKTNSVSPI
+5ht6r_human CRILLAARKQ AVQ-VASLT- ---------- ---------- ------TGMA
+5ht7r_human YQIYKAAR-- ---------- ---------- ------KSAA KHKFPG----
+acm1_human  WRIYRETENR ARE-LAALQG SET------- -PGKGGGSSS S---------
+acm2_human  WHISRASKSR IKK-DKKEPV ANQDPVSPSL --VQG----- ----------
+drd2_human  IKIYIVLRRR RKR-VNTKRS SRAFRAHLRA -PLKG----- ----------
+acm3_human  WRIYKETEKR TKE-LAGLQA SGTEAETENF ---------- ----------
+acm4_human  IHISLASRSR VHK-HRPEGP KEKKAKTLAF --LKS----- ----------
+acm5_human  CRIYRETEKR TKD-LADLQG SDSVTKAEKR KPAHRA---- ----------
+ada1a_human CRVYVVAKRE SRG-LKSGLK T--------- ---------- --------DK
+
+            401                                                450
+5ht1a_human ---------- ---------- ---------- ---------- ----------
+5ht1b_human LTRAQL---- ---------- ---------- ---------- ----------
+5ht1d_human FTTAHL---- ---------- ---------- ---------- ----------
+5ht1e_human RSTDSQ---- ---------- ---------- ---------- ----------
+5ht1f_human EVNGQV---- ---------- ---------- ---------- ----------
+5ht2a_human KL--ASFS-- ---------- ---------- ---------- ----------
+5ht2b_human TW--LTVSTV ---------- ---------- ---------- ----------
+5ht2c_human PG--LSLD-- ---------- ---------- ---------- ----------
+5ht4r_human ---------- ---------- ---------- ---------- ----------
+5ht5a_human SEAVEVK--- ---------- ---------- ---------- ----------
+5ht6r_human SQASET---- ---------- ---------- ---------- ----------
+5ht7r_human FPRVEPDSVI ALNGIVKLQK EVEECANLSR LL-------- ----------
+acm1_human  ---------- ---------- ---------- ---------- -----SERSQ
+acm2_human  ---------- ---------R IV-------- ---------- ---KPNNNNM
+drd2_human  ---------- ---------- ---NCTHPED MKLCTVIMKS NGSFPVNRRR
+acm3_human  -------VHP TGSSRSCSS- --YELQQQSM KRSNRRKYGR CHFWFTTKSW
+acm4_human  ---------- ---------P LM-------- ---------- ---KQSVKKP
+acm5_human  ---------- --LFRSCLR- --CPRPTLAQ RERNQAS--- ---WSSSRRS
+ada1a_human SDSEQV---- ---------- ---------- ---------- ----------
+
+            451                                                500
+5ht1a_human PQPK-K---- ---------- -S-----VNG ESG-SRNWRL --GVES----
+5ht1b_human ---------- ---------- -------ITD SPG-STS--- ----------
+5ht1d_human ---------- ---------- -------ITG SAG-SSL--- ----------
+5ht1e_human ---------- ---------- ---------N SFA-SCK--- ----------
+5ht1f_human ---------- ---------- -L-----LES GEK-STK--- ----------
+5ht2a_human ---------- ---------- ---------- -FLPQSS--- ----------
+5ht2b_human ---------- ---------- -------FQR DETPCSS--- ----------
+5ht2c_human ---------- ---------- ---------- -FLKCCK--- ----------
+5ht4r_human ---------- ---------- ---------- ---------- ----------
+5ht5a_human ---------- ---------- ---------D SAK------- ----------
+5ht6r_human ---------- ---------- ---------- ---------- ----------
+5ht7r_human ---------- ---------- ---------- ---------- ----------
+acm1_human  -PGAEGS-PE TPPGRCCRCC R--------- ---------- APRLLQAYSW
+acm2_human  -------PSS D---DGLEHN KIQNGKAPRD PVT------- ----------
+drd2_human  ---------- ---------- ---------- ---------- ----------
+acm3_human  ---------- ---------- ---------- ---------- KPSSEQMDQD
+acm4_human  -------PPG EAAREELRNG KLEEAPPPAL PPP------- ----------
+acm5_human  ---------- ---------- TSTTGK-PSQ ATGPSANWAK ----------
+ada1a_human ---------- ---------- ---------- -----TL--- ----------
+
+            501                                                550
+5ht1a_human -KAGGAL--- -----CANGA V-RQGDDGAA LE-----VIE VH--------
+5ht1b_human --SV------ -----TS--- ---------- ---------- ----------
+5ht1d_human ---------- -----CS--- ---------- ---------- ----------
+5ht1e_human --LTQTF--- -----CV--- ---------- ---------- ----------
+5ht1f_human --SVSTS--- -----YV--- ---------- ---------- ----------
+5ht2a_human ---------- --------LS ---------- ---------- ----------
+5ht2b_human ---------- --------PE KV-------- ---------- ----------
+5ht2c_human ---------- --------RN TA-------- ---------- ----------
+5ht4r_human ---------- ---------- ---------- ---------- ----------
+5ht5a_human ---------- ---------- ---------- ---------- ----------
+5ht6r_human ---------- ---------- ---------- ---------- ----------
+5ht7r_human ---------- ---------- ---------- ---------- ----------
+acm1_human  KEEEEEDEGS ME-S----LT SSEG--EE-- -----P---- ----------
+acm2_human  ---------- ------ENCV QGEEKESSND STS-V----- -----SAVAS
+drd2_human  ---------- ---------- -VEAARRAQE LEM---EMLS STSPPERTRY
+acm3_human  HSSSDSWNNN DAAASLENSA SSDEEDIGSE TRAIYSIVLK LPGH-STILN
+acm4_human  ---------- ------PRPV A--DKDTSNE SSS-G----- -----SATQN
+acm5_human  ---------A EQLTTCSSYP SSEDEDKPAT D-PVLQVVYK SQGK-ES---
+ada1a_human ---------- -----R---- ---------- ---------- ----------
+
+            551                                                600
+5ht1a_human ---RVGNSKE HL-------- ---------- ---------- ----PLPSEA
+5ht1b_human -----INSRV -P-------D VPSE------ ---------- ---SGSPVYV
+5ht1d_human -----LNSSL HE-------- GHSH------ ---------- --SAGSPLFF
+5ht1e_human -----SDFST S--------- ---------- ---------- -----DPTTE
+5ht1f_human -----LEKSL S--------- ---------- ---------- ----------
+5ht2a_human ---------- ---------- ---------- -------SEK ----------
+5ht2b_human ---------- --------AM LDGS------ ---------- RKDKALPNSG
+5ht2c_human ---------- --------E- -EEN------ -----SANPN --------QD
+5ht4r_human ------ASSE S--------- ---------- --RPQSADQ- ----------
+5ht5a_human ---------- ---------- ---------- ---------- -----QPQMV
+5ht6r_human ---------L QVP------R -------TPR PGVESADSR- ----------
+5ht7r_human ---------- ---------- ---------- ---------- ----------
+acm1_human  ------GSEV VIKM------ ---------- ---------- ----------
+acm2_human  N--MR-DDEI TQDENTVS-- ---------- ---------- ----------
+drd2_human  SPIPPSHHQL TL-------- ---------- ---------- ----PDPSH-
+acm3_human  STKLPSSDNL QVPEEEL--- ---------- ---------- ----------
+acm4_human  TKERP-ATEL STTEATTP-- ---------- ---------- ----------
+acm5_human  ----P-GEEF SAEETEE--- ---------- ---------- ----------
+ada1a_human -----IHRKN ---------- ----APAGGS GMASAKT--- ----------
+
+            601                                                650
+5ht1a_human G-------PT ---------- ---------- ---------- -----PCAPA
+5ht1b_human N--------- ---------- ---------- ---------- ----------
+5ht1d_human N--------- ---------- ---------- ---------- ----------
+5ht1e_human FEKF---HAS ---------- ---------- ---------- --------IR
+5ht1f_human ---------- --DPSTDFDK --------IH ST-------- --------VR
+5ht2a_human ---------- ---------- -LFQRSIH-- ---------- ----------
+5ht2b_human D--------- ---------- ---------- ---------- ---------E
+5ht2c_human Q--------- ---------- ----NARR-- ---------- ----------
+5ht4r_human ---------- ---------- ---------- ---------- ----------
+5ht5a_human F--------- ---------- ---------- ---------- ----------
+5ht6r_human ---------- ---------- ---------- ---------- ----------
+5ht7r_human ---------- ---------- ---------- ---------- ----------
+acm1_human  ----PMVDPE ---AQAPTKQ ---------- --PPRSSPNT VK--------
+acm2_human  ---------T SLGHSKDE-- ---------- --------NS KQTCIRI---
+drd2_human  -HGL---HST ---------- PDSPAKPE-- ---------- ----------
+acm3_human  -GM---VDLE ---RKADKLQ ---------- --AQK----- ---SVDD---
+acm4_human  ---------- --AMPAPPLQ ---------- --PRALNPAS RWSKIQI---
+acm5_human  ---------- -TFVKAETEK ---------- --SDY----- ---DTPNYLL
+ada1a_human ---------- ---------- ---------- ---------- ----------
+
+            651                                                700
+5ht1a_human ---------- ---------- ---------- ---------- ----------
+5ht1b_human ---------- ---------- ---------- ---------- ----QVKVRV
+5ht1d_human ---------- ---------- ---------- ---------- ----HVKIKL
+5ht1e_human ---------- ---------- ---------- ---------- ---------I
+5ht1f_human ---------- ---------- ---------- ---------- ---------S
+5ht2a_human ---------- ---------- ---------- ---------- --------RE
+5ht2b_human ---------- ---------- ---------- ---------- ----------
+5ht2c_human ---------- ---------- ---------- ---------- --------RK
+5ht4r_human ---------- ---------- ---------- ---------- ----HSTHRM
+5ht5a_human ---------- ---------- ---------- ---------- -TVRHATVTF
+5ht6r_human ---------- ---------- ---------- ---------R LATKHS----
+5ht7r_human ---------- ---------- ---------- ---------- ----------
+acm1_human  ---------- ---------- ---------- ---------- RPTKK-----
+acm2_human  ---GTKTPKS DSCTPTNT-- TVEVV----- ---------- ----------
+drd2_human  ---KNGHAKD HPKIAKIFEI QTMP------ ---------- ----------
+acm3_human  ---GGSFPKS FSKLPIQLES AVDTAKTSDV NSSVGKSTA- ----------
+acm4_human  ---VTKQTGN ECVTAIE--- IV--P----- ---------- ----------
+acm5_human  SPAAAHRPKS QKCVAYKFRL VVKADGNQET NNGCHK-VK- ----------
+ada1a_human ---------- ---------- ---------- ---------- --KTHFSVRL
+
+            701                                                750
+5ht1a_human -SFER----- ---------- --K------- ----NERNAE AKRKMALARE
+5ht1b_human S--------- ---------- ---------- ------DALL EKKKLMAARE
+5ht1d_human A--------- ---------- ---------- ------DSAL ERKRISAARE
+5ht1e_human PPFDN----- ---------- --D------- -----LDHPG ERQQISSTRE
+5ht1f_human LRSEF----- ---------- --K------- -----HEKSW RRQKISGTRE
+5ht2a_human PGSYT----- ---------- ---------- ---------G RRTMQSISNE
+5ht2b_human ---------- ---------- ---------T LMR-RTSTIG KKSVQTISNE
+5ht2c_human KKERR----- ---------- ---------- ---------P RGTMQAINNE
+5ht4r_human ---------- ---------- ---------- ---------- -------RTE
+5ht5a_human QP-------- ---------- --E------- ---------- -GDTWREQKE
+5ht6r_human ---------- ---------- ---------- ---------- -------RKA
+5ht7r_human -KHE------ ---------- ---------- ---------- RKNISIFKRE
+acm1_human  ---------- ----GRDRAG KGQK------ --PRGKEQLA KRKTFSLVKE
+acm2_human  -----GSSGQ NGDE------ --K-QNIVAR KIVK-MTKQP AKKKPPPSRE
+drd2_human  ---------- ---------- ---------N GKTRTSLKTM SRRKLSQQKE
+acm3_human  ---------- ----TLPLSF --KEATLAKR FALKTRSQIT KRKRMSLVKE
+acm4_human  ------AT-- ------PAGM R-P-AANVAR KFASIARNQV RKKRQMAARE
+acm5_human  ---------- ----IMPCPF PVAKEPSTKG LNPNPSHQMT KRKRVVLVKE
+ada1a_human LKF------- ---------- ---------- ---------- -------SRE
+
+            751                                                800
+5ht1a_human RKTVKTLGII MGTFILCWLP FFIVALVLPF -CESSC-H-- MPTLLGAIIN
+5ht1b_human RKATKTLGII LGAFIVCWLP FFIISLVMPI -CKDAC-W-- FHLAIFDFFT
+5ht1d_human RKATKILGII LGAFIICWLP FFVVSLVLPI -CRDSC-W-- IHPALFDFFT
+5ht1e_human RKAARILGLI LGAFILSWLP FFIKELIVGL -SIY-T---- VSSEVADFLT
+5ht1f_human RKAATTLGLI LGAFVICWLP FFVKELVVNV -CDK-C-K-- ISEEMSNFLA
+5ht2a_human QKACKVLGIV FFLFVVMWCP FFITNIMAVI -CKESC-NED VIGALLNVFV
+5ht2b_human QRASKVLGIV FFLFLLMWCP FFITNITLVL -CD-SC-NQT TLQMLLEIFV
+5ht2c_human RKASKVLGIV FFVFLIMWCP FFITNILSVL -CEKSC-NQK LMEKLLNVFV
+5ht4r_human TKAAKTLCII MGCFCLCWAP FFVTNIVDPF -IDY-T---- VPGQVWTAFL
+5ht5a_human QRAALMVGIL IGVFVLCWIP FFLTELISPL -CS--C-D-- IPAIWKSIFL
+5ht6r_human LKASLTLGIL LGMFFVTWLP FFVANIVQAV -C-D-C-I-- S-PGLFDVLT
+5ht7r_human QKAATTLGII VGAFTVCWLP FFLLSTARPF ICGTSCSC-- IPLWVERTFL
+acm1_human  KKAARTLSAI LLAFILTWTP YNIMVLVSTF -CKD-C---- VPETLWELGY
+acm2_human  KKVTRTILAI LLAFIITWAP YNVMVLINTF -CAP-C---- IPNTVWTIGY
+drd2_human  KKATQMLAIV LGVFIICWLP FFITHILNIH -CD--C-N-- IPPVLYSAFT
+acm3_human  KKAAQTLSAI LLAFIITWTP YNIMVLVNTF -CDS-C---- IPKTFWNLGY
+acm4_human  RKVTRTIFAI LLAFILTWTP YNVMVLVNTF -CQS-C---- IPDTVWSIGY
+acm5_human  RKAAQTLSAI LLAFIITWTP YNIMVLVSTF -CDK-C---- VPVTLWHLGY
+ada1a_human KKAAKTLGIV VGCFVLCWLP FFLVMPIGSF -FPD-F-K-- PSETVFKIVF
+
+            801                                                850
+5ht1a_human WLGYSNSLLN PVIYAYFNKD FQNAFKKIIK CKFCRQ---- ----------
+5ht1b_human WLGYLNSLIN PIIYTMSNED FKQAFHKLIR FKCTS----- ----------
+5ht1d_human WLGYLNSLIN PIIYTVFNEE FRQAFQKIVP FRKAS----- ----------
+5ht1e_human WLGYVNSLIN PLLYTSFNED FKLAFKKLIR CREHT----- ----------
+5ht1f_human WLGYLNSLIN PLIYTIFNED FKKAFQKLVR CRC------- ----------
+5ht2a_human WIGYLSSAVN PLVYTLFNKT YRSAFSRYIQ CQYKENKK-- ----------
+5ht2b_human WIGYVSSGVN PLVYTLFNKT FRDAFGRYIT CNYRATKSVK TLRK------
+5ht2c_human WIGYVCSGIN PLVYTLFNKI YRRAFSNYLR CNYKVEKKP- ----------
+5ht4r_human WLGYINSGLN PFLYAFLNKS FRRAFLIILC CDDERYRRPS ILG-------
+5ht5a_human WLGYSNSFFN PLIYTAFNKN YNSAFKNFFS RQH------- ----------
+5ht6r_human WLGYCNSTMN PIIYPLFMRD FKRALGRFLP CPRCPRERQA SLASPSLRTS
+5ht7r_human WLGYANSLIN PFIYAFFNRD LRTTYRSLLQ CQYRNINRKL SAAG-----M
+acm1_human  WLCYVNSTIN PMCYALCNKA FRDTFRLLLL CRWDKRRWRK I---------
+acm2_human  WLCYINSTIN PACYALCNAT FKKTFKHLLM CHYKNIGATR ----------
+drd2_human  WLGYVNSAVN PIIYTTFNIE FRKAFLKILH C--------- ----------
+acm3_human  WLCYINSTVN PVCYALCNKT FRTTFKMLLL CQCDKKKRRK Q---------
+acm4_human  WLCYVNSTIN PACYALCNAT FKKTFRHLLL CQYRNIGTAR ----------
+acm5_human  WLCYVNSTVN PICYALCNRT FRKTFKMLLL CRWKKKKVEE K---------
+ada1a_human WLGYLNSCIN PIIYPCSSQE FKKAFQNVLR IQCLCRKQSS KHALGY--TL
+
+            851                                                900
+5ht1a_human ---------- ---------- ---------- ---------- ----------
+5ht1b_human ---------- ---------- ---------- ---------- ----------
+5ht1d_human ---------- ---------- ---------- ---------- ----------
+5ht1e_human ---------- ---------- ---------- ---------- ----------
+5ht1f_human ---------- ---------- ---------- ---------- ----------
+5ht2a_human ---------- ---PLQLILV NTIPALA--- Y----KS--- -SQLQMGQKK
+5ht2b_human --------R- ---SSKIYFR NPMAENSKFF -KKHGIR--- -NGINPAMYQ
+5ht2c_human ---------- ---PVRQIPR VAATALS--- --------GR ELNVNIYRHT
+5ht4r_human ---------- --QTVPCSTT TINGSTHVLR -DAVECGGQ- -WESQCHPPA
+5ht5a_human ---------- ---------- ---------- ---------- ----------
+5ht6r_human HSGPRPG-L- ---------- ------SLQQ -VLPLP---- -LPPDSDSDS
+5ht7r_human HEALKLAER- ---------- ----PERPEF -VLRACTRRV LLRPEKRPPV
+acm1_human  ---------P KRPGSV---H -RTPSRQC-- ---------- ----------
+acm2_human  ---------- ---------- ---------- ---------- ----------
+drd2_human  ---------- ---------- ---------- ---------- ----------
+acm3_human  ---------Q YQQRQSVIFH KRAPEQAL-- ---------- ----------
+acm4_human  ---------- ---------- ---------- ---------- ----------
+acm5_human  ---------L YWQGNS---- -KLP------ ---------- ----------
+ada1a_human HPPSQAVEG- ---------- ----QHKDMV -RIPVGSRET FYRISKTDGV
+
+            901                                                950
+5ht1a_human ---------- ---------- ---------- ---------- ----------
+5ht1b_human ---------- ---------- ---------- ---------- ----------
+5ht1d_human ---------- ---------- ---------- ---------- ----------
+5ht1e_human ---------- ---------- ---------- ---------- ----------
+5ht1f_human ---------- ---------- ---------- ---------- ----------
+5ht2a_human NSKQDAKTTD NDCSMVALGK QHSEEASKDN SDGVNEKVSC -V--------
+5ht2b_human SPMRLRSSTI QSSSIILL-- -DTLLLTENE GDKTEEQVSY -V--------
+5ht2c_human NEPVIEKASD NEPGIEM--Q VENLELPVNP SSVVSERISS -V--------
+5ht4r_human TSPLVAAQPS DT-------- ---------- ---------- ----------
+5ht5a_human ---------- ---------- ---------- ---------- ----------
+5ht6r_human DAGSGGSSGL RLTAQLLLPG EATQDPPLPT RAAAAVNFFN -IDPA-----
+5ht7r_human SVWVLQS--P DHHNWLA--- -DKMLTT--V EKKVMIHD-- ----------
+acm1_human  ---------- ---------- ---------- ---------- ----------
+acm2_human  ---------- ---------- ---------- ---------- ----------
+drd2_human  ---------- ---------- ---------- ---------- ----------
+acm3_human  ---------- ---------- ---------- ---------- ----------
+acm4_human  ---------- ---------- ---------- ---------- ----------
+acm5_human  ---------- ---------- ---------- ---------- ----------
+ada1a_human CEWKFFSSMP RGSARITVSK DQSSCTTARV RSKSFLQVCC CVGPSTPSLD
+
+            951                   973
+5ht1a_human ---------- ---------- --- 
+5ht1b_human ---------- ---------- --- 
+5ht1d_human ---------- ---------- --- 
+5ht1e_human ---------- ---------- --- 
+5ht1f_human ---------- ---------- --- 
+5ht2a_human ---------- ---------- --- 
+5ht2b_human ---------- ---------- --- 
+5ht2c_human ---------- ---------- --- 
+5ht4r_human ---------- ---------- --- 
+5ht5a_human ---------- ---------- --- 
+5ht6r_human ----EPEL-R PHPLGIPTN- --- 
+5ht7r_human ---------- ---------- --- 
+acm1_human  ---------- ---------- --- 
+acm2_human  ---------- ---------- --- 
+drd2_human  ---------- ---------- --- 
+acm3_human  ---------- ---------- --- 
+acm4_human  ---------- ---------- --- 
+acm5_human  ---------- ---------- --- 
+ada1a_human KNHQVPT-IK VHTISLSENG EEV 
+

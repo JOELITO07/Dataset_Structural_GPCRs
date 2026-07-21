@@ -1,0 +1,1422 @@
+!!AA_MULTIPLE_ALIGNMENT 1.0
+PileUp (MView)
+
+   MSF:  2890  Type: P  March 01, 2026 30:36  Check:    0  ..
+
+ Name: casr_human  Len:  2890  Check: 5656  Weight:  1.00
+ Name: gabr1_human Len:  2890  Check: 8035  Weight:  1.00
+ Name: gabr2_human Len:  2890  Check: 2524  Weight:  1.00
+ Name: grm1_human  Len:  2890  Check: 9516  Weight:  1.00
+ Name: grm2_human  Len:  2890  Check: 2484  Weight:  1.00
+ Name: grm3_human  Len:  2890  Check: 9912  Weight:  1.00
+ Name: grm4_human  Len:  2890  Check: 9184  Weight:  1.00
+ Name: grm5_human  Len:  2890  Check:  354  Weight:  1.00
+ Name: grm6_human  Len:  2890  Check: 6454  Weight:  1.00
+ Name: grm7_human  Len:  2890  Check: 2792  Weight:  1.00
+ Name: grm8_human  Len:  2890  Check: 8263  Weight:  1.00
+ Name: ts1r1_human Len:  2890  Check:  949  Weight:  1.00
+ Name: ts1r2_human Len:  2890  Check: 2965  Weight:  1.00
+ Name: ts1r3_human Len:  2890  Check: 9354  Weight:  1.00
+ Name: gp156_human Len:  2890  Check: 9928  Weight:  1.00
+ Name: gp158_human Len:  2890  Check: 8887  Weight:  1.00
+ Name: gp179_human Len:  2890  Check: 1706  Weight:  1.00
+ Name: rai3_human  Len:  2890  Check: 6956  Weight:  1.00
+ Name: gpc5b_human Len:  2890  Check: 2839  Weight:  1.00
+ Name: gpc5c_human Len:  2890  Check: 4988  Weight:  1.00
+ Name: gpc5d_human Len:  2890  Check: 8702  Weight:  1.00
+ Name: gpc6a_human Len:  2890  Check: 7664  Weight:  1.00
+
+//
+
+            1                                                   50
+casr_human  MA-------- ---------- ---------- ---------- ----------
+gabr1_human ML-LLLLLAP LFLRPPGAGG AQTPNATSEG CQIIHPPWEG GIRYRGLTRD
+gabr2_human MA------SP ---RSSGQPG PPPPPPP--- -----PP--- ---------A
+grm1_human  MV----GLLL FF-------- ---------- ---------- --------FP
+grm2_human  MG-------- ---------- ---------- ---------- ---------S
+grm3_human  MK-------- ML-------- ---------- ---------- ---------T
+grm4_human  MP----GKRG LG-------- ---------- ---------- ------WWWA
+grm5_human  MV----LLLI ---------- ---------- ---------- ----------
+grm6_human  MA----RPRR ---------- ---------- ---------- ---------A
+grm7_human  MV----QLRK LLR------- ---------- ---------- -----VLTLM
+grm8_human  MV----CEGK RS-------- ---------- ---------- ---------A
+ts1r1_human ML----LCTA RL-------- ---------- ---------- ---------V
+ts1r2_human MG-------P RA-------- ---------- ---------- ---------K
+ts1r3_human ML------GP AV-------- ---------- ---------- ---------L
+gp156_human ME-------- ---------- ---------- ---------- ----------
+gp158_human MG---AMAYP ---------- ---------- ---------- ----------
+gp179_human MGTRGAVMPP PM-------- ---------- ---------- ---------W
+rai3_human  MA-------- ---------- ---------- ---------- ----------
+gpc5b_human MF-------- ---------- ---------- ---------- ----------
+gpc5c_human MA-------- ---------- ---------- ---------- ----------
+gpc5d_human MY-------- ---------- ---------- ---------- ----------
+gpc6a_human MA-------- ---------- ---------- ---------- ----------
+
+            51                                                 100
+casr_human  FYSCCWVLLA ---------- ---------- ---------- ----------
+gabr1_human QVKAINFLPV DYEIEYVCRG EREVVGPKVR KCLANGSWTD -MDTPSRC--
+gabr2_human RLLLLLLLP- ---------- ---------- ---------- ----------
+grm1_human  AIFLEVSLLP --RSP----- ---------- ---------- ----------
+grm2_human  LLALLALLL- ---------- ---------- ---------- ----------
+grm3_human  RLQVLTLALF --SKG----- ---------- ---------- ----------
+grm4_human  RLPLCLLLS- ---------- ---------- ---------- ----------
+grm5_human  ---LSVLLLK --EDV----- ---------- ---------- ----------
+grm6_human  REPLLVALL- ---------- ---------- ---------- ----------
+grm7_human  KFPCCVLEV- ---------- ---------- ---------- ----------
+grm8_human  SCPCFFLLT- ---------- ---------- ---------- ----------
+ts1r1_human GLQLLISCCW ---------- ---------- ---------- ----------
+ts1r2_human TISSLFFLL- ---------- ---------- ---------- ----------
+ts1r3_human GLSLWALLH- ---------- ---------- ---------- ----------
+gp156_human ---------- ---------- ---------- ---------- ---PEINC--
+gp158_human -LLLCLLLAQ ---------- ---------- -------LGL GAVGASRDPQ
+gp179_human GLLGCCFVCA ---------- ---------- ---------- -------WAL
+rai3_human  ---------- ---------- ---------- ---------- ----------
+gpc5b_human ---------- ---------- ---------- ---------- ----------
+gpc5c_human ---------- ---------- ---------- ---------- ----------
+gpc5d_human ---------- ---------- ---------- ---------- ----------
+gpc6a_human FLIILITCFV II-------- ---------- ---------- ----------
+
+            101                                                150
+casr_human  ---------- -LTWHTS--- AYGPDQ---- --RAQKKGDI IL-GGLFPIH
+gabr1_human -VRICSKSYL TLENGKVFLT GGDLPALDGA RVDFRCDPDF HLVGSSRSIC
+gabr2_human ---------- ---------- ---------- ---------L LL-----PLA
+grm1_human  ---------- ----GRKVLL AGASSQ---- RSVARMDGDV II-GALFSVH
+grm2_human  ---------- ----LWG--A VAEGPA---- KKVLTLEGDL VL-GGLFPVH
+grm3_human  ---------- ---FLLS--L GDHNFL---- RREIKIEGDL VL-GGLFPIN
+grm4_human  ----LYGPWM PSSLGKP--K GHP-HM---- -NSIRIDGDI TL-GGLFPVH
+grm5_human  ---------- ----RGS--- AQSSER---- RVVAHMPGDI II-GALFSVH
+grm6_human  ----PLAWLA QAGLARA--A G--------- --SVRLAGGL TL-GGLFPVH
+grm7_human  --------LL CALAAAA--R GQEMYA---- PHSIRIEGDV TL-GGLFPVH
+grm8_human  ----AKFYWI LTMMQRT--H SQE-YA---- -HSIRVDGDI IL-GGLFPVH
+ts1r1_human ---------- ----AFA--- CHSTES---- SPDFTLPGDY LL-AGLFPLH
+ts1r2_human ---------- ---WVLA--- -EPAEN---- S-DFYLPGDY LL-GGLFSLH
+ts1r3_human ---------- -PGTGAP--- LCLSQQ---- ---LRMKGDY VL-GGLFPLG
+gp156_human -SELCDSF-- ---------P GQELDR---- R-------PL H------DLC
+gp158_human GRPDSPRERT PKGKPHAQQP GRASASDSSA PWSRSTDGTI LA-QKLAEEV
+gp179_human GGPRPIRSLP PLSS--QVKP G-------SV PMQVPLEGAE AA---LA---
+rai3_human  ---------- ---------- ---------- ---------- ----------
+gpc5b_human ---------- ---------- ---------- ---------- ----------
+gpc5c_human ---------- ---------- ---------- ---------- ----------
+gpc5d_human ---------- ---------- ---------- ---------- ----------
+gpc6a_human ---------L ATS--QP--- CQTPDD---- FVAATSPGHI II-GGLFAIH
+
+            151                                                200
+casr_human  FGVAAKDQDL KSRP------ ---------- ---------- ----------
+gabr1_human SQGQWS---- TPKPH----- CQVNRTPHSE RRAVYIGALF PMSGGWPGG-
+gabr2_human P-GAWG---- WAR---GAPR PPPSSPPLS- -----IMGLM PLTKEVAKGS
+grm1_human  HQPPA--EKV PERK------ ---------- ---------- ----------
+grm2_human  QKGG------ PAED------ ---------- ---------- ----------
+grm3_human  EKGT------ GTEE------ ---------- ---------- ----------
+grm4_human  GRGS------ EGKP------ ---------- ---------- ----------
+grm5_human  HQPTV--DKV HERK------ ---------- ---------- ----------
+grm6_human  ARGA------ AGRA------ ---------- ---------- ----------
+grm7_human  AKGP------ SGVP------ ---------- ---------- ----------
+grm8_human  AKGE------ RGVP------ ---------- ---------- ----------
+ts1r1_human SGC----LQV RHRP------ ---------- ---------- ----------
+ts1r2_human ANM----KGI VHLNFL---- ---------- ---------- ----------
+ts1r3_human EAEEAG-LRS RTRP------ ---------- ---------- ----------
+gp156_human K-TTIT---- SSH------- ---------- ---------- ----------
+gp158_human PMDVASYLYT GDSHQL---- ---------- ---------- ----------
+gp179_human ------YLYS GDAQQL---- ---------- ---------- ----------
+rai3_human  ---------- ---------- ---------- ---------- ----------
+gpc5b_human ---------- ---------- ---------- ---------- ----------
+gpc5c_human ---------- ---------- ---------- ---------- ----------
+gpc5d_human ---------- ---------- ---------- ---------- ----------
+gpc6a_human EKMLSS-EDS PRRP------ ---------- ---------- ----------
+
+            201                                                250
+casr_human  ESVECIRY-N FR--GF---- ----RWLQAM IFAIEEINSS PALLPNLTLG
+gabr1_human --QAC----- ---------- ------QPAV EMALEDVNSR RDILPDYELK
+gabr2_human IGRGV----- ---------- ------LPAV ELAIEQIRNE SLLRP-YFLD
+grm1_human  ----CGEIRE QY--GI---- ----QRVEAM FHTLDKINAD PVLLPNITLG
+grm2_human  ----CGPVNE HR--GI---- ----QRLEAM LFALDRINRD PHLLPGVRLG
+grm3_human  ----CGRINE DR--GI---- ----QRLEAM LFAIDEINKD DYLLPGVKLG
+grm4_human  ----CGELKK EK--GI---- ----HRLEAM LFALDRINND PDLLPNITLG
+grm5_human  ----CGAVRE QY--GI---- ----QRVEAM LHTLERINSD PTLLPNITLG
+grm6_human  ----CGQLKK EQ--GV---- ----HRLEAM LYALDRVNAD PELLPGVRLG
+grm7_human  ----CGDIKR EN--GI---- ----HRLEAM LYALDQINSD PNLLPNVTLG
+grm8_human  ----CGELKK EK--GI---- ----HRLEAM LYAIDQINKD PDLLSNITLG
+ts1r1_human EVTLCDRSCS FNEHGY---- ----HLFQAM RLGVEEINNS TALLPNITLG
+ts1r2_human QVPMC-KEYE VKVIGY---- ----NLMQAM RFAVEEINND SSLLPGVLLG
+ts1r3_human SSPVCTRF-S SN--GL---- ----LWALAM KMAVEEINNK SDLLPGLRLG
+gp156_human ---------- ---------- ---------- ---------- ----------
+gp158_human KRANCSGRYE LA--GLPGKW PALASAHPSL HRALDTLTHA TNFLNVMLQS
+gp179_human SQVNCSERYE AR--GA-GAM P---GLPPSL QGAAGTLAQA ANFLNMLLQA
+rai3_human  ---------- ---------- ---------- ---------- ----------
+gpc5b_human ---------- ---------- ---------- -VASER---- ----------
+gpc5c_human ---------- ---------- ---------- ---------- ----------
+gpc5d_human ---------- ---------- ---------- ---------- ----------
+gpc6a_human QIQEC----- ---VGFEIS- --VFLQTLAM IHSIEMINN- STLLPGVKLG
+
+            251                                                300
+casr_human  YRIFDTCNTV SKALEATLSF VAQNK---ID SLNLDEFC-- NCSE------
+gabr1_human LIHHDSKCDP GQATKYLYEL LY-------- ---------- ----------
+gabr2_human LRLYDTECDN AKGLKAFYDA IK-------- ---------- ----------
+grm1_human  SEIRDSCWHS SVALEQSIEF IRDSLISIRD EKDGINRCLP DGQSLPPGRT
+grm2_human  AHILDSCSKD THALEQALDF VRASLSR--G ADGSRHICP- DGS--YATHG
+grm3_human  VHILDTCSRD TYALEQSLEF VRASLTK--- VDEAEYMCP- DGS--YAIQE
+grm4_human  ARILDTCSRD THALEQSLTF VQALI----E KDGTEVRCG- SGG--PPII-
+grm5_human  CEIRDSCWHS AVALEQSIEF IRDSLIS-SE EEEGLVRCV- DGSS-SSFRS
+grm6_human  ARLLDTCSRD TYALEQALSF VQALIRGRGD GDEVGVRCP- GGV--PPLRP
+grm7_human  ARILDTCSRD TYALEQSLTF VQALI----Q KDTSDVRCT- NGE--PPVF-
+grm8_human  VRILDTCSRD TYALEQSLTF VQALI----E KDASDVKCA- NGD--PPIF-
+ts1r1_human YQLYDVCS-D SANVYATLRV LSL-----PG QHHIELQG-- DLLH------
+ts1r2_human YEIVDVCY-I SNNVQPVLYF LA------HE DNLLPIQE-- DYSN------
+ts1r3_human YDLFDTCSEP VVAMKPSLMF LAK-----AG SRDIAAYC-- NYTQ------
+gp156_human ---------- ---------- ---------- ---------- ----------
+gp158_human NKSREQNLQD DLDWYQALVW SL------LE GEPSISRAAI TFST-DSL--
+gp179_human NDIRESSVEE DVEWYQALVR SV------AE GDPRVYRALL TFN-------
+rai3_human  ---------- ---T------ ---------- ---------- ----------
+gpc5b_human ---------- KMRAHQVLTF LL-------- ---------- ----------
+gpc5c_human ---------- ---IHKALVM CLG------- ---------- ----------
+gpc5d_human ---------- ---------- ---------- ---------- ----------
+gpc6a_human YEIYDTCTEV TVAMAATLRF LSKFN---CS RETVEFKC-- DYSS------
+
+            301                                                350
+casr_human  HIP---STIA VVGATGSGVS TAVANLLGLF YIPQVSYASS SRLL--SNKN
+gabr1_human NDP----IKI ILMPGCSSVS TLVAEAARMW NLIVLSYGSS SPAL--SNRQ
+gabr2_human YGP---NHLM VFGGVCPSVT SIIAESLQGW NLVQLSFAAT TPVL--ADKK
+grm1_human  KKP----IAG VIGPGSSSVA IQVQNLLQLF DIPQIAYSAT SIDL--SDKT
+grm2_human  DAPT--AITG VIGGSYSDVS IQVANLLRLF QIPQISYAST SAKL--SDKS
+grm3_human  NIPL--LIAG VIGGSYSSVS IQVANLLRLF QIPQISYAST SAKL--SDKS
+grm4_human  TKPE--RVVG VIGASGSSVS IMVANILRLF KIPQISYAST APDL--SDNS
+grm5_human  KKP----IVG VIGPGSSSVA IQVQNLLQLF NIPQIAYSAT SMDL--SDKT
+grm6_human  APPE--RVVA VVGASASSVS IMVANVLRLF AIPQISYAST APEL--SDST
+grm7_human  VKPE--KVVG VIGASGSSVS IMVANILRLF QIPQISYAST APEL--SDDR
+grm8_human  TKPD--KISG VIGAAASSVS IMVANILRLF KIPQISYAST APEL--SDNT
+ts1r1_human YSP---TVLA VIGPDSTNRA ATTAALLSPF LVPMISYAAS SETL--SVKR
+ts1r2_human YIS---RVVA VIGPDNSESV MTVANFLSLF LLPQITYSAI SDEL--RDKV
+ts1r3_human YQP---RVLA VIGPHSSELA MVTGKFFSFF LMPQVSYGAS MELL--SARE
+gp156_human ---------- ---------- ---------- ---------- ----------
+gp158_human SAP---APQV FLQATREESR ILLQDLSS-- SAPHLANATL ETEWFHGLRR
+gp179_human PPPGASHLQL ALQATRTGEE TILQDLSGNW VQEENPPGDL DT--------
+rai3_human  ---------- ---------- ---------- ---------- ----------
+gpc5b_human ---------- ---------- --------LF VITSVASEN- ----------
+gpc5c_human ---------- ---------- ------LPLF LFPG-AWAQ- ----------
+gpc5d_human ---------- ---------- ---------- ---------- ----------
+gpc6a_human YMP---RVKA VIGSGYSEIT MAVSRMLNLQ LMPQVGYEST AEIL--SDKI
+
+            351                                                400
+casr_human  QF-KSFLRTI PNDEHQATAM ADIIEYFRWN WVGTIAADDD YGRPGIEKFR
+gabr1_human RF-PTFFRTH PSATLHNPTR VKLFEKWGWK KIATIQQTTE VFTSTLDDLE
+gabr2_human KY-PYFFRTV PSDNAVNPAI LKLLKHYQWK RVGTLTQDVQ RFSEVRNDLT
+grm1_human  LY-KYFLRVV PSDTLQARAM LDIVKRYNWT YVSAVHTEGN YGESGMDAFK
+grm2_human  RY-DYFARTV PPDFFQAKAM AEILRFFNWT YVSTVASEGD YGETGIEAFE
+grm3_human  RY-DYFARTV PPDFYQAKAM AEILRFFNWT YVSTVASEGD YGETGIEAFE
+grm4_human  RY-DFFSRVV PSDTYQAQAM VDIVRALKWN YVSTVASEGS YGESGVEAFI
+grm5_human  LF-KYFMRVV PSDAQQARAM VDIVKRYNWT YVSAVHTEGN YGESGMEAFK
+grm6_human  RY-DFFSRVV PPDSYQAQAM VDIVRALGWN YVSTLASEGN YGESGVEAFV
+grm7_human  RY-DFFSRVV PPDSFQAQAM VDIVKALGWN YVSTLASEGS YGEKGVESFT
+grm8_human  RY-DFFSRVV PPDSYQAQAM VDIVTALGWN YVSTLASEGN YGESGVEAFT
+ts1r1_human QY-PSFLRTI PNDKYQVETM VLLLQKFGWT WISLVGSSDD YGQLGVQALE
+ts1r2_human RF-PALLRTT PSADHHIEAM VQLMLHFRWN WIIVLVSSDT YGRDNGQLLG
+ts1r3_human TF-PSFFRTV PSDRVQLTAA AELLQEFGWN WVAALGSDDE YGRQGLSIFS
+gp156_human ---------- -----HS--- ---------- ---------- ----------
+gp158_human KWRPHLHRRG PNQGPRG--- ---LGH-SWR RKDGLGGDKS HFKWSPPYLE
+gp179_human ---PALKKRV LTNDLGS--- ---LGSPKWP QADGYVGDTQ QVRLSPPFLE
+rai3_human  ---------- ---------- ---------- ---------- ----------
+gpc5b_human ---------- ---------- ---------- ---------- ----------
+gpc5c_human ---------- ---------- ---------- ---------- ----------
+gpc5d_human ---------- ---------- ---------- ---------- ----------
+gpc6a_human RF-PSFLRTV PSDFHQIKAM AHLIQKSGWN WIGIITTDDD YGRLALNTFI
+
+            401                                                450
+casr_human  -EEAE-ERDI CIDFSELIS- -----QYSDE EEIQ---HVV EVIQN--STA
+gabr1_human -ERVK-EAGI EITFRQSFFS -DP------- ------AVPV KNLKR--QDA
+gabr2_human -GVLY-GEDI EISDTESFSN -DP------- ------CTSV KKLKG--NDV
+grm1_human  -ELAA-QEGL CIAHSDKIY- -----SNAGE KSFD---RLL RKLRERLPKA
+grm2_human  -LEAR-ARNI CVATSEKVG- -----RAMSR AAFE---GVV RALLQK-PSA
+grm3_human  -QEAR-LRNI CIATAEKVG- -----RSNIR KSYD---SVI RELLQK-PNA
+grm4_human  -QKSREDGGV CIAQSVKIP- -----REPKA GEFD---KII RRLLET-SNA
+grm5_human  -DMSA-KEGI CIAHSYKIY- -----SNAGE QSFD---KLL KKLTSHLPKA
+grm6_human  -QISREAGGV CIAQSIKIP- -----REPKP GEFS---KVI RRLMET-PNA
+grm7_human  -QISKEAGGL CIAQSVRIPQ ----ERKDRT IDFD---RII KQLLDT-PNS
+grm8_human  -QISREIGGV CIAQSQKIP- -----REPRP GEFE---KII KRLLET-PNA
+ts1r1_human -NQAT-GQGI CIAFKDIMPF ----SAQVGD ERMQ---CLM RHLAQ--AGA
+ts1r2_human -ERVA-RRDI CIAFQETLPT LQP-NQNMTS EERQRLVTIV DKLQQ--STA
+ts1r3_human -ALAA-ARGI CIAHEGLVPL --PRADDSRL GKVQ---DVL HQVNQ--SSV
+gp156_human ---------- ----SKTISS LSP------- ---------- ----------
+gp158_human CENGSYKPGW LVTLSSAIYG LQP------- -------NLV PEFRGV-MKV
+gp179_human CQEGRLRPGW LITLSATFYG LKP------- -------DLS PEVRGQ-VQM
+rai3_human  ---------- ---------- ---------- --------TV ----------
+gpc5b_human ---------- ---------- ---------- -------AST ----------
+gpc5c_human ---------- ---------- ---------- -------GHV ----------
+gpc5d_human ---------- ---------- ---------- ---------- ----------
+gpc6a_human -IQAE-ANNV CIAFKEVLPA FL--SDNTIE VRIN---RTL KKIILE-AQV
+
+            451                                                500
+casr_human  KVIVVFSSGP DLEPLIKEIV RRNITG--KI WLA----SEA WASSSL----
+gabr1_human RIIVGLFYET EARKVFCEVY KERLFGKKYV WFLIGWYADN WFKIYDPSIN
+gabr2_human RIILGQFDQN MAAKVFCCAY EENMYGSKYQ WIIPGWYEPS WWEQVHTEAN
+grm1_human  RVVVCFCEGM TVRGLLSAMR RLGVVGE-FS LIG----SDG WADRDE----
+grm2_human  RVAVLFTRSE DARELLAASQ RLNAS---FT WVA----SDG WGALES----
+grm3_human  RVVVLFMRSD DSRELIAAAS RANAS---FT WVA----SDG WGAQES----
+grm4_human  RAVIIFANED DIRRVLEAAR RANQTGH-FF WMG----SDS WGSKIA----
+grm5_human  RVVACFCEGM TVRGLLMAMR RLGLAGE-FL LLG----SDG WADRYD----
+grm6_human  RGIIIFANED DIRRVLEAAR QANLTGH-FL WVG----SDS WGAKTS----
+grm7_human  RAVVIFANDE DIKQILAAAK RADQVGH-FL WVG----SDS WGSKIN----
+grm8_human  RAVIMFANED DIRRILEAAK KLNQSGH-FL WIG----SDS WGSKIA----
+ts1r1_human TVVVVFSSRQ LARVFFESVV LTNLTG--KV WVA----SEA WALSRH----
+ts1r2_human RVVVVFSPDL TLYHFFNEVL RQNFTG--AV WIA----SES WAIDPV----
+ts1r3_human QVVLLFASVH AAHALFNYSI SSRLSP--KV WVA----SEA WLTSDL----
+gp156_human ---------- ---------- ---------- ---------- ----------
+gp158_human DINLQKVDID QCS------- ---------- -------SDG WFSGTH----
+gp179_human DVDLQSVDIN QCAS------ ---------- -------GPG WYSNTH----
+rai3_human  ---------- ---------- ---------- ---------- ----------
+gpc5b_human ---------- ---------- ---------- ---------- ----------
+gpc5c_human ---------- ---------- ---------- ---------- ----------
+gpc5d_human ---------- ---------- ---------- ---------- ----------
+gpc6a_human NVIVVFLRQF HVFDLFNKAI EMNIN---KM WIA----SDN WSTATK----
+
+            501                                                550
+casr_human  ---IAMPQYF HVVGGTIGFA LKAGQIPGFR EFLKKVHPRK SVHNGFAKEF
+gabr1_human ---CTVDEMT EAVEGHITTE IVMLNPANTR SI-------- --SNMTSQEF
+gabr2_human SSRCLRKNLL AAMEGYIGVD FEPLSSKQIK TI-------- --SGKTPQQY
+grm1_human  ---VIEGYEV EANGG-ITIK LQSPEVRSFD DYFLKLRLDT NTRNPWFPEF
+grm2_human  ---VVAGSEG AAEGA-ITIE LASYPISDFA SYFQSLDPWN NSRNPWFREF
+grm3_human  ---IIKGSEH VAYGA-ITLE LASQPVRQFD RYFQSLNPYN NHRNPWFRDF
+grm4_human  ---PVLHLEE VAEGA-VTIL PKRMSVRGFD RYFSSRTLDN NRRNIWFAEF
+grm5_human  ---VTDGYQR EAVGG-ITIK LQSPDVKWFD DYYLKLRPET NHRNPWFQEF
+grm6_human  ---PILSLED VAVGA-ITIL PKRASIDGFD QYFMTRSLEN NRRNIWFAEF
+grm7_human  ---PLHQHED IAEGA-ITIQ PKRATVEGFD AYFTSRTLEN NRRNVWFAEY
+grm8_human  ---PVYQQEE IAEGA-VTIL PKRASIDGFD RYFRSRTLAN NRRNVWFAEF
+ts1r1_human ---ITGVPGI QRIGMVLGVA IQKRAVPGLK AF-------- -------EEA
+ts1r2_human ---LHNLTEL RHLGTFLGIT IQSVPIPGFS EF-------- -------REW
+ts1r3_human ---VMGLPGM AQMGTVLGFL QRGAQLHEFP QYVKTH---- ------LALA
+gp156_human ---------- ---------- ---------- ---------- ----------
+gp158_human ---------- ---------- ---------- ---------- ----------
+gp179_human ---------- ---------- ---------- ---------- ----------
+rai3_human  ---------- ---------- ---------- ---------- ----------
+gpc5b_human ---------- ---------- ---------- ---------- ----------
+gpc5c_human ---------- ---------- ---------- ---------- ----------
+gpc5d_human ---------- ---------- ---------- ---------- ----------
+gpc6a_human ---ITTIPNV KKIGKVVGFA FRRGNISSFH SFLQNLHLLP SDSHKLLHEY
+
+            551                                                600
+casr_human  WEETFNCHLQ EGAKGPLPVD TFLRGHEESG DRFSNSSTAF RPLCTGDENI
+gabr1_human VEKL-TKRLK RHPE------ ---------- -----ETGGF QE--------
+gabr2_human EREYNNKRSG VGPS------ ---------- -----KFHGY ----------
+grm1_human  WQHRFQCRLP GHLL------ ---------- -----ENPNF KRICTGNESL
+grm2_human  WEQRFRCSFR ---------- ---------- ---------- QRDCAAH-SL
+grm3_human  WEQKFQCSLQ N--------- ---------- ------KRNH RRVCDKHLAI
+grm4_human  WEDNFHCKLS RHAL------ ---------- -----KKGSH VKKCTNRERI
+grm5_human  WQHRFQCRLE GFPQ------ ---------- -----ENSKY NKTCNSSLTL
+grm6_human  WEENFNCKLT SSGT------ ---------- -----QSDDS TRKCTGEERI
+grm7_human  WEENFNCKLT ISGS------ ---------- -----KKEDT DRKCTGQERI
+grm8_human  WEENFGCKLG SHG------- ---------- -----KRNSH IKKCTGLERI
+ts1r1_human YARADKKAPR PCHKGS---- ---------- -----WC-SS NQLCRECQAF
+ts1r2_human GPQAGPPPLS RTS------- ---------- -----QSYTC NQECDNCLNA
+ts1r3_human TDPAFCSALG EREQGL---- ---------- -----EEDVV GQRCPQCDCI
+gp156_human ---------- ---------- ---------- ---------- ----------
+gp158_human -----KCHLN ---------- ---------- ---------- ----------
+gp179_human -----LCDLN ---------- ---------- ---------- ----------
+rai3_human  ---------- ---------- ---------- ---------- ----------
+gpc5b_human ---------- ---------- ---------- ---------- ----------
+gpc5c_human ---------- ---------- ---------- ---------- ----------
+gpc5d_human ---------- ---------- ---------- ---------- ----------
+gpc6a_human AMHLSACAYV KDTDLSQCIF N--------- --HSQRTLAY KANKAIERNF
+
+            601                                                650
+casr_human  SSVETPYIDY THLRISYNVY LAVYSIAHAL QDIYTCLPGR GLFTN--GSC
+gabr1_human ---------- -----APLAY DAIWALALAL NKTSG---GG GRSGVRLEDF
+gabr2_human ---------- --------AY DGIWVIAKTL QRAMETLHAS SRHQ-RIQDF
+grm1_human  --EEN----Y VQDSKMGFVI NAIYAMAHGL QNMH-----H ALCPGHVGLC
+grm2_human  -RAVP----F EQESKIMFVV NAVYAMAHAL HNMH-----R ALCPNTTRLC
+grm3_human  -DSSN----Y EQESKIMFVV NAVYAMAHAL HKMQ-----R TLCPNTTKLC
+grm4_human  GQDSA----Y EQEGKVQFVI DAVYAMGHAL HAMH-----R DLCPGRVGLC
+grm5_human  --KTH----H VQDSKMGFVI NAIYSMAYGL HNMQ-----M SLCPGYAGLC
+grm6_human  GRDST----Y EQEGKVQFVI DAVYAIAHAL HSMH-----Q ALCPGHTGLC
+grm7_human  GKDSN----Y EQEGKVQFVI DAVYAMAHAL HHMN-----K DLCADYRGVC
+grm8_human  ARDSS----Y EQEGKVQFVI DAVYSMAYAL HNMH-----K DLCPGYIGLC
+ts1r1_human MAHTMPKLKA FSMSSAYNAY RAVYAVAHGL HQLLGC--AS GACSR-----
+ts1r2_human TLSFNTILRL SGERVVYSVY SAVYAVAHAL HSLLGC--DK STCTK-----
+ts1r3_human TLQNVSA--G LNHHQTFSVY AAVYSVAQAL HNTL------ -QCNA--SGC
+gp156_human ---------- ---------- ---------- ---------- ----------
+gp158_human ---------- ---------- ---------- ---------N SECM------
+gp179_human ---------- ---------- ---------- ---------S TQCV------
+rai3_human  ---------- ---------- ---------- ---------P DGCRN-----
+gpc5b_human ---------- ---------- ---------- ---------S RGCGL-----
+gpc5c_human ---------- ---------- ---------- ---------P PGCSQ-----
+gpc5d_human ---------- ---------- ---------- ---------- KDCIE-----
+gpc6a_human VMRNDFLWDY AEPGLIHSIQ LAVFALGYAI ---------R DLCQA--RDC
+
+            651                                                700
+casr_human  ADIKKVEAWQ VLK-HLRHLN FT------NN MGEQVTFDEC GDLVGNYSII
+gabr1_human NYNNQTITDQ IYR-AMNSSS FE------GV SGH-VVFDAS GSRMAWTLIE
+gabr2_human NYTDHTLGRI ILN-AMNETN FF------GV TGQ-VVF-RN GERMGTIKFT
+grm1_human  DAMKPIDGSK LLD-FLIKSS FI------GV SGEEVWFDEK GDAPGRYDIM
+grm2_human  DAMRPVNGRR LYKDFVLNVK FDAPFRP-AD THNEVRFDRF GDGIGRYNIF
+grm3_human  DAMKILDGKK LYKDYLLKIN FTAPFNPNKD ADSIVKFDTF GDGMGRYNVF
+grm4_human  PRMDPVDGTQ LLK-YIRNVN FS------GI AGNPVTFNEN GDAPGRYDIY
+grm5_human  DAMKPIDGRK LLE-SLMKTN FT------GV SGDTILFDEN GDSPGRYEIM
+grm6_human  PAMEPTDGRM LLQ-YIRAVR FN------GS AGTPVMFNEN GDAPGRYDIF
+grm7_human  PEMEQAGGKK LLK-YIRNVN FN------GS AGTPVMFNKN GDAPGRYDIF
+grm8_human  PRMSTIDGKE LLG-YIRAVN FN------GS AGTPVTFNEN GDAPGRYDIF
+ts1r1_human ---GRVYPWQ LLE-QIHKVH FL-------L HKDTVAFNDN RDPLSSYNII
+ts1r2_human ---RVVYPWQ LLE-EIWKVN FT-------L LDHQIFFDPQ GDVALHLEIV
+ts1r3_human PAQDPVKPWQ LLE-NMYNLT FH-------V GGLPLRFDSS GNVDMEYDLK
+gp156_human ---------- ----VLLGIV WT-------- ---------- ----------
+gp158_human ---------- ----PIKGLG FV-------- ---------- ---LGAYE--
+gp179_human ---------- ----PLESQG FV-------- ---------- ---LGRYL--
+rai3_human  ---------- ----GLKSKY YR-------- ---------- ----------
+gpc5b_human ---------- ----DLLPQY VS-------- ---------- ----------
+gpc5c_human ---------- ----GLNPLY YN-------- ---------- ----------
+gpc5d_human ---------- ----S-TGDY FL-------- ---------- ----------
+gpc6a_human QNPNAFQPWE LLG-VLKNVT FT-------D GWNSFHFDAH GDLNTGYDVV
+
+            701                                                750
+casr_human  NWHLSPEDGS I-VFKEVG-- YYNVYAKKGE RLFINEEKIL WSGFS-REVP
+gabr1_human QLQGG----- --SYKKIG-- YYDS------ ----TKDDLS WSKTD-----
+gabr2_human QFQDS----- --REVKVG-- EYNAV--ADT -LEIINDTIR FQGSE-----
+grm1_human  NLQYTEANRY --DYVHVG-- TWH-----EG VLNIDDYKIQ MNKSG---VV
+grm2_human  TYLRAGSGRY --RYQKVG-- YWA-----EG -LTLDTSLIP WASPSAGPLP
+grm3_human  NFQNVG-GKY --SYLKVG-- HWA-----ET -LSLDVNSIH WSRNS---VP
+grm4_human  QYQLRNDSAE ---YKVIG-- SWT-----DH -LHLRIERMH WPGSG-QQLP
+grm5_human  NFKEMGKDYF --DYINVG-- SWD-----NG ELKMDDDEVW SKKSN---II
+grm6_human  QYQATNGSAS SGGYQAVG-- QWA-----ET -LRLDVEALQ WSGDP-HEVP
+grm7_human  QYQTTNTSNP --GYRLIG-- QWT-----DE -LQLNIEDMQ WGKGV-REIP
+grm8_human  QYQITNKSTE ---YKVIG-- HWT-----NQ -LHLKVEDMQ WAHRE-HTHP
+ts1r1_human AWDWNGPKWT ---FTVLGSS TWS-----PV QLNINETKIQ WHGKD-NQVP
+ts1r2_human QWQWDRSQNP ---FQSVAS- YYPL----QR QLK-NIQDIS WHTIN-NTIP
+ts1r3_human LWVWQGSVPR ---LHDVG-- RFN-----GS -LRTERLKIR WHTSD-NQKP
+gp156_human ---------- ---------- ---------- ---------- ----------
+gp158_human ---------- --CICKAG-- FYH------- PGVLPVNNFR RRGPD-----
+gp179_human ---------- --CRCRPG-- FYGA----SP SGGLEESDFQ TTGQF-----
+rai3_human  ---------- ---------- ---------- ---------- ----------
+gpc5b_human ---------- ---------- ---------- ---------- ----------
+gpc5c_human ---------- ---------- ---------- ---------- ----------
+gpc5d_human ---------- ---------- ---------- ---------- ----------
+gpc6a_human LWKEINGHMT ---VTKMA-- EYDLQ---ND VFIIPDQETK NEFRN-LKQI
+
+            751                                                800
+casr_human  FSNCSRDCLA GTRKGIIEGE PTCCFECVEC PDGEYS-DET DASACNKCPD
+gabr1_human ------KWIG GS-------- ---------- ---------- ----------
+gabr2_human ---------- ---------- ---------- ---------- ----------
+grm1_human  RSVCSEPCLK GQIKVIRKGE VSCCWICTAC KENEY---VQ DEFTCKACDL
+grm2_human  ASRCSEPCLQ NEVKSVQPGE V-CCWLCIPC QPYEY---RL DEFTCADCGL
+grm3_human  TSQCSDPCAP NEMKNMQPGD V-CCWICIPC EPYEY---LA DEFTCMDCGS
+grm4_human  RSICSLPCQP GERKKTVKGM P-CCWHCEPC TGYQY---QV DRYTCKTCPY
+grm5_human  RSVCSEPCEK GQIKVIRKGE VSCCWTCTPC KENEY---VF DEYTCKACQL
+grm6_human  SSLCSLPCGP GERKKMVKGV P-CCWHCEAC DGYRF---QV DEFTCEACPG
+grm7_human  ASVCTLPCKP GQRKKTQKGT P-CCWTCEPC DGYQY---QF DEMTCQHCPY
+grm8_human  ASVCSLPCKP GERKKTVKGV P-CCWHCERC EGYNY---QV DELSCELCPL
+ts1r1_human KSVCSSDCLE GHQRVVTGFH H-CCFECVPC GAGTFL-NKS DLYRCQPCGK
+ts1r2_human MSMCSKRCQS GQKKKPVGIH V-CCFECIDC LPGTFLNHTE DEYECQACPN
+ts1r3_human VSRCSRQCQE GQVRRVKGFH S-CCYDCVDC EAGSYR-QNP DDIACTFCGQ
+gp156_human ---------- ---------- ---------- ---------- ----------
+gp158_human ------QHIS GSTKDVSEEA Y-VCLPCRE- ---------- ---GCPFCAD
+gp179_human ------GFPE GRSGRLLQ-- ---CLPCPE- ---------- ---GCTSCMD
+rai3_human  ---------- ---------- --LC------ ---DK----- ----------
+gpc5b_human ---------- ---------- --LC------ ---DL----- ----------
+gpc5c_human ---------- ---------- --LC------ ---DR----- ----------
+gpc5d_human ---------- ---------- --LC------ ---DA----- ----------
+gpc6a_human QSKCSKECSP GQMKKTTRSQ HICCYECQNC PENHYT-NQT DMPHCLLCNN
+
+            801                                                850
+casr_human  D-FWSNENHT SCIAKEIEFL SWTEPFGIAL TLFAVLGIFL TAFVLGVFIK
+gabr1_human ----PPADQT LVIK---TFR FLSQKLFISV SVLSSLGIVL AVVCLSFNIY
+gabr2_human ----PPKDKT IILE---QLR KISLPLYSIL SALTILGMIM ASAFLFFNIK
+grm1_human  G-WWPNADLT GCEPIPVRYL EWSNIESIIA IAFSCLGILV TLFVTLIFVL
+grm2_human  G-YWPNASLT GCFELPQEYI RWGDAWAVGP VTIACLGALA TLFVLGVFVR
+grm3_human  G-QWPTADLT GCYDLPEDYI RWEDAWAIGP VTIACLGFMC TCMVVTVFIK
+grm4_human  D-MRPTENRT GCRPIPIIKL EWGSPWAVLP LFLAVVGIAA TLFVVITFVR
+grm5_human  G-SWPTDDLT GCDLIPVQYL RWGDPEPIAA VVFACLGLLA TLFVTVVFII
+grm6_human  D-MRPTPNHT GCRPTPVVRL SWSSPWAAPP LLLAVLGIVA TTTVVATFVR
+grm7_human  D-QRPNENRT GCQDIPIIKL EWHSPWAVIP VFLAMLGIIA TIFVMATFIR
+grm8_human  D-QRPNMNRT GCQLIPIIKL EWHSPWAVVP VFVAILGIIA TTFVIVTFVR
+ts1r1_human E-EWAPEGSQ TCFPRTVVFL ALREHTSWVL LAANTLLLLL LLGTAGLFAW
+ts1r2_human N-EWSYQSET SCFKRQLVFL EWHEAPTIAV ALLAALGFLS TLAILVIFWR
+ts1r3_human D-EWSPERST RCFRRRSRFL AWGEPAVLLL LLLLSLALGL VLAALGLFVH
+gp156_human ---------- ---------- ---------- --FLSCGLLL ILFFLAFTIH
+gp158_human D--------S PCFVQEDKYL R------LAI ISFQALCMLL DFVSMLVVYH
+gp179_human A--------T PCLVEEAAVL R------AAV LACQACCMLA IFLSMLVSYR
+rai3_human  ---------- ---------- --AEAWGIVL ETVATAGVVT SVAFMLTLPI
+gpc5b_human ---------- ---------- --DAIWGIVV EAVAGAGALI TLLLMLILLV
+gpc5c_human ---------- ---------- --SGAWGIVL EAVAGAGIVT TFVLTIILVA
+gpc5d_human ---------- ---------- --EGPWGIIL ESLAILGIVV TILLLLAFLF
+gpc6a_human KTHWAPVRST MCFEKEVEYL NWNDSLAILL LILSLLGIIF VLVVGIIFTR
+
+            851                                                900
+casr_human  FRNTPIVKAT -NREL---SY LLLFSLLCCF SSSLFF---- --IGEPQ-DW
+gabr1_human NSHVRYIQNS -QPNL---NN LTAVGCSLAL AAVFPLGLDG YHIGRNQFPF
+gabr2_human NRNQKLIKMS -SPYM---NN LIILGGMLSY ASIFLFGLDG SFVSEKTFET
+grm1_human  YRDTPVVKSS -SREL---CY IILAGIFLGY VCPFTL---- --IAKPT-TT
+grm2_human  HNATPVVKAS -GREL---CY ILLGGVFLCY CMTFIF---- --IAKPS-TA
+grm3_human  HNNTPLVKAS -GREL---CY ILLFGVGLSY CMTFFF---- --IAKPS-PV
+grm4_human  YNDTPIVKAS -GREL---SY VLLAGIFLCY ATTFLM---- --IAEPD-LG
+grm5_human  YRDTPVVKSS -SREL---CY IILAGICLGY LCTFCL---- --IAKPK-QI
+grm6_human  YNNTPIVRAS -GREL---SY VLLTGIFLIY AITFLM---- --VAEPG-AA
+grm7_human  YNDTPIVRAS -GREL---SY VLLTGIFLCY IITFLM---- --IAKPD-VA
+grm8_human  YNDTPIVRAS -GREL---SY VLLTGIFLCY SITFLM---- --IAAPD-TI
+ts1r1_human HLDTPVVRSA -GGRL---CF LMLGSLAAGS GSLYGF---- --FGEPT-RP
+ts1r2_human HFQTPIVRSA -GGPM---CF LMLTLLLVAY MVVPVY---- --VGPPK-VS
+ts1r3_human HRDSPLVQAS -GGPL---AC FGLVCLGLVC LSVLLF---- --PGQPS-PA
+gp156_human CRKNRIVKMS -SPNL---NI VTLLGSCLTY SSAYLFGIQD V-LVGSSMET
+gp158_human FRKAKSIRAS -GLIL---LE TILFGSLLLY FPVVIL---- --YFEPS-TF
+gp179_human CRRNKRIWAS -GVVL---LE TVLFGFLLLY FPVFIL---- --YFKPS-VF
+rai3_human  L--VCKVQDS NRRKMLPTQF LFLLGVLGIF GLTFAF---- --IIGLD-GS
+gpc5b_human R--LPFIKEK EKKSPVGLHF LFLLGTLGLF GLTFAF---- --IIQED-ET
+gpc5c_human S--LPFVQDT KKRSLLGTQV FFLLGTLGLF CLVFAC---- --VVKPD-FS
+gpc5d_human L--MRKIQDC SQWNVLPTQL LFLLSVLGLF GLAFAF---- --IIELN-QQ
+gpc6a_human NLNTPVVKSS GGLRV---CY VILLCHFLNF ASTSFF---- --IGEPQ-DF
+
+            901                                                950
+casr_human  TCRLRQPAFG ISFVLCISCI LVKTNRVLLV FEAKIPTS-- FHRKWWG---
+gabr1_human VCQARLWLLG LGFSLGYGSM FTKIWWVHTV FTKKEEKK-- EWRKTLE---
+gabr2_human LCTVRTWILT VGYTTAFGAM FAKTWRVHAI FKNVKMKK-- ---KIIK---
+grm1_human  SCYLQRLLVG LSSAMCYSAL VTKTNRIARI LAGSKKKICT RKPRFMS---
+grm2_human  VCTLRRLGLG TAFSVCYSAL LTKTNRIARI FGGAREGA-- QRPRFIS---
+grm3_human  ICALRRLGLG SSFAICYSAL LTKTNCIARI FDGVKNGA-- QRPKFIS---
+grm4_human  TCSLRRIFLG LGMSISYAAL LTKTNRIYRI FEQGKRSV-- SAPRFIS---
+grm5_human  YCYLQRIGIG LSPAMSYSAL VTKTNRIARI LAGSKKKICT KKPRFMS---
+grm6_human  VCAARRLFLG LGTTLSYSAL LTKTNRIYRI FEQGKRSV-- TPPPFIS---
+grm7_human  VCSFRRVFLG LGMCISYAAL LTKTNRIYRI FEQGKKSV-- TAPRLIS---
+grm8_human  ICSFRRVFLG LGMCFSYAAL LTKTNRIHRI FEQGKKSV-- TAPKFIS---
+ts1r1_human ACLLRQALFA LGFTIFLSCL TVRSFQLIII FKFSTKVP-T FYHAWVQ---
+ts1r2_human TCLCRQALFP LCFTICISCI AVRSFQIVCA FKMASRFP-R AYSYWVR---
+ts1r3_human RCLAQQPLSH LPLTGCLSTL FLQAAEI--- FVESELPL-S WADRLSGCLR
+gp156_human LIQTRLSMLC IGTSLVFGPI LGKSWRLYKV FTQRVPDK-- --RVIIK---
+gp158_human RCILLRWARL LGFATVYGTV TLKLHRVLKV FLSRTAQR-- --IPYMT---
+gp179_human RCIALRWVRL LGFAIVYGTI ILKLYRVLQL FLSRTAQR-- --SALLS---
+rai3_human  TGPTRFFLFG ILFSICFSCL LAHAVSLTKL VRGRKPLS-- ----------
+gpc5b_human ICSVRRFLWG VLFALCFSCL LSQAWRVRRL VRHGTGPA-- ----------
+gpc5c_human TCASRRFLFG VLFAICFSCL AAHVFALNFL ARKNHGPR-- ----------
+gpc5d_human TAPVRYFLFG VLFALCFSCL LAHASNLVKL VRGCVSFS-- ----------
+gpc6a_human TCKTRQTMFG VSFTLCISCI LTKSLKILLA FSFDPKLQ-- ---KFLKC--
+
+            951                                               1000
+casr_human  LNLQFLLVFL CTFMQIVICV IWLYTAPPSS YRNQ------ ----ELEDEI
+gabr1_human PWKLYATVGL LVGMDVLTLA IWQIVDPLHR TIETFAKEEP KEDIDVSILP
+gabr2_human DQKLLVIVGG MLLIDLCILI CWQAVDPLRR TVEKYSMEPD PAGRDISIRP
+grm1_human  AWAQVIIASI LISVQLTLVV TLIIMEPPMP ILSY------ -----PSIKE
+grm2_human  PASQVAICLA LISGQLLIVV AWLVVEAPGT ---------G KETAPERREV
+grm3_human  PSSQVFICLG LILVQIVMVS VWLILEAPGT ---------R RYTLAEKRET
+grm4_human  PASQLAITFS LISLQLLGIC VWFVVDPSHS VVDF----QD QRTLDPRFAR
+grm5_human  ACAQLVIAFI LICIQLGIIV ALFIMEPPDI MHDY------ -----PSIRE
+grm6_human  PTSQLVITFS LTSLQVVGMI AWLGARPPHS VIDY----EE QRTVDPEQAR
+grm7_human  PTSQLAITSS LISVQLLGVF IWFGVDPPNI IIDY----DE HKTMNPEQAR
+grm8_human  PASQLVITFS LISVQLLGVF VWFVVDPPHI IIDY----GE QRTLDPEKAR
+ts1r1_human NHGAGLFVMI SSAAQLLICL TWLVVWTPLP ---------- AREYQRFPHL
+ts1r2_human YQGPYVSMAF ITVLKMVIVV IGMLATGLSP T--------T -RTDPDDPKI
+ts1r3_human GPWAWLVVLL AMLVEVALCT WYLVAFPPEV VTDW------ ----HMLPTE
+gp156_human DLQLLGLVAA LLMADVILLM TWVLTDPIQC LQILSVSMTV TGKDVSCTST
+gp158_human GGRVMRMLAV ILLVVFWFLI GWTSSVCQNL EKQI----SL IGQGKTSDHL
+gp179_human SGRLLRRLGL LLLPVLGFLA VWTVGALERG IQHA----PL VIRGHTPSGR
+rai3_human  LLVILGLAVG FSLVQDVIAI EYIVLTMNRT N--------- -----VNVFS
+gpc5b_human GWQLVGLALC LMLVQVIIAV EWLVLTVLRD T--------- ----------
+gpc5c_human GWVIFTVALL LTLVEVIINT EWLIITLVRG SGEG-----G PQGNSSAGWA
+gpc5d_human WTTILCIAIG CSLLQIIIAT EYVTLIMTRG ---------- ------MMFV
+gpc6a_human LYRPILIIFT CTGIQVVICT LWLIFAAPTV EVNV------ -----SLPRV
+
+            1001                                              1050
+casr_human  IFITCHEG-S LMALGFLIGY TCLLAAICFF FAFKSRKLP- ENFNE-AKFI
+gabr1_human QLEHCSSRKM NTWLGIFYGY KGLLLLLGIF LAYETKSVST EKIND-HRAV
+gabr2_human LLEHCENTHM TIWLGIVYAY KGLLMLFGCF LAWETRNVSI PALND-SKYI
+grm1_human  VYLICNTS-N LGVVAPL-GY NGLLIMSCTY YAFKTRNVP- ANFNE-AKYI
+grm2_human  VTLRCNHR-D ASMLGSL-AY NVLLIALCTL YAFKTRKCP- ENFNE-AKFI
+grm3_human  VILKCNVK-D SSMLISL-TY DVILVILCTV YAFKTRKCP- ENFNE-AKFI
+grm4_human  GVLKCDIS-D LSLICLL-GY SMLLMVTCTV YAIKTRGVP- ETFNE-AKPI
+grm5_human  VYLICNTT-N LGVVTPL-GY NGLLILSCTF YAFKTRNVP- ANFNE-AKYI
+grm6_human  GVLKCDMS-D LSLIGCL-GY SLLLMVTCTV YAIKARGVP- ETFNE-AKPI
+grm7_human  GVLKCDIT-D LQIICSL-GY SILLMVTCTV YAIKTRGVP- ENFNE-AKPI
+grm8_human  GVLKCDIS-D LSLICSL-GY SILLMVTCTV YAIKTRGVP- ETFNE-AKPI
+ts1r1_human VMLECTETNS LGFILAF-LY NGLLSISAFA CSYLGKDLP- ENYNE-AKCV
+ts1r2_human TIVSCNPNYR NSLLFNT-SL DLLLSVVGFS FAYMGKELP- TNYNE-AKFI
+ts1r3_human ALVHCRTR-S WVSFGLAHAT NATLAFLCFL GTFLVRSQP- GCYNR-ARGL
+gp156_human STHFCASRYS DVWIALIWGC KGLLLLYGAY LAGLTGHVSS PPVNQ-----
+gp158_human IFNMCLID-R WDYMTAV--A EFLFLLWGVY LCYAVRTVP- SAFHE-PRYM
+gp179_human HFYLCHHD-R WDYIMVV--A ELLLLCWGSF LCYATRAVL- SAFHE-PRYM
+rai3_human  ELSAPRR--N EDFVLLL-TY VLFLMALTFL MSSFTFCGSF TGWKRHGAHI
+gpc5b_human -RPACAYE-P MDFVMAL-IY DMVLLVVTLG LALFTLCGKF KRWKLNGAFL
+gpc5c_human VASPCAIA-N MDFVMAL-IY VMLLLLGAFL GAWPALCGRY KRWRKHGVFV
+gpc5d_human NMTPCQL--N VDFVVLL-VY VLFLMALTFF VSKATFCGPC ENWKQHGRLI
+gpc6a_human IILECEEG-S ILAFGTMLGY IAILAFICFI FAFKGKY--- ENYNE-AKFI
+
+            1051                                              1100
+casr_human  TFSMLIFFIV WISFIPAYAS TYGK------ FVSAVEVIAI LAASFGLLAC
+gabr1_human GMAIYNVAVL CLITAPVTMI LSSQQD---- AAFAFASLAI VFSSYITLVV
+gabr2_human GMSVYNVGIM CIIGAAVSFL TRDQPN---- VQFCIVALVI IFCSTITLCL
+grm1_human  AFTMYTTCII WLAFVPIYFG SN-------- YKIITTCFAV SLSVTVALGC
+grm2_human  GFTMYTTCII WLAFLPIFYV TSSDYR---- VQTTTMCVSV SLSGSVVLGC
+grm3_human  GFTMYTTCII WLAFLPIFYV TSSDYR---- VQTTTMCISV SLSGFVVLGC
+grm4_human  GFTMYTTCIV WLAFIPIFFG TSQSADK-LY IQTTTLTVSV SLSASVSLGM
+grm5_human  AFTMYTTCII WLAFVPIYFG SN-------- YKIITMCFSV SLSATVALGC
+grm6_human  GFTMYTTCII WLAFVPIFFG TAQSAEK-IY IQTTTLTVSL SLSASVSLGM
+grm7_human  GFTMYTTCIV WLAFIPIFFG TAQSAEK-LY IQTTTLTISM NLSASVALGM
+grm8_human  GFTMYTTCII WLAFIPIFFG TAQSAEK-MY IQTTTLTVSM SLSASVSLGM
+ts1r1_human TFSLLFNFVS WIAFFTTASV YDGK------ YLPAANMMAG LSSLSSGFGG
+ts1r2_human TLSMTFYFTS SVSLCTFMSA YSGV------ LVTIVDLLVT VLNLLAISLG
+ts1r3_human TFAMLAYFIT WVSFVPLLAN VQVV------ LRPAVQMGAL LLCVLGILAA
+gp156_human SLTIMVGVNL LVLAAGLLFV VTRYLHSWPN LVFGLTSGGI FVCTTTINCF
+gp158_human AVAVHNELII SAIFHTIRFV LASRLQ--SD WMLMLYFAHT HLTVTVTIGL
+gp179_human GIALHNELLL SAAFHTARFV LVPSLH--PD WTLLLFFFHT HSTVTTTLAL
+rai3_human  YLTMLLSIAI WVAWITLLML --PDFDR--R WDDTILSSAL AANGWVFLLA
+gpc5b_human LITAFLSVLI WVAWMTMYLF GNVKLQQGDA WNDPTLAITL AASGWVFVIF
+gpc5c_human LLTTATSVAI WVVWIVMYTY GN-KQHNSPT WDDPTLAIAL AANAWAFVLF
+gpc5d_human FITVLFSIII WVVWISMLLR GNPQFQRQPQ WDDPVVCIAL VTNAWVFLLL
+gpc6a_human TFGMLIYFIA WITFIPIYAT TFGK------ YVPAVEIIVI LISNYGILYC
+
+            1101                                              1150
+casr_human  IFFNKI---- ---------- ---------- ---------- ----------
+gabr1_human LFVPKM---- ---------- ---------- ---------- ----------
+gabr2_human VFVPKL---- ---------- ---------- ---------- ----------
+grm1_human  MFTPKM---- ---------- ---------- ---------- ----------
+grm2_human  LFAPKL---- ---------- ---------- ---------- ----------
+grm3_human  LFAPKV---- ---------- ---------- ---------- ----------
+grm4_human  LYMPKV---- ---------- ---------- ---------- ----------
+grm5_human  MFVPKV---- ---------- ---------- ---------- ----------
+grm6_human  LYVPKT---- ---------- ---------- ---------- ----------
+grm7_human  LYMPKV---- ---------- ---------- ---------- ----------
+grm8_human  LYMPKV---- ---------- ---------- ---------- ----------
+ts1r1_human YFLPKC---- ---------- ---------- ---------- ----------
+ts1r2_human YFGPKC---- ---------- ---------- ---------- ----------
+ts1r3_human FHLPRC---- ---------- ---------- ---------- ----------
+gp156_human IFIPQLKQ-- ---------- ---------- ---------- --WKAFEEEN
+gp158_human LLIPKFSHSS NNPRDDIATE AYEDELDMGR SGSYLNSSIN SAWSEHSLDP
+gp179_human IFIPKFWKLG APPREEMVDE VCEDELDLQH SGSYLGSSIA SAWSEHSLDP
+rai3_human  YVSPEF---- ---------- ---------- ---------- ----------
+gpc5b_human HAIPEI---- ---------- ---------- ---------- ----------
+gpc5c_human YVIPEV---- ---------- ---------- ---------- ----------
+gpc5d_human YIVPEL---- ---------- ---------- ---------- ----------
+gpc6a_human TFIPKC---- ---------- ---------- ---------- ----------
+
+            1151                                              1200
+casr_human  ---------- ---------- ---------- ---------- ----------
+gabr1_human ---------- ---------- ---------- ---------- ----------
+gabr2_human ---------- ---------- ---------- ---------- ----------
+grm1_human  ---------- ---------- ---------- ---------- ----------
+grm2_human  ---------- ---------- ---------- ---------- ----------
+grm3_human  ---------- ---------- ---------- ---------- ----------
+grm4_human  ---------- ---------- ---------- ---------- ----------
+grm5_human  ---------- ---------- ---------- ---------- ----------
+grm6_human  ---------- ---------- ---------- ---------- ----------
+grm7_human  ---------- ---------- ---------- ---------- ----------
+grm8_human  ---------- ---------- ---------- ---------- ----------
+ts1r1_human ---------- ---------- ---------- ---------- ----------
+ts1r2_human ---------- ---------- ---------- ---------- ----------
+ts1r3_human ---------- ---------- ---------- ---------- ----------
+gp156_human QTIRRMAKYF STPNKSFHTQ YGEEENCHP- -------RGE KSSMERLLTE
+gp158_human EDIRDELKKL YAQLEIYKRK KMITNNPHLQ KKRCSK-KGL GRSIMRRITE
+gp179_human GDIRDELKKL YAQLEVHKTK EMAANNPHLP KKRGSSCQGL GRSFMRYLAE
+rai3_human  ---------- ---------- ---------- ---------- ----------
+gpc5b_human ---------- ---------- ---------- ---------- ----------
+gpc5c_human ---------- ---------- ---------- ---------- ----------
+gpc5d_human ---------- ---------- ---------- ---------- ----------
+gpc6a_human ---------- ---------- ---------- ---------- ----------
+
+            1201                                              1250
+casr_human  ---------- ---------- --------YI ILFKPSRNTI EE--------
+gabr1_human ---------- ---------- --------RR LITRGEWQSE AQ--------
+gabr2_human ---------- ---------- --------IT LRTNPDAATQ NR--------
+grm1_human  ---------- ---------- --------YI IIAKPERNVR SA--------
+grm2_human  ---------- ---------- --------HI ILFQPQKNVV SH--------
+grm3_human  ---------- ---------- --------HI ILFQPQKNVV TH--------
+grm4_human  ---------- ---------- --------YI ILFHPEQNVP KR--------
+grm5_human  ---------- ---------- --------YI ILAKPERNVR SA--------
+grm6_human  ---------- ---------- --------YV ILFHPEQNVQ KR--------
+grm7_human  ---------- ---------- --------YI IIFHPELNVQ KRKRSFKAV-
+grm8_human  ---------- ---------- --------YI IIFHPEQNVQ KR--------
+ts1r1_human ---------- ---------- --------YV ILCRPDLNST EH--------
+ts1r2_human ---------- ---------- --------YM ILFYPERNTP AY--------
+ts1r3_human ---------- ---------- --------YL LMRQPGLNTP E---------
+gp156_human ---------- ---------- -------KNA VIESLQEQVN NA--------
+gp158_human IPETVSRQCS KEDKEGADHG TAKGTA---L IRKNPPESSG NTGKSKEETL
+gp179_human FPEALARQHS R-DSGSPGHG SLPGSSRRRL LSSSLQEPEG TP--------
+rai3_human  ---------- ---------- --------WL LTKQRNPMDY PV--------
+gpc5b_human ---------- ---------- --------HC TLLPALQENT PN--------
+gpc5c_human ---------- ---------- --------SQ VTKSSPEQSY QG--------
+gpc5d_human ---------- ---------- --------CI LYRSCR-QEC PL--------
+gpc6a_human ---------- ---------- --------YV IICKQEINTK SA--------
+
+            1251                                              1300
+casr_human  VRCSTAAHAF KVAARAT--- ---------- ---------L RRSNVSRKR-
+gabr1_human ---------- ---------- ---------- ---------- ----------
+gabr2_human RFQFTQNQKK E--------- ---------- ---------- ----------
+grm1_human  FTTSDVVRMH VGDGK----- -----LPCR- --------SN TFLNIFRRK-
+grm2_human  RAPTSRFG-- ---------- ---------- ---------- ----------
+grm3_human  RLHLNRF--- ---------- ---------- ---------- ----------
+grm4_human  KRSLKAV--- ---------- ---------- ---------- ----------
+grm5_human  FTTSTVVRMH VGDGKSSS-- -----AASR- --------SS SLVNLWKRRG
+grm6_human  KRSLKAT--- ---------- ---------- ---------- ----------
+grm7_human  ---------- ---------- ---------- ---------- ----------
+grm8_human  KRSFKAV--- ---------- ---------- ---------- ----------
+ts1r1_human FQASIQDY-- ---------- ---------- ---------- ----------
+ts1r2_human FNSMIQG--- ---------- ---------- ---------- ----------
+ts1r3_human ---------- ---------- ---------- ---------- ----------
+gp156_human KEKIVRLMSA ECTYDLPEGA -----APPAS SPNKDVQAVA SVHTLAAAQG
+gp158_human KNRVFSLKKS HSTYDHVRDQ TEESSSLPTE SQEEETTENS TLESLSGKKL
+gp179_human -----ALHKS RSTYDQRREQ -----DPPL- ---------- -LDSLLRRKL
+rai3_human  EDAFCKPQLV KKSYG----- ---------- ---------- ----------
+gpc5b_human YFDTSQPRMR ETAFEED--- ---------- ---------- ----VQLPR-
+gpc5c_human DMYPTRGVGY ETILKEQ--- ---------- ---------- -----KGQS-
+gpc5d_human QGNACPVTAY QHSFQ----- ---------- ---------- ----------
+gpc6a_human FLKMIYSYSS HSVSSIAL-- -----SPA-- ---------- ----------
+
+            1301                                              1350
+casr_human  ---------- ---------- ---------- SSSLGG---- --STGSTPS-
+gabr1_human ---------- ---------- ---------- ---------- --DTMKTGS-
+gabr2_human ---------- ---------- ---------- ---------- --DSKTSTS-
+grm1_human  ---------- ---------- ---------- KAGAGN---- --ANSNGKS-
+grm2_human  ---------- ---------- ---------- ---------- --SAAARAS-
+grm3_human  ---------- ---------- ---------- ---------- ---SVSGTG-
+grm4_human  ---------- ---------- ---------- ---------- --VTAATMS-
+grm5_human  SSGETLRYKD RRLAQHK--- --SEIECFTP KGSMGNGGRA TMSSSNGKS-
+grm6_human  ---------- ---------- ---------- ---------- --STVAA---
+grm7_human  ---------- ---------- ---------- ----VTAATM S--SRLSH--
+grm8_human  ---------- ---------- ---------- ---------- --VTAATMQ-
+ts1r1_human ---------- ---------- ---------- ---------- ---TRRCGS-
+ts1r2_human ---------- ---------- ---------- ---------- ----------
+ts1r3_human ---------- ---------- -------FFL GGGPGD---- --AQGQNDG-
+gp156_human PS-------- ---------- -------GHL SDFQNDPGMA ARDSQCTSG-
+gp158_human TQ-KLKEDSE AESTESVPLV C-KSASAHNL SSEKKTGHPR TSMLQKSLSV
+gp179_human AK-KASRTES RESVEGPPAL GFRSASAHNL TVGERLPRAR PASLQKSLS-
+rai3_human  ---------- ---------- ---------- ---------- ----VENRA-
+gpc5b_human ---------- ---------- ---------- ---------- --AYMENKA-
+gpc5c_human ---------- ---------- ---------- ---------- --MFVENKA-
+gpc5d_human ---------- ---------- ---------- ---------- ----VENQE-
+gpc6a_human ---------- ---------- --------SL DSMSGN---- --VTMTNPS-
+
+            1351                                              1400
+casr_human  -SSISSK--- ---------- ---------- ---------- ----------
+gabr1_human -STNNNE--- ---------- ---------- ---------- ----------
+gabr2_human VTSVNQ---- ---------- ---------- ---------- ----------
+grm1_human  -VSWSEPGGG QVPKG----- ---------- ---------- ----------
+grm2_human  -SSLGQ---- ---------- ---------- ---------- ----------
+grm3_human  -TTYSQ---- ---------- ---------- ---------- ----------
+grm4_human  -NKFTQ---- ---------- ---------- ---------- ----------
+grm5_human  -VTWAQ--NE KSSRG----- ---------- ---------- ----------
+grm6_human  ---------- ---------- ---------- ---------- ----------
+grm7_human  ---------- ---------- ---------- ---------- ----------
+grm8_human  -SKLIQ---- ---------- ---------- ---------- ----------
+ts1r1_human -T-------- ---------- ---------- ---------- ----------
+ts1r2_human -YTMRRD--- ---------- ---------- ---------- ----------
+ts1r3_human -NTGNQ---- ---------- ---------- ---------- ----------
+gp156_human PSSYAQS-LE GPGKDS---- -SFSPGKEEK ISD------- ----------
+gp158_human IASAKEKTLG LAGK------ -TQTAGVEER TKS------- ----------
+gp179_human VASSREKALL MASQAYLEET YRQAKEREER KKAKAAMASL VRRPSARRLE
+rai3_human  -YSQEEI--- ---------- ---------- ---------- ----------
+gpc5b_human -FSMDEH--- ---------- ---------- ---------- ----------
+gpc5c_human -FSMDEP--- ---------- ---------- ---------- ----------
+gpc5d_human -LSRARD--- ---------- ---------- ---------- ----------
+gpc6a_human -SSGKSA--- ---------- ---------- ---------- ----------
+
+            1401                                              1450
+casr_human  ---------- ---------- ---------- ---------- ----------
+gabr1_human ---------- ---------- ---------- ---------- ----------
+gabr2_human ---------- ---------- ---------- ---------- ----------
+grm1_human  ---------- ---------- ---------- ---------- ----------
+grm2_human  ---------- ---------- ---------- ---------- ----------
+grm3_human  ---------- ---------- ---------- ---------- ----------
+grm4_human  ---------- ---------- ---------- ---------- ----------
+grm5_human  ---------- ---------- ---------- ---------- ----------
+grm6_human  ---------- ---------- ---------- ---------- ----------
+grm7_human  ---------- ---------- ---------- ---------- ----------
+grm8_human  ---------- ---------- ---------- ---------- ----------
+ts1r1_human ---------- ---------- ---------- ---------- ----------
+ts1r2_human ---------- ---------- ---------- ---------- ----------
+ts1r3_human ---------- ---------- ---------- ---------- ----------
+gp156_human ---------- -SKDFSDHLD SGCS------ ---------- ----------
+gp158_human ---------- ---------- ---------- ---------- ----------
+gp179_human RPRGAPLSAP PSPAKSSSVD SSHTSGRLHE EARRRLPHPP IRHQVSTPIL
+rai3_human  ---------- ---------- ---------- ---------- ----------
+gpc5b_human ---------- ---------- ---------- ---------- ----------
+gpc5c_human ---------- ---------- ---------- ---------- ----------
+gpc5d_human ---------- ---------- ---------- ---------- ----------
+gpc6a_human ---------- ---------- ---------- ---------- ----------
+
+            1451                                              1500
+casr_human  ---------- ---------- ---------- ---------- ----------
+gabr1_human ---------- ---------- ---------- ---------- ----------
+gabr2_human ---------- ---------- ---------- ---------- ----------
+grm1_human  ---------- ---------- ---------- ---------- -QHM------
+grm2_human  ---------- ---------- ---------- ---------- ----------
+grm3_human  ---------- ---------- ---------- ---------- ----------
+grm4_human  ---------- ---------- ---------- ---------- ----------
+grm5_human  ---------- ---------- ---------- ---------- -QHL------
+grm6_human  ---------- ---------- ---------- ---------- ----------
+grm7_human  ---------- ---------- ---------- ---------- ----------
+grm8_human  ---------- ---------- ---------- ---------- ----------
+ts1r1_human ---------- ---------- ---------- ---------- ----------
+ts1r2_human ---------- ---------- ---------- ---------- ----------
+ts1r3_human ---------- ---------- ---------- ---------- ----------
+gp156_human ---------- ---------- ---------- ---------- -QKP------
+gp158_human ---------- ---------- ---------- ---------- -QKP------
+gp179_human ALSGGLGEPR MLSPTSTLAP ALLPALAPTP APALAPVPVS PQSPNLLTYI
+rai3_human  ---------- ---------- ---------- ---------- ----------
+gpc5b_human ---------- ---------- ---------- ---------- ----------
+gpc5c_human ---------- ---------- ---------- ---------- ----------
+gpc5d_human ---------- ---------- ---------- ---------- ----------
+gpc6a_human ---------- ---------- ---------- ---------- ---T------
+
+            1501                                              1550
+casr_human  ---------- ---------- ---------- ---------- ----------
+gabr1_human ---------- ---------- ---------- ---------- ----------
+gabr2_human ---------- ---------- ---------- ---------- ----------
+grm1_human  --WHRLSVHV ---------- KTNETA---- ---------- ----------
+grm2_human  ---------- ---------- ---------- ---------- ----------
+grm3_human  ---------- ---------- ---------- ---------- ----------
+grm4_human  ---------- ---------- ---------- ---------- ----------
+grm5_human  --WQRLSIHI ---------- NKKENP---- ---------- ----------
+grm6_human  ---------- ---------- ---------- ---------- ----------
+grm7_human  ---------- ---------- ---------- ---------- ----------
+grm8_human  ---------- ---------- ---------- ---------- ----------
+ts1r1_human ---------- ---------- ---------- ---------- ----------
+ts1r2_human ---------- ---------- ---------- ---------- ----------
+ts1r3_human ---------- ---------- ---------- ---------- ----------
+gp156_human --WTEQSL-- ---------- -GPERG---- ---------- ----------
+gp158_human ---------- ---------- ---------- ---------- ----------
+gp179_human CPWENAELPA KQENVPQEGP SGPERGHHSP APARARLWRA LSVAVEKSRA
+rai3_human  ---------- ---------- ---------- ---------- ----------
+gpc5b_human ---------- ---------- ---------- ---------- ----------
+gpc5c_human ---------- ---------- ---------- ---------- ----------
+gpc5d_human ---------- ---------- ---------- ---------- ----------
+gpc6a_human --W------- ---------- ---------- ---------- ----------
+
+            1551                                              1600
+casr_human  ---------- ---------- ---------- ---------- ----------
+gabr1_human ---------- ---------- ---------- ---------- ----------
+gabr2_human ---------- ---------- ---------- ---------- ----------
+grm1_human  ---------- -----CNQTA VIKP--LTKS YQ-------- ----------
+grm2_human  ---------- ---------- ---------- ---------- ----------
+grm3_human  ---------- ---------- ---------- ---------- ----------
+grm4_human  ---------- ---------- ---------- ---------- ----------
+grm5_human  ---------- ------NQTA VIKP--FPKS TES------- --RGLG---A
+grm6_human  ---------- ---------- ---------- ---------- ----------
+grm7_human  ---------- ---------- ---------- ---------- ----------
+grm8_human  ---------- ---------- ---------- ---------- ----------
+ts1r1_human ---------- ---------- ---------- ---------- ----------
+ts1r2_human ---------- ---------- ---------- ---------- ----------
+ts1r3_human ---------- ---------- ---------- ---------- ----------
+gp156_human ---------- ------DQV- ---------- ---------- ----------
+gp158_human ---------- ---------- ------LPKD ---------- ---------K
+gp179_human GENEMDAEDA HHQREANDVD EDRPKIFPKS HSLKAPVQQG SMRSLGLAIK
+rai3_human  ---------- ---------- ---------- ---------- ----------
+gpc5b_human ---------- ---------- ---------- ---------- ----------
+gpc5c_human ---------- ---------- ---------- ---------- ----------
+gpc5d_human ---------- ---------- ---------- ---------- ----------
+gpc6a_human ---------- ---------- ---------- ---------- ----------
+
+            1601                                              1650
+casr_human  --SNSEDP-- ---------- ---------- ---------- ------FPQP
+gabr1_human --EEKSRL-- ---------- ---------- ---------- ---------L
+gabr2_human --ASTSRL-- ---------- ---------- ---------- -------EGL
+grm1_human  --GSGKSL-- ---------- -------TFS DTSTKTLYNV EEEEDAQPIR
+grm2_human  --GSGSQF-- ---------- ---------- ---------- ----------
+grm3_human  --SSASTY-- ---------- ---------- ---------- ----------
+grm4_human  --K--GNFRP ---------- ---------- ---------- ----------
+grm5_human  GAGAGGSAGG VGATGGAGCA GAGPGGPESP DAGPKALYDV AEAEEHFPAP
+grm6_human  ---------- ---------- ---------- ---------- ----------
+grm7_human  --K--PSD-- ---------- ---------- ---------- ----------
+grm8_human  --K--GND-- ---------- ---------- ---------- ----------
+ts1r1_human ---------- ---------- ---------- ---------- ----------
+ts1r2_human ---------- ---------- ---------- ---------- ----------
+ts1r3_human --GKHE---- ---------- ---------- ---------- ----------
+gp156_human PMNPSQSL-- ---------- --LPE-RGGS DPQRQRHLE- --------NS
+gp158_human ETNRNHSN-- ---------- --SDN-TETK DPAPQNSN-- --------PA
+gp179_human ALTRSRST-- ---------- --YRE-KESV EESPEGQNSG TAGESMGAPS
+rai3_human  --TQGFEET- ---------- ---------- ---------- ----------
+gpc5b_human --NAALRTAG ---------- --FPN----- -GS------- -----LGKRP
+gpc5c_human --VAA----- ---------- ---------- ---------- ----------
+gpc5d_human ---------- ---------- ---------- ---------- ----------
+gpc6a_human --QKSKDL-- ---------- ---------- ---------- ----------
+
+            1651                                              1700
+casr_human  ERQKQQQPLA LTQQEQ---- ---------- ---------- ----------
+gabr1_human EKENRELEKI IAEKEE---- ---------- ---------- ----------
+gabr2_human QSENHRLRMK ITELDK---- ---------- ---------- ----------
+grm1_human  FSPPG-SPSM VVHRRV---- ---------- ---------- ----------
+grm2_human  ------VPTV ---------- ---------- ---------- ----------
+grm3_human  ------VPTV ---------- ---------- ---------- ----------
+grm4_human  ---------- ---------- ---------- ---------- ----------
+grm5_human  ARPRSPSPIS TLSHRA---- ---------- ---------- ----------
+grm6_human  ------PP-- ---------- ---------- ---------- ----------
+grm7_human  ------RP-- ---------- ---------- ---------- ----------
+grm8_human  ------RP-- ---------- ---------- ---------- ----------
+ts1r1_human ---------- ---------- ---------- ---------- ----------
+ts1r2_human ---------- ---------- ---------- ---------- ----------
+ts1r3_human ---------- ---------- ---------- ---------- ----------
+gp156_human EEPPERRSRV SSVIRE---- ---------- ---------- ----------
+gp158_human EEPRKPQKSG IMKQQRVNPT ---------- ---------- ----------
+gp179_human RSPRLGRPKA VSKQAALIPS DDKESLQNQQ NAHTSRMLQV CQREGSREQE
+rai3_human  ----GDTLYA PYSTHF---- ---------- ---------- ----------
+gpc5b_human SGSLGKRPSA PFR------- ---------- ---------- ----------
+gpc5c_human -----KRPVS PYSGYN---- ---------- ---------- ----------
+gpc5d_human ---------- ---------- ---------- ---------- ----------
+gpc6a_human ---------- ---------- ---------- ---------- ----------
+
+            1701                                              1750
+casr_human  ---------- ---------- ----QQQPLT LP-------- ----------
+gabr1_human ---------- ---------- ----RVSELR H--------- ----------
+gabr2_human ---------- ---------- ----DLEEVT M--------- ----------
+grm1_human  ---------- ---------- ----PSAATT PPLP------ --------SH
+grm2_human  ---------- ---------- ---------- ---------- ----------
+grm3_human  ---------- ---------- ---------- ---------- ----------
+grm4_human  ---------- ---------- ---------- ---------- ----------
+grm5_human  ---------- ---------- ----GSASRT D--------- ----------
+grm6_human  ---------- ---------- ---------- ---------- ----------
+grm7_human  ---------- ---------- ---------- ---------- ----------
+grm8_human  ---------- ---------- ---------- ---------- ----------
+ts1r1_human ---------- ---------- ---------- ---------- ----------
+ts1r2_human ---------- ---------- ---------- ---------- ----------
+ts1r3_human ---------- ---------- ---------- ---------- ----------
+gp156_human ---------- ---------- ----KLQEVL QDLGLG---- --------PE
+gp158_human ---------- ---------- -------TAN SDLN------ ----------
+gp179_human DRGRRMTQGL GERKAERAGK TGLAMLRQVS RDKNIKQSKE TPVGWQELPK
+rai3_human  ---------- ---------- ---------- ---------- ---QLQNQP-
+gpc5b_human ---------- ---------- --------SN VY-------- ----------
+gpc5c_human ---------- ---------- ----GQLLTS VY-------- ----------
+gpc5d_human ---------- ---------- ---------- ---------- ----------
+gpc6a_human ---------- ---------- ---------- ---------- ----------
+
+            1751                                              1800
+casr_human  ---------- ---------- ---------- ---------- ----------
+gabr1_human ---------- ---------- ---------- ---------- ----------
+gabr2_human ---------- ---------- ---------- ---------- ----------
+grm1_human  LTAEETPLFL AEPA---L-- ---------- --------P- ---KGLPP--
+grm2_human  ---------- ---------- ---------- ---------- ----------
+grm3_human  ---------- ---------- ---------- ---------- ----------
+grm4_human  ---------- ---------- ---------- ---------- ----------
+grm5_human  ---DDVPSLH SEPV------ ---------- ---------- ----------
+grm6_human  ---------- ---------- ---------- ---------- ----------
+grm7_human  ---------- ---------- ---------- ---------- ----------
+grm8_human  ---------- ---------- ---------- ---------- ----------
+ts1r1_human ---------- ---------- ---------- ---------- ----------
+ts1r2_human ---------- ---------- ---------- ---------- ----------
+ts1r3_human ---------- ---------- ---------- ---------- ----------
+gp156_human ASLSTAPSCH QQT-----WK ---------- --NSAAFSP- ---QKMPLSK
+gp158_human ---------- ---------- ---------- ---------- ----------
+gp179_human AGLQSLGSAD HRVAEVCPWE VTESETRQPD SGNKAEICPW ETSEGAPESR
+rai3_human  ---------- ---------- ---------- ---------- ----------
+gpc5b_human ---------- ---------- ---------- ---------- ----------
+gpc5c_human ---------- ---------- ---------- ---------- ----------
+gpc5d_human ---------- ---------- --SDGAEE-- ---------- ----------
+gpc6a_human ---------- ---------- ---------- ---------- ----------
+
+            1801                                              1850
+casr_human  ---------Q QQRSQQQPRC ---------- -------KQK VI--------
+gabr1_human ---------Q LQSRQQ---- ---------- ---------- ----------
+gabr2_human ---------Q LQDTPEKTTY ---------- -------IKQ N---------
+grm1_human  -----PLQQQ QQPPPQQKSL ---------- -------MDQ L---------
+grm2_human  ---------- ---------- ---------- ---------- ----------
+grm3_human  ---------- ---------- ---------- ---------- ----------
+grm4_human  ---------- ---------- ---------- ---------- ----------
+grm5_human  ---------- ARSSSSQGSL ---------- -------MEQ I---------
+grm6_human  ---------- ---------- ---------- ---------- ----------
+grm7_human  ---------- ---------- ---------- ---------- ----------
+grm8_human  ---------- ---------- ---------- ---------- ----------
+ts1r1_human ---------- ---------- ---------- ---------- ----------
+ts1r2_human ---------- ---------- ---------- ---------- ----------
+ts1r3_human ---------- ---------- ---------- ---------- ----------
+gp156_human ELGFSPYMVR RRRAAQRARS ---------- ---------- ----------
+gp158_human -----PGTTQ MKDNFDIGEV ---------- ---------- ---CPWEVYD
+gp179_human ALRQDPGDSQ KKRGEARGKS EPIDVVPMMR KKPERLVREQ EAVCPWESAD
+rai3_human  ---------- -------P-- ---------- ---------- ----------
+gpc5b_human ---------Q PTEMA----- ---------- ---------- ----------
+gpc5c_human ---------Q PTEMALM--- ---------- ---------- ----------
+gpc5d_human ---------- ---------- -----DVALT SYGTPI---- ----------
+gpc6a_human ---------Q AQAFAHICR- ---------- ---------- ----------
+
+            1851                                              1900
+casr_human  ---FGSGTV- ---------- -----TFSLS FDEPQ----- ----------
+gabr1_human ---------- ---------- ---------- ---------- ----------
+gabr2_human ---------- ----HYQELN ---DILNLGN FTES------ ----------
+grm1_human  -----QGVVS NFSTAIPDFH -----AVLAG PGGP------ ----------
+grm2_human  ---------- ---------- ---------- ---------- ----------
+grm3_human  ---------- ---------- ---------- ---------- ----------
+grm4_human  ---------- ---------- ---------- ---------- ----------
+grm5_human  -----SSVVT RFTANISELN -----SMMLS TAAP------ ----------
+grm6_human  ---------- ---------- ---------- ---------- ----------
+grm7_human  ---------- ---------- ---------- ---------- ----------
+grm8_human  ---------- ---------- ---------- ---------- ----------
+ts1r1_human ---------- ---------- ---------- ---------- ----------
+ts1r2_human ---------- ---------- ---------- ---------- ----------
+ts1r3_human ---------- ---------- ---------- ---------- ----------
+gp156_human ---HFPGSAP SSVGHR---- --------AN RTVP------ -GAHSR----
+gp158_human ---LTPGPVP SESKVQKHVS ----IVASEM EKNPTFSLKE KSHHKP----
+gp179_human RGGLSPGSAP QDPGRIRDKS EAGDSVEARK VEKPGWEAAG PEAHTPDITK
+rai3_human  ---------- ---------- ---------- ---------- ----------
+gpc5b_human ---------- ---------- ---------- ---------- ----------
+gpc5c_human ---------- ---------- ---------- HKVP------ ----------
+gpc5d_human ---------- ---------- ---------- ---------- ----------
+gpc6a_human ---------- ---------- ---------- ---------- ----------
+
+            1901                                              1950
+casr_human  ---------- ---------- ---------- ---------- ----------
+gabr1_human ---------- ---------- ---------- ---------- ----------
+gabr2_human ---------- ---------- ---------- ---------- ----------
+grm1_human  ---------- ---------- ---------- ---------- ----------
+grm2_human  ---------- ---------- ---------- ---------- ----------
+grm3_human  ---------- ---------- ---------- ---------- ----------
+grm4_human  ---------- ---------- ---------- ---------- -NGEAK----
+grm5_human  ---------- ---------- ---------- ---------- ----------
+grm6_human  ---------- ---------- ---------- ---------- ----------
+grm7_human  ---------- ---------- ---------- ---------- ----------
+grm8_human  ---------- ---------- ---------- ---------- ----------
+ts1r1_human ---------- ---------- ---------- ---------- ----------
+ts1r2_human ---------- ---------- ---------- ---------- ----------
+ts1r3_human ---------- ---------- ---------- ---------- ----------
+gp156_human ---------- ---------- ---------- ---------- ----------
+gp158_human ---------- ---------- ---------- ---KA----- ----------
+gp179_human AEPCPWEASE GGEDGKPAQE AVKDLPQEKQ KTRKATFWKE QKPGGDLESL
+rai3_human  ---------- ---------- --QK------ ---------- ----------
+gpc5b_human ---------- ---------- ---------- ---------- ----------
+gpc5c_human ---------- ---------- ---------- ---------- ----------
+gpc5d_human ---------- ---QPQTVD- ---------- ---------- ----------
+gpc6a_human ---------- ---------- ---------- ---------- ----------
+
+            1951                                              2000
+casr_human  ---------- ---------- ---------- --------KN AMAHR----N
+gabr1_human ---------- ---------- ---------- ---------- ----------
+gabr2_human ---------- ---------- ---------- --------TD GGKA------
+grm1_human  ---------- ---------- ---------- --------GN GLRS------
+grm2_human  ---------- ---------- ---------- --------CN GR--------
+grm3_human  ---------- ---------- ---------- --------CN GR--------
+grm4_human  ---------- ---------- ---------- ---------- ----------
+grm5_human  ---------- ---------- ---------- --------SP GVGA------
+grm6_human  ---------- ---------- ---------- ---------K GE--------
+grm7_human  ---------- ---------- ---------- ---------N GEAK------
+grm8_human  ---------- ---------- ---------- ---------N GEVK------
+ts1r1_human ---------- ---------- ---------- ---------- ----------
+ts1r2_human ---------- ---------- ---------- ---------- ----------
+ts1r3_human ---------- ---------- ---------- ---------- ----------
+gp156_human ---------- ---------- ---------- --LHV---QN GDSPSLAPQ-
+gp158_human ---------- ---------- ---------- --AEVC--QQ SNQKRIDKAE
+gp179_human CPWESTDFRG PSAVSIQAPG SSECSGSLGS GIAEVCLWEA GDAPAIQKAE
+rai3_human  ---------- ---------- ---------- ---------- ----------
+gpc5b_human ---------- ---------- ---------- ---------- ----------
+gpc5c_human ---------- ---------- ---------- --------SE GA--------
+gpc5d_human ---------- ---------- ---------- -------PTQ ----------
+gpc6a_human ---------- ---------- ---------- --------EN ATSV------
+
+            2001                                              2050
+casr_human  ---------S THQNSL---- ---------- ---------- ----------
+gabr1_human ---------- ---------- ---------- ---------- ----------
+gabr2_human ---------- ---------- ---------- ---------- ----------
+grm1_human  ---------- ---------- ---------- ---------- ----------
+grm2_human  ---------- ---------- ---------- ---------- ----------
+grm3_human  ---------- ---------- ---------- ---------- ----------
+grm4_human  ---------- ---------- ---------- ---------- ----------
+grm5_human  ---------- ---------- ---------- ---------- ----------
+grm6_human  ---------- ---------- ---------- ---------- ----------
+grm7_human  ---------- ---------- ---------- ---------- ----------
+grm8_human  ---------- ---------- ---------- ---------- ----------
+ts1r1_human ---------- ---------- ---------- ---------- ----------
+ts1r2_human ---------- ---------- ---------- ---------- ----------
+ts1r3_human ---------- ---------- ---------- ---------- ----------
+gp156_human ---------T TDSRVR---- ---------- ---------- ----------
+gp158_human VCLWE----S QGQSIL---- ---------- ---------- ----------
+gp179_human ICPWELDDNV MGQEMLSLGT GRESLQEKEK ASRKGSFGEM GEQTVKAVQK
+rai3_human  ---------- ---------- ---------- ---------E FSIPRAHAW-
+gpc5b_human ---------- ---------- ---------- ---------- ----------
+gpc5c_human ---------- ---------- ---------- ---------- ----------
+gpc5d_human ---------- ---------- ---------- ---------- ----------
+gpc6a_human ---------- ---------- ---------- ---------- ----------
+
+            2051                                              2100
+casr_human  ---------- EAQ------- ---------- ---------- ----------
+gabr1_human ---------- ---------- ---------- ---------- ----------
+gabr2_human ---------- ---------- ---------- ---------- ----------
+grm1_human  ---------- --L------- ---------- ---------- ----------
+grm2_human  ---------- ---------- ---------- ---------- ----------
+grm3_human  ---------- ---------- ---------- ---------- ----------
+grm4_human  ---------- ---------- ---------- ---------- ----------
+grm5_human  ---------- -PL------- ---------- ---------- ----------
+grm6_human  ---------- ---------- ---------- ---------- ----------
+grm7_human  ---------- ---------- ---------- ---------- ----------
+grm8_human  ---------- ---------- ---------- ---------- ----------
+ts1r1_human ---------- ---------- ---------- ---------- ----------
+ts1r2_human ---------- ---------- ---------- ---------- ----------
+ts1r3_human ---------- ---------- ---------- ---------- ----------
+gp156_human ---------- RPS------- ---------- ---------- ----------
+gp158_human ---------- ---------- ---------- ---------- ----------
+gp179_human LSQQQESVCP RESTVPGHSS PCLDNSSSKA GSQFLCNGGS RATQVCPQED
+rai3_human  ---------- ---------- ---------- ---------- ----------
+gpc5b_human ---------- ---------- ---------- ---------- ----------
+gpc5c_human ---------- ---------- ---------- ---------- ----------
+gpc5d_human ---------- ---------- ---------- ---------- ----------
+gpc6a_human ---------- ---------- ---------- ---------- ----------
+
+            2101                                              2150
+casr_human  ---KSSDTLT RHEPLLP--- ---------- ---------- ----------
+gabr1_human -------LRS RRHPPTP--- ---------- ---------- ----------
+gabr2_human -------ILK NHLDQNP-QL QWNT-TE--- ---------- ----------
+grm1_human  ---YPPPPPP QHLQMLP--L QLSTFGEE-- ---------- ----------
+grm2_human  ---------- ---------- ---------- ---------- ----------
+grm3_human  ---------- ---------- ---------- ---------- ----------
+grm4_human  ---------- ---------- ---------- ---------- ----------
+grm5_human  ---CSSYLIP KEIQ-LP--T TMTTFAE--- ---------- ----------
+grm6_human  ---------- ---------- ---------- ---------- ----------
+grm7_human  ---------- ---------- ---------- ---------- ----------
+grm8_human  ---------- ---------- ---------- ---------- ----------
+ts1r1_human ---------- ---------- ---------- ---------- ----------
+ts1r2_human ---------- ---------- ---------- ---------- ----------
+ts1r3_human ---------- ---------- ---------- ---------- ----------
+gp156_human ---SRKPSLP SDPQDRP-GT LEGSKQSQTE PEGARGS--- ----------
+gp158_human ---EDEKLLI SKTPVLP--- -ERAKEE--- ----NGG--- ----------
+gp179_human LRPEAQEATP AKTEICPWEV NERTREEWTS AQVPRGGESQ KDKEKMPGKS
+rai3_human  ---------- ---------- ---------- ---------- ----------
+gpc5b_human ------VVLN GGTIPT---- ---------- ---------- ----------
+gpc5c_human ----YDIILP RATANSQ--V MGSANST--- ---------- ----------
+gpc5d_human -----ECFIP QAKL------ ---------- ---------- ----------
+gpc6a_human -----SKTLP RKRM------ ---------- ---------- ----------
+
+            2151                                              2200
+casr_human  ---------- ---------- ---------- ---------- ----------
+gabr1_human ---------- ---------- ---------- -----PE--- ----------
+gabr2_human ---------- ---------- ---------- -----PSR-- ----------
+grm1_human  ---------- ---------- ---------- LVSP-PA--- ----------
+grm2_human  ---------- ---------- ---------- ---------- ----------
+grm3_human  ---------- ---------- ---------- ---------- ----------
+grm4_human  ---------- ---------- ---------- ---------- ----------
+grm5_human  ---------- ---------- ---------- -IQPLPA--- ----------
+grm6_human  ---------- ---------- ---------- ---------- ----------
+grm7_human  ---------- ---------- ---------- ---------- ----------
+grm8_human  ---------- ---------- ---------- ---------- ----------
+ts1r1_human ---------- ---------- ---------- ---------- ----------
+ts1r2_human ---------- ---------- ---------- ---------- ----------
+ts1r3_human ---------- ---------- ---------- ---------- ----------
+gp156_human ---------- ---------- --------KA AFLRQPSG-- ----------
+gp158_human ---------- ---------- ---------- ----QPR--- ----------
+gp179_human EIEDVTAWEK PEGQIQKQEA VGPWESVDPG SFSPQPRPQD TERPQTLLQM
+rai3_human  ---------- ---------- ---------- ---------- ----------
+gpc5b_human ---------- ---------- ---------- ---------- ----------
+gpc5c_human ---------- ---------- ---------- ----LRA--- ----------
+gpc5d_human ---------- ---------- ---------- ---------- ----------
+gpc6a_human ---------- ---------- ---------- ---------- ----------
+
+            2201                                              2250
+casr_human  ---------- ---------- ---------- ---------- ---LQC----
+gabr1_human ---------- ---------- ---------- ---------- ----------
+gabr2_human ---------- TC-------- ---------- ---------- ----------
+grm1_human  ---------- ---------- ---------- ---------- ----------
+grm2_human  ---------- ---------- ---------- ---------- ----------
+grm3_human  ---------- ---------- ---------- ---------- ----------
+grm4_human  ---------- ---------- ---------- ---------- ----------
+grm5_human  ---------- ---------- ---------- ---------- ----------
+grm6_human  ---------- ---------- ---------- ---------- ----------
+grm7_human  ---------- ---------- ---------- ---------- ----------
+grm8_human  ---------- ---------- ---------- ---------- ----------
+ts1r1_human ---------- ---------- ---------- ---------- ----------
+ts1r2_human ---------- ---------- ---------- ---------- ----------
+ts1r3_human ---------- ---------- ---------- ---------- ----------
+gp156_human SGRAPS-PAA PC-------- ---------- ---------- ----------
+gp158_human -------AAN VC-------- ---------- ---------- ----------
+gp179_human SGSVGSKAAD ICPLDVEENL TAGKAEICPW EVGAGAGEER ALGAEAIRKS
+rai3_human  ---------- ---------- ---------- ---------- ----------
+gpc5b_human ---------- ---------- ---------- ---------- ----------
+gpc5c_human ---------- ---------- ---------- ---------- ----------
+gpc5d_human ---------- ---------- ---------- ---------- ----------
+gpc6a_human ---------- ---------- ---------- ---------- ----------
+
+            2251                                              2300
+casr_human  ---------- ---------- ---------- ---------- ----------
+gabr1_human ---------- ---------- ---------- ---------- ----------
+gabr2_human ---------- ------KDPI EDINS----- ---------- ----------
+grm1_human  ---------- ---------- DDDDD----- ---------- ----------
+grm2_human  ---------- ---------- ---------- ---------- ----------
+grm3_human  ---------- ---------- ---------- ---------- ----------
+grm4_human  ---------- ---------- ---------- ---------- ----------
+grm5_human  ---------- ---------- IEVTG----- ---------- ----------
+grm6_human  ---------- ---------- ---------- ---------- ----------
+grm7_human  ---------- ---------- ---------- ---------- ----------
+grm8_human  ---------- ---------- ---------- ---------- ----------
+ts1r1_human ---------- ---------- ---------- ---------- ----------
+ts1r2_human ---------- ---------- ---------- ---------- ----------
+ts1r3_human ---------- ---------- ---------- ---------- ----------
+gp156_human ---------- -----LSKAS PDLPEQ---- WQL---WPPV ----------
+gp158_human ---------- ------AGQS EELP------ ---------- ----------
+gp179_human PNDTGKVSAD LGPRERAVTA PEKPQKPTPE WEVACPWGSV GPGACSQHPG
+rai3_human  ---------- ---------- ---------- ---------- ----------
+gpc5b_human ---------- ---------- ---------- ---------- ----------
+gpc5c_human ---------- ---------- EDMYS----- ---------- ----------
+gpc5d_human ---------- ---------- ---------- ---------- ----------
+gpc6a_human ---------- ---------- ---------- ---------- ----------
+
+            2301                                              2350
+casr_human  GETDLDLT-- ---------- ---------- ---------- ----------
+gabr1_human ------PSGG ---------- ---------- ---------- ----------
+gabr2_human ------PEH- ---------- ---------- ---------- ----------
+grm1_human  ------SERF ---------- ---------- ---------- ----------
+grm2_human  ---------- ---------- ---------- ---------- ----------
+grm3_human  ---------- ---------- ---------- ---------- ----------
+grm4_human  ---------- ---------- ---------- ---------- ----------
+grm5_human  ------GAQP ---------- ---------- ---------- ----------
+grm6_human  ---------- ---------- ---------- ---------- ----------
+grm7_human  ---------- ---------- ---------- ---------- ----------
+grm8_human  ---------- ---------- ---------- ---------- ----------
+ts1r1_human ---------- ---------- ---------- ---------- ----------
+ts1r2_human ---------- ---------- ---------- ---------- ----------
+ts1r3_human ---------- ---------- ---------- ---------- ----------
+gp156_human ------PSG- ---------- ---------- ---------- ----------
+gp158_human ------PKA- ---------- ---------- ---------- ----VASKTE
+gp179_human TLDADGPKAG FQELDHMGCR PGEVCPWEAQ EAATSEKAKI CPWEVSEGTT
+rai3_human  ---------- ---------- ---------- ---------- ----------
+gpc5b_human ---------- ---------- ---------- ---------- ----------
+gpc5c_human ------AQ-- ---------- ---------- ---------- ----------
+gpc5d_human ---------- ---------- ---------- ---------- ----------
+gpc6a_human ---------- ---------- ---------- ---------- ----------
+
+            2351                                              2400
+casr_human  ---------- ---------- ---------- ---------- ----------
+gabr1_human ---L------ ---------- ---------- ---------- ----------
+gabr2_human ----IQ---- ---------- ---------- -------RR- ----------
+grm1_human  --KLLQ---- ---------- ---------- -------EY- ----------
+grm2_human  ---------- ---------- ---------- ---------- ----------
+grm3_human  ---------- ---------- ---------- ---------- ----------
+grm4_human  ---------- ---------- ---------- ---------- ----------
+grm5_human  --AAGA---- ---------- ---------- -------QA- ----------
+grm6_human  ---------- ---------- ---------- ---------- ----------
+grm7_human  ---------- ---------- ---------- ---------- ----------
+grm8_human  ---------- ---------- ---------- ---------- ----------
+ts1r1_human ---------- ---------- ---------- ---------- ----------
+ts1r2_human ---------- ---------- ---------- ---------- ----------
+ts1r3_human ---------- ---------- ---------- ---------- ----------
+gp156_human ---------- ---------- ---------- ---------C ----------
+gp158_human NENLNQ---- ---------- ---------- ---------- ----------
+gp179_human GKGLDQKAGS ESAEQREKAL EKGRLTSLGE DVSKGMAKLC QQQETICIWE
+rai3_human  ---------- ---------- ---------- ---------- ----------
+gpc5b_human ---------- ---------- ---------- ---------- ----------
+gpc5c_human ---------- ---------- ---------- ---------- ----------
+gpc5d_human ---------- ---------- ---------- ---------- ----------
+gpc6a_human ---------- ---------- ---------- ---------- ----------
+
+            2401                                              2450
+casr_human  ---------- ---------- ---------- ---------- ----------
+gabr1_human ---------- ---------- ---------- ---------- ----------
+gabr2_human ---------- ---------- LSLQLPILHH ---------A YLPSIGGVD-
+grm1_human  ---------- ---------- ------VYEH ---------E REGNTEEDEL
+grm2_human  ---------- ---------- ---------- ---------- ----------
+grm3_human  ---------- ---------- ---------- ---------- ----------
+grm4_human  ---------- ---------- ---------- ---------- ----------
+grm5_human  ---------- ---------- ------AGDA ---------A RESPAAGPE-
+grm6_human  ---------- ---------- ---------- ---------- ----------
+grm7_human  ---------- ---------- ---------- ---------- ----------
+grm8_human  ---------- ---------- ---------- ---------- ----------
+ts1r1_human ---------- ---------- ---------- ---------- ----------
+ts1r2_human ---------- ---------- ---------- ---------- ----------
+ts1r3_human ---------- ---------- ---------- ---------- ----------
+gp156_human ---------- --------AS LSS----QHS ---------Y FDTESSSSDE
+gp158_human ---------- ---------- ------IGHQ ---------- -EKKTSSSEE
+gp179_human NKDLRESPAQ APKISDLPSS MSSEVAEGHS LEATEKGDLR QDPKTGSFPE
+rai3_human  ---------- ---------- ---------- ---------- ----------
+gpc5b_human ---------- ---------- ---------- ---------- ----------
+gpc5c_human ---------- ---------- ---------- ---------- ----------
+gpc5d_human ---------- ---------- ---------- ---------- ----------
+gpc6a_human ---------- ---------- ---------- ---------- ----------
+
+            2451                                              2500
+casr_human  ---------- VQET------ ---GLQGPVG GD-------- ----------
+gabr1_human ---------- ---------- ---------- ---------- ----------
+gabr2_human ---------- ---------- --------AS C--------- ----------
+grm1_human  EE-------- --EE------ -----EDLQA A--------- ----------
+grm2_human  ---------- ---------- ---------- ---------- ----------
+grm3_human  ---------- ---------- ---------- ---------- ----------
+grm4_human  ---------- ---------- ---------- ---------- ----------
+grm5_human  ---------- ---------- --------AA A--------- ----------
+grm6_human  ---------- ---------- ---------- ---------- ----------
+grm7_human  ---------- ---------- ---------- ---------- ----------
+grm8_human  ---------- ---------- ---------- ---------- ----------
+ts1r1_human ---------- ---------- ---------- ---------- ----------
+ts1r2_human ---------- ---------- ---------- ---------- ----------
+ts1r3_human ---------- ---------- ---------- ---------- ----------
+gp156_human ---------- ---------- ------FFCR C--------- ----------
+gp158_human NV-------- ---------- ---------- ---------- ----------
+gp179_human HITQEKAPAA DTEEFTTEDG EKTSHELQSV CPWETTAPAD SVSHLDRQRP
+rai3_human  ---------- ---------- ---------- ---------- ----------
+gpc5b_human ---------- ---------- ---------- ---------- ----------
+gpc5c_human ---------- ---------- ---------- ---------- ----------
+gpc5d_human ---------- ---------- ---------- ---------- ----------
+gpc6a_human ---------- ---------- ---------- ---------- ----------
+
+            2501                                              2550
+casr_human  ---------- ---------- ---------- ---------- ----------
+gabr1_human ---------- ---------- ---------- ---------- ----------
+gabr2_human ---------- ---------- ---------- ---------- ----------
+grm1_human  ---------- ---------- ---------- ---------- ----------
+grm2_human  ---------- ---------- ---------- ---------- ----------
+grm3_human  ---------- ---------- ---------- ---------- ----------
+grm4_human  ---------- ---------- ---------- ---------- ----------
+grm5_human  ---------- ---------- ---------- ---------- ----------
+grm6_human  ---------- ---------- ---------- ---------- ----------
+grm7_human  ---------- ---------- ---------- ---------- ----------
+grm8_human  ---------- ---------- ---------- ---------- ----------
+ts1r1_human ---------- ---------- ---------- ---------- ----------
+ts1r2_human ---------- ---------- ---------- ---------- ----------
+ts1r3_human ---------- ---------- ---------- ---------- ----------
+gp156_human ---------- ---------- ---------- ---------- ----------
+gp158_human ---------- ---------- ---------- ---------- ----------
+gp179_human DQPKASSQRL VSTGGRAADV CPWDVPDAGV YKSDSSAKAE TCPWEVTERI
+rai3_human  ---------- ---------- ---------- ---------- ----------
+gpc5b_human ---------- ---------- ---------- ---------- ----------
+gpc5c_human ---------- ---------- ---------- ---------- ----------
+gpc5d_human ---------- ---------- ---------- ---------- ----------
+gpc6a_human ---------- ---------- ---------- ---------- ----------
+
+            2551                                              2600
+casr_human  ---------- ---------- ---------- ---------- ----------
+gabr1_human ---------- ---------- ---------- ---------- ----------
+gabr2_human ---------- ---------- ---------- ---------- ----------
+grm1_human  ---------- ---------- ---------- ---------- ----------
+grm2_human  ---------- ---------- ---------- ---------- ----------
+grm3_human  ---------- ---------- ---------- ---------- ----------
+grm4_human  ---------- ---------- ---------- ---------- ----------
+grm5_human  ---------- ---------- ---------- ---------- ----------
+grm6_human  ---------- ---------- ---------- ---------- ----------
+grm7_human  ---------- ---------- ---------- ---------- ----------
+grm8_human  ---------- ---------- ---------- ---------- ----------
+ts1r1_human ---------- ---------- ---------- ---------- ----------
+ts1r2_human ---------- ---------- ---------- ---------- ----------
+ts1r3_human ---------- ---------- ---------- ---------- ----------
+gp156_human ---------- ---------- ---------- ---------- ----------
+gp158_human ---------- ---------- ---------- ---------- ----------
+gp179_human PVKGVSRQDG KGDSQEEKGR APEKSEPKGV PVQKKPEMAD FRQQEAVCPW
+rai3_human  ---------- ---------- ---------- ---------- ----------
+gpc5b_human ---------- ---------- ---------- ---------- ----------
+gpc5c_human ---------- ---------- ---------- ---------- ----------
+gpc5d_human ---------- ---------- ---------- ---------- ----------
+gpc6a_human ---------- ---------- ---------- ---------- ----------
+
+            2601                                              2650
+casr_human  ---------- ---------- ---------- ---------- ----------
+gabr1_human ---------- ---------- ---------- ---------- ----------
+gabr2_human ---------- ---------- ---------- ---------- ---VSP----
+grm1_human  ---------- ---------- ---------- ---------- ---SKLT---
+grm2_human  ---------- ---------- ---------- ---------- ----------
+grm3_human  ---------- ---------- ---------- ---------- ----------
+grm4_human  ---------- ---------- ---------- ---------- ----------
+grm5_human  ---------- ---------- ---------- ---------- ---AKPD---
+grm6_human  ---------- ---------- ---------- ---------- ----------
+grm7_human  ---------- ---------- ---------- ---------- ----------
+grm8_human  ---------- ---------- ---------- ---------- ----------
+ts1r1_human ---------- ---------- ---------- ---------- ----------
+ts1r2_human ---------- ---------- ---------- ---------- ----------
+ts1r3_human ---------- ---------- ---------- ---------- ----------
+gp156_human ---------- ---------- ---------- ---------- ---HRPYC--
+gp158_human ---------- ---------- RGSYNSSNNF ---------- ---QQPLTSR
+gp179_human ESQDGKGLSP QPAPDASDRS RGSSEAAGSV ETRVAEVCLW EVVEAPSAKK
+rai3_human  ---------- ---------- ---------- ---------- ----------
+gpc5b_human ---------- ---------- ---------- ---------- ----------
+gpc5c_human ---------- ---------- ---------- ---------- ----------
+gpc5d_human ---------- ---------- ---------- ---------- ----------
+gpc6a_human ---------- ---------- ---------- ---------- ----------
+
+            2651                                              2700
+casr_human  ---------- ---------- -------QRP E-----VE-- --DPEELSPA
+gabr1_human ---------- ---------- ---------- ---------- --PRGPPEPP
+gabr2_human ---C------ ---------- ---------- --VSPTAS-- --PRHRHVPP
+grm1_human  --P------- ---------- ---------- -------D-- --DSPALTPP
+grm2_human  ---------- ---------- ---------- ---------- ----------
+grm3_human  ---------- ---------- ---------- ---------- ----------
+grm4_human  ---------- ---------- ---------- ---------- ----------
+grm5_human  --L------- ---------- ---------- -------E-- --ELVALTPP
+grm6_human  ---------- ---------- ---------- ---------- ----------
+grm7_human  ---------- ---------- ---------- ---------- ----------
+grm8_human  ---------- ---------- ---------- ---------- ----------
+ts1r1_human ---------- ---------- ---------- ---------- ----------
+ts1r2_human ---------- ---------- ---------- ---------- ----------
+ts1r3_human ---------- ---------- ---------- ---------- ----------
+gp156_human -EICFQSS-- ---------- ---------- SDSSDSGT-- --SDTDPEPT
+gp158_human AEVCPWE--- ---------- ---------- ---------- --FETPAQPN
+gp179_human AEICPWEAGG GAAEEGEQER ESQGQGEMFL QKAGPGGTEE HFSKAAAKPR
+rai3_human  ---------- ---------- ---------- ---------- ------PSPY
+gpc5b_human ---------- ---------- ---------- ---------- ------APPS
+gpc5c_human ---------- ---------- ---------- ---------- --SHQAATPP
+gpc5d_human ---------- ---------- ---------- ---------- -------SPQ
+gpc6a_human ---------- ---------- ---------- ---------- ----------
+
+            2701                                              2750
+casr_human  LVVSSS---- --QSFVISGG GSTV------ ---------- ----------
+gabr1_human D--------- -----RLSCD GSR------- ---------- ----------
+gabr2_human SF-------- -----RVMVS GL-------- ---------- ----------
+grm1_human  SPFRD----- -----SVASG SSV------- ---------- ----------
+grm2_human  ----E----- -----VVDST TSS------- ---------- ----------
+grm3_human  ----E----- -----VLDST TSS------- ---------- ----------
+grm4_human  SELCE----- -----NLEAP ALA------- ---------- ----------
+grm5_human  SPFRD----- -----SVDSG STT------- ---------- ----------
+grm6_human  ---------- ---------D AEA------- ---------- ----------
+grm7_human  TELCE----- -----NVDPN SPA------- ---------- ----------
+grm8_human  SELCE----- -----SLETN TSS------- ---------- ----------
+ts1r1_human ---------- ---------- ---------- ---------- ----------
+ts1r2_human ---------- ---------- ---------- ---------- ----------
+ts1r3_human ---------- ---------- ---------- ---------- ----------
+gp156_human GGLASW---- ---EKLWARS KPIV------ ---------- ----------
+gp158_human AGRSV----- -----ALPAS SAL------- ---------- ----------
+gp179_human EQEAVCPGEG TGSGGLLPQS GALDPELKVS PKEAGSMGSR MAELCQWEIT
+rai3_human  KDYE------ ------VKKE GS-------- ---------- ----------
+gpc5b_human HTGR------ ---------- -HL------- ---------- ----------
+gpc5c_human KDGKN----- ----SQVFRN PYV------- ---------- ----------
+gpc5d_human QD-------- ---------A GGV------- ---------- ----------
+gpc6a_human ---------- ---------- SSI------- ---------- ----------
+
+            2751                                              2800
+casr_human  --TENVVNS- ---------- ---------- ---------- ----------
+gabr1_human ---------- ---------- ---------- ---------- ----------
+gabr2_human ---------- ---------- ---------- ---------- ----------
+grm1_human  --PSSPVSES VLC------- ---------- ---------- ----------
+grm2_human  --L------- ---------- ---------- ---------- ----------
+grm3_human  --L------- ---------- ---------- ---------- ----------
+grm4_human  --TKQ----- ---------- ---------- ---------- ----------
+grm5_human  --PNSPVSES ALC------- ---------- ---------- ----------
+grm6_human  --HK------ ---------- ---------- ---------- ----------
+grm7_human  --AKK----- ---------- ---------- ---------- ----------
+grm8_human  --TKT----- ---------- ---------- ---------- ----------
+ts1r1_human ---------- ---------- ---------- ---------- ----------
+ts1r2_human ---------- ---------- ---------- ---------- ----------
+ts1r3_human ---------- ---------- ---------- ---------- ----------
+gp156_human -NFKDDLKPT LV-------- ---------- ---------- ----------
+gp158_human --SANKIAG- ---------- ---------- ---------- ----------
+gp179_human DPEGNKIKGT MADICPGEET GVPSEESGLL ALTATRREFF PTAPEKPLCL
+rai3_human  ---------- ---------- ---------- ---------- ----------
+gpc5b_human --W------- ---------- ---------- ---------- ----------
+gpc5c_human --WD------ ---------- ---------- ---------- ----------
+gpc5d_human ---------- ---------- ---------- ---------- ----------
+gpc6a_human ---------- ---------- ---------- ---------- ----------
+
+            2801                                              2850
+casr_human  ---------- ---------- ---------- ---------- ----------
+gabr1_human ---------- ---------V HLLYK----- ---------- ----------
+gabr2_human ---------- ---------- ---------- ---------- ----------
+grm1_human  ---------- -------TPP NVSYASVILR DY-------- ----------
+grm2_human  ---------- ---------- ---------- ---------- ----------
+grm3_human  ---------- ---------- ---------- ---------- ----------
+grm4_human  ---------- ---------T YVTYTNHAI- ---------- ----------
+grm5_human  ---------- -------IPS SPKYDTLIIR DY-------- ----------
+grm6_human  ---------- ---------- ---------- ---------- ----------
+grm7_human  ---------- ---------K YVSYNNLVI- ---------- ----------
+grm8_human  ---------- ---------T YISYSNHSI- ---------- ----------
+ts1r1_human ---------- ---------- ---------- ---------- ----------
+ts1r2_human ---------- ---------- ---------- ---------- ----------
+ts1r3_human ---------- ---------- ---------- ---------- ----------
+gp156_human ---------- ---------- ---------- ---------- ----------
+gp158_human ---------- -------PRK EEIWDSFKV- ---------- ----------
+gp179_human LVHGPLDHFF PESKIPCPKV SRPASTFTLE GVRELQGPSG LEPRTSLAPE
+rai3_human  ---------- ---------- ---------- ---------- ----------
+gpc5b_human ---------- ---------- ---------- ---------- ----------
+gpc5c_human ---------- ---------- ---------- ---------- ----------
+gpc5d_human ---------- ---------- ---------- ---------- ----------
+gpc6a_human ---------- ---------- ---------- ---------- ----------
+
+            2851                                   2890
+casr_human  ---------- ---------- ---------- ---------- 
+gabr1_human ---------- ---------- ---------- ---------- 
+gabr2_human ---------- ---------- ---------- ---------- 
+grm1_human  -------KQS SST------- ---------- ---------L 
+grm2_human  ---------- ---------- ---------- ---------- 
+grm3_human  ---------- ---------- ---------- ---------- 
+grm4_human  ---------- ---------- ---------- ---------- 
+grm5_human  -------TQS SSS------- ---------- ---------L 
+grm6_human  ---------- ---------- ---------- ---------- 
+grm7_human  ---------- ---------- ---------- ---------- 
+grm8_human  ---------- ---------- ---------- ---------- 
+ts1r1_human ---------- ---------- ---------- ---------- 
+ts1r2_human ---------- ---------- ---------- ---------- 
+ts1r3_human ---------- ---------- ---------- ---------- 
+gp156_human ---------- ---------- ---------- ---------- 
+gp158_human ---------- ---------- ---------- ---------- 
+gp179_human PSLQEAESQS SSLTEDSGQV AFEAQYEEFT PPTVYPWDWE 
+rai3_human  ---------- ---------- ---------- ---------- 
+gpc5b_human ---------- ---------- ---------- ---------- 
+gpc5c_human ---------- ---------- ---------- ---------- 
+gpc5d_human ---------- ---------- ---------- ---------- 
+gpc6a_human ---------- ---------- ---------- ---------- 
+
