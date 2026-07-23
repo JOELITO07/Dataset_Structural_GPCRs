@@ -1,0 +1,102 @@
+/home/azureuser/FoldMason_results/classA_001_19 exists and will be overwritten
+easy-msa /home/azureuser/Dataset_Structural_GPCRs/GPCRdb/alphafold_pdb/classA_001_19/5ht1a_human.pdb /home/azureuser/Dataset_Structural_GPCRs/GPCRdb/alphafold_pdb/classA_001_19/5ht1b_human.pdb /home/azureuser/Dataset_Structural_GPCRs/GPCRdb/alphafold_pdb/classA_001_19/5ht1d_human.pdb /home/azureuser/Dataset_Structural_GPCRs/GPCRdb/alphafold_pdb/classA_001_19/5ht1e_human.pdb /home/azureuser/Dataset_Structural_GPCRs/GPCRdb/alphafold_pdb/classA_001_19/5ht1f_human.pdb /home/azureuser/Dataset_Structural_GPCRs/GPCRdb/alphafold_pdb/classA_001_19/5ht2a_human.pdb /home/azureuser/Dataset_Structural_GPCRs/GPCRdb/alphafold_pdb/classA_001_19/5ht2b_human.pdb /home/azureuser/Dataset_Structural_GPCRs/GPCRdb/alphafold_pdb/classA_001_19/5ht2c_human.pdb /home/azureuser/Dataset_Structural_GPCRs/GPCRdb/alphafold_pdb/classA_001_19/5ht4r_human.pdb /home/azureuser/Dataset_Structural_GPCRs/GPCRdb/alphafold_pdb/classA_001_19/5ht5a_human.pdb /home/azureuser/Dataset_Structural_GPCRs/GPCRdb/alphafold_pdb/classA_001_19/5ht6r_human.pdb /home/azureuser/Dataset_Structural_GPCRs/GPCRdb/alphafold_pdb/classA_001_19/5ht7r_human.pdb /home/azureuser/Dataset_Structural_GPCRs/GPCRdb/alphafold_pdb/classA_001_19/acm1_human.pdb /home/azureuser/Dataset_Structural_GPCRs/GPCRdb/alphafold_pdb/classA_001_19/acm2_human.pdb /home/azureuser/Dataset_Structural_GPCRs/GPCRdb/alphafold_pdb/classA_001_19/acm3_human.pdb /home/azureuser/Dataset_Structural_GPCRs/GPCRdb/alphafold_pdb/classA_001_19/acm4_human.pdb /home/azureuser/Dataset_Structural_GPCRs/GPCRdb/alphafold_pdb/classA_001_19/acm5_human.pdb /home/azureuser/Dataset_Structural_GPCRs/GPCRdb/alphafold_pdb/classA_001_19/ada1a_human.pdb /home/azureuser/Dataset_Structural_GPCRs/GPCRdb/alphafold_pdb/classA_001_19/drd2_human.pdb /home/azureuser/FoldMason_results/classA_001_19 /home/azureuser/FoldMason_results/classA_001_19/tmp --report-mode 1 
+
+MMseqs Version:                      	4bd8b8d8c20d439b52ff8a3fccc50a3aba2be286
+Use GPU                              	0
+Path to ProstT5                      	
+Chain name mode                      	0
+Model name mode                      	0
+Createdb extraction mode             	0
+Interface distance threshold         	8
+Write mapping file                   	0
+Mask b-factor threshold              	0
+Coord store mode                     	2
+Write lookup file                    	1
+Input format                         	0
+File Inclusion Regex                 	.*
+File Exclusion Regex                 	^$
+Threads                              	4
+Verbosity                            	3
+Global sequence weighting            	true
+Match ratio                          	0.9
+Filter MSA                           	1
+Select N most diverse seqs           	5
+Minimum score per column             	-20
+Gap open cost                        	aa:25,nucl:25
+Gap extension cost                   	aa:2,nucl:2
+Mask profile                         	1
+Pseudo count mode                    	0
+Input Newick guide tree              	
+Recompute scores                     	false
+Substitution matrix                  	aa:3di.out,nucl:3di.out
+Max sequence length                  	65535
+Total refinement iterations          	0
+AA matrix bit factor                 	1.1
+3Di matrix bit factor                	2.1
+LDDT pair threshold                  	0
+Fast mode, disable neighbor score    	false
+Compositional bias                   	1
+Random number generator seed         	-1
+Normalise LDDT by no. scoring columns	false
+PSSM score bias                      	-0.6
+Neighborhood score decay constant    	3.84098
+Neighborhood score multiplier        	13
+Neighborhood angstrom cutoff         	45
+Neighborhood score low pass threshold	0.02
+All-vs-all SW gap open cost          	9
+All-vs-all SW gap extension cost     	8
+                                     	
+                                     	true
+Pre-cluster structures               	false
+Report mode                          	1
+
+createdb /home/azureuser/Dataset_Structural_GPCRs/GPCRdb/alphafold_pdb/classA_001_19/5ht1a_human.pdb /home/azureuser/Dataset_Structural_GPCRs/GPCRdb/alphafold_pdb/classA_001_19/5ht1b_human.pdb /home/azureuser/Dataset_Structural_GPCRs/GPCRdb/alphafold_pdb/classA_001_19/5ht1d_human.pdb /home/azureuser/Dataset_Structural_GPCRs/GPCRdb/alphafold_pdb/classA_001_19/5ht1e_human.pdb /home/azureuser/Dataset_Structural_GPCRs/GPCRdb/alphafold_pdb/classA_001_19/5ht1f_human.pdb /home/azureuser/Dataset_Structural_GPCRs/GPCRdb/alphafold_pdb/classA_001_19/5ht2a_human.pdb /home/azureuser/Dataset_Structural_GPCRs/GPCRdb/alphafold_pdb/classA_001_19/5ht2b_human.pdb /home/azureuser/Dataset_Structural_GPCRs/GPCRdb/alphafold_pdb/classA_001_19/5ht2c_human.pdb /home/azureuser/Dataset_Structural_GPCRs/GPCRdb/alphafold_pdb/classA_001_19/5ht4r_human.pdb /home/azureuser/Dataset_Structural_GPCRs/GPCRdb/alphafold_pdb/classA_001_19/5ht5a_human.pdb /home/azureuser/Dataset_Structural_GPCRs/GPCRdb/alphafold_pdb/classA_001_19/5ht6r_human.pdb /home/azureuser/Dataset_Structural_GPCRs/GPCRdb/alphafold_pdb/classA_001_19/5ht7r_human.pdb /home/azureuser/Dataset_Structural_GPCRs/GPCRdb/alphafold_pdb/classA_001_19/acm1_human.pdb /home/azureuser/Dataset_Structural_GPCRs/GPCRdb/alphafold_pdb/classA_001_19/acm2_human.pdb /home/azureuser/Dataset_Structural_GPCRs/GPCRdb/alphafold_pdb/classA_001_19/acm3_human.pdb /home/azureuser/Dataset_Structural_GPCRs/GPCRdb/alphafold_pdb/classA_001_19/acm4_human.pdb /home/azureuser/Dataset_Structural_GPCRs/GPCRdb/alphafold_pdb/classA_001_19/acm5_human.pdb /home/azureuser/Dataset_Structural_GPCRs/GPCRdb/alphafold_pdb/classA_001_19/ada1a_human.pdb /home/azureuser/Dataset_Structural_GPCRs/GPCRdb/alphafold_pdb/classA_001_19/drd2_human.pdb /home/azureuser/FoldMason_results/classA_001_19/tmp/15306149418048068390/structures --gpu 0 --chain-name-mode 0 --model-name-mode 0 --db-extraction-mode 0 --distance-threshold 8 --write-mapping 0 --mask-bfactor-threshold 0 --coord-store-mode 2 --write-lookup 1 --input-format 0 --file-include '.*' --file-exclude '^$' --threads 4 -v 3 
+
+Output file: /home/azureuser/FoldMason_results/classA_001_19/tmp/15306149418048068390/structures
+[=================================================================] 19 0s 104ms
+Time for merging to structures_ss: 0h 0m 0s 0ms
+Time for merging to structures_h: 0h 0m 0s 0ms
+Time for merging to structures_ca: 0h 0m 0s 0ms
+Time for merging to structures: 0h 0m 0s 0ms
+Ignore 0 out of 19.
+Too short: 0, incorrect: 0, not proteins: 0.
+Time for processing: 0h 0m 0s 141ms
+/home/azureuser/FoldMason_results/classA_001_19 exists and will be overwritten
+structuremsa /home/azureuser/FoldMason_results/classA_001_19/tmp/15306149418048068390/structures /home/azureuser/FoldMason_results/classA_001_19 --wg 1 --match-ratio 0.9 --score-bias 4.6 --filter-msa 1 --diff 5 --qsc -20 --gap-open aa:25,nucl:25 --gap-extend aa:2,nucl:2 --mask-profile 1 --pseudo-cnt-mode 0 --pca substitution:1.100,context:1.400 --pcb substitution:4.100,context:5.800 --recompute-scores 0 --sub-mat 'aa:3di.out,nucl:3di.out' --threads 4 --max-seq-len 65535 --refine-iters 0 --bitfactor-aa 1.1 --bitfactor-3di 2.1 --pair-threshold 0 --fast 0 --comp-bias-corr 1 -v 3 --refine-seed -1 --only-scoring-cols 0 --score-bias-pssm -0.6 --nb-sigma 3.84098 --nb-multiplier 13 --nb-ang-cut 45 --nb-low-cut 0.02 --sw-gap-open 9 --sw-gap-extend 8 
+
+Got databases
+Got substitution matrices
+Initialised MSAs, Sequence objects
+Set up tiny substitution matrices
+Performing initial all vs all alignments
+Generating guide tree
+Optimising merge order
+Writing guide tree to: /home/azureuser/FoldMason_results/classA_001_19.nw
+Begin progressive alignment
+Time for merging to classA_001_19_aa.fa: 0h 0m 0s 0ms
+Time for merging to classA_001_19_3di.fa: 0h 0m 0s 0ms
+Time for processing: 0h 0m 3s 683ms
+msa2lddtreport /home/azureuser/FoldMason_results/classA_001_19/tmp/15306149418048068390/structures /home/azureuser/FoldMason_results/classA_001_19_aa.fa /home/azureuser/FoldMason_results/classA_001_19.html --guide-tree /home/azureuser/FoldMason_results/classA_001_19.nw --pair-threshold 0 --threads 4 -v 3 --report-command '--match-ratio 0.9 --filter-msa 1 --gap-open aa:25,nucl:25 --gap-extend aa:2,nucl:2 --report-mode 1 ' --report-paths 1 --only-scoring-cols 0 
+
+Average MSA LDDT: 0.550373
+Columns considered: 762/762
+Column scores: 0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.134425,0.135189,0.146392,0.187659,0.194226,0.199275,0.157009,0.000000,0.000000,0.000000,0.171351,0.175490,0.174962,0.233887,0.242828,0.250180,0.258089,0.260038,0.428958,0.481669,0.479287,0.471117,0.467733,0.441524,0.437294,0.431447,0.439357,0.469678,0.465551,0.453105,0.458007,0.437363,0.404994,0.292766,0.290323,0.295667,0.279295,0.268183,0.269056,0.269716,0.275648,0.260440,0.264268,0.274550,0.269944,0.290033,0.330803,0.504390,0.528987,0.581523,0.643086,0.675631,0.687888,0.703899,0.756358,0.759638,0.765444,0.760121,0.743918,0.738573,0.738169,0.703481,0.672131,0.662372,0.588395,0.542924,0.489885,0.427647,0.373527,0.333203,0.332380,0.321687,0.277598,0.275803,0.401393,0.418398,0.430321,0.495371,0.562318,0.600433,0.751465,0.779444,0.792230,0.795190,0.809587,0.864783,0.888089,0.875473,0.902632,0.929489,0.936353,0.942209,0.953509,0.960457,0.964817,0.975004,0.970309,0.963443,0.976609,0.978045,0.963790,0.968558,0.978546,0.966809,0.946880,0.962422,0.965274,0.931657,0.923287,0.932811,0.907716,0.869673,0.872774,0.864869,0.855400,0.894885,0.000000,0.874821,0.855684,0.875506,0.875389,0.930671,0.948306,0.952738,0.956044,0.963128,0.961676,0.970640,0.978523,0.975139,0.976136,0.979409,0.979064,0.969084,0.969523,0.967226,0.954606,0.932043,0.950457,0.951180,0.947234,0.946190,0.937859,0.925058,0.906041,0.892107,0.854209,0.843610,0.806392,0.411023,0.760987,0.834618,0.872837,0.862326,0.893824,0.839214,0.815146,0.841611,0.895034,0.873038,0.846882,0.890883,0.923079,0.895363,0.891189,0.935087,0.938338,0.907223,0.931171,0.948979,0.935132,0.934953,0.950119,0.952183,0.943204,0.941889,0.960276,0.961872,0.945775,0.938479,0.944149,0.939939,0.923983,0.926022,0.926648,0.920904,0.914721,0.904805,0.186507,0.852394,0.873802,0.880640,0.838248,0.838719,0.886231,0.769572,0.652913,0.715475,0.796015,0.835937,0.885344,0.885109,0.894272,0.915475,0.913902,0.922353,0.945461,0.953376,0.945833,0.970298,0.973609,0.965106,0.954798,0.964687,0.962334,0.934798,0.930578,0.932176,0.893079,0.836969,0.849871,0.795351,0.753499,0.702168,0.713872,0.183040,0.185088,0.183418,0.186669,0.186290,0.183348,0.181275,0.000000,0.000000,0.000000,0.561906,0.602862,0.627077,0.582281,0.613223,0.580511,0.550392,0.552649,0.538651,0.524362,0.566300,0.619840,0.682499,0.698911,0.767494,0.791585,0.831803,0.788980,0.752380,0.621653,0.438791,0.592338,0.650675,0.726006,0.783440,0.805071,0.796650,0.818909,0.848237,0.849387,0.847905,0.900869,0.923187,0.883127,0.890849,0.937819,0.956638,0.944270,0.930126,0.951473,0.964201,0.948164,0.947048,0.962009,0.963600,0.953878,0.954264,0.958628,0.949524,0.930430,0.927530,0.920492,0.897831,0.881175,0.856102,0.811823,0.778177,0.726937,0.721620,0.691983,0.626565,0.626320,0.596822,0.489130,0.459823,0.487173,0.427658,0.444282,0.472333,0.510894,0.519242,0.515613,0.546391,0.551941,0.543012,0.537378,0.551559,0.529418,0.506218,0.523178,0.498842,0.495297,0.482346,0.457952,0.436974,0.403533,0.309352,0.165680,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.238282,0.307235,0.317751,0.328236,0.332808,0.342553,0.342774,0.343488,0.346216,0.345216,0.345886,0.343133,0.343840,0.343840,0.423271,0.443341,0.455354,0.477799,0.489511,0.494028,0.487141,0.492290,0.478000,0.471795,0.465479,0.442085,0.464953,0.474707,0.480530,0.476138,0.491493,0.496870,0.498502,0.476976,0.483669,0.455330,0.442721,0.368172,0.363240,0.348300,0.336800,0.302727,0.278542,0.182107,0.327202,0.323500,0.303372,0.331449,0.320751,0.325022,0.337627,0.358339,0.344114,0.364032,0.391441,0.396115,0.410183,0.416891,0.420768,0.407224,0.409911,0.411733,0.373275,0.367724,0.156675,0.159409,0.159393,0.165554,0.167106,0.162257,0.171582,0.172361,0.232274,0.235796,0.382485,0.367860,0.421707,0.483004,0.531564,0.570000,0.598041,0.604770,0.610558,0.622962,0.608039,0.609031,0.594110,0.561969,0.532457,0.454680,0.454392,0.462664,0.483734,0.490745,0.494153,0.505131,0.504462,0.499160,0.498463,0.491689,0.469477,0.470838,0.468387,0.467532,0.474529,0.474787,0.472968,0.471910,0.547840,0.560251,0.572066,0.562773,0.556131,0.504327,0.490272,0.476840,0.398593,0.400929,0.399940,0.396763,0.394359,0.402892,0.390864,0.418479,0.425766,0.392777,0.304522,0.281559,0.249276,0.405346,0.464142,0.472463,0.501211,0.498882,0.498542,0.484889,0.514475,0.525841,0.532679,0.567867,0.568383,0.569494,0.572426,0.578417,0.563653,0.586471,0.590369,0.594033,0.576675,0.518245,0.497471,0.473622,0.444956,0.403194,0.360589,0.339072,0.327408,0.279564,0.254564,0.245425,0.251030,0.274292,0.305572,0.300804,0.310723,0.302579,0.328324,0.443727,0.491293,0.531202,0.572803,0.549214,0.526735,0.514184,0.526496,0.521581,0.498039,0.444216,0.362242,0.339925,0.332963,0.325739,0.182532,0.176503,0.302450,0.443265,0.472053,0.468936,0.579664,0.654334,0.692075,0.699224,0.759545,0.783855,0.793220,0.834567,0.870206,0.869161,0.882524,0.914807,0.919864,0.916992,0.928964,0.940617,0.931378,0.942612,0.956072,0.962503,0.954534,0.959820,0.969884,0.969918,0.965367,0.974179,0.978822,0.974222,0.972256,0.965698,0.939720,0.927547,0.928189,0.894690,0.853778,0.853548,0.855281,0.832024,0.769569,0.783820,0.657738,0.560840,0.550861,0.584839,0.684655,0.348750,0.376503,0.702318,0.767181,0.779903,0.786623,0.821094,0.878259,0.869075,0.887508,0.922729,0.961222,0.949440,0.957052,0.969742,0.975505,0.971661,0.968556,0.975816,0.978487,0.964791,0.969287,0.960985,0.948546,0.963523,0.965487,0.946925,0.934071,0.941409,0.925624,0.920261,0.900813,0.893425,0.932256,0.929435,0.892568,0.877140,0.885483,0.871827,0.836134,0.844331,0.848378,0.847947,0.809670,0.715970,0.634371,0.610212,0.545562,0.470254,0.477974,0.471901,0.452377,0.441248,0.399504,0.414536,0.421863,0.409639,0.408685,0.410661,0.425177,0.434910,0.435274,0.448527,0.478330,0.482415,0.470614,0.483337,0.473315,0.488140,0.466631,0.451194,0.447445,0.421895,0.396715,0.412105,0.402774,0.418088,0.430451,0.441251,0.456805,0.482280,0.492107,0.486344,0.457162,0.461655,0.466447,0.464766,0.463879,0.452245,0.443389,0.424028,0.395158,0.332793,0.321595,0.296848,0.206980,0.207742,0.205131,0.214016,0.211045,0.307084,0.363772,0.388727,0.374058,0.388387,0.297876,0.282733,0.000000,0.000000,0.000000,0.000000,0.270819,0.338751,0.365323,0.376112,0.391895,0.398539,0.429149,0.417095,0.432244,0.404052,0.438503,0.424834,0.416822,0.439761,0.426445,0.430326,0.435379,0.420673,0.411951,0.398816,0.348784,0.165680,0.168972,0.167495,0.175119,0.171120,0.162978,0.177121,0.172308,0.187241,0.175860,0.175302,0.203460,0.196677,0.206305,0.202682,0.220730,0.223684,0.205955,0.228148,0.221361,0.222832,0.219441,0.181783,0.183181,0.178007,0.182573,0.182166,0.177681,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000
+Generating report
+Time for merging to classA_001_19.html: 0h 0m 0s 8ms
+Report command: --match-ratio 0.9 --filter-msa 1 --gap-open aa:25,nucl:25 --gap-extend aa:2,nucl:2 --report-mode 1 
+Time for processing: 0h 0m 0s 423ms
+rmdb /home/azureuser/FoldMason_results/classA_001_19/tmp/15306149418048068390/result -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /home/azureuser/FoldMason_results/classA_001_19/tmp/15306149418048068390/query -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /home/azureuser/FoldMason_results/classA_001_19/tmp/15306149418048068390/query_h -v 3 
+
+Time for processing: 0h 0m 0s 2ms
+rmdb /home/azureuser/FoldMason_results/classA_001_19/tmp/15306149418048068390/query_ca -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /home/azureuser/FoldMason_results/classA_001_19/tmp/15306149418048068390/query_ss -v 3 
+
+Time for processing: 0h 0m 0s 0ms
