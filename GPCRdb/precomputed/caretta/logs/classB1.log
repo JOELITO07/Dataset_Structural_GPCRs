@@ -1,0 +1,84 @@
+============================================================
+Dataset:             classB1
+Entrada:             /home/azureuser/Dataset_Structural_GPCRs/GPCRdb/alphafold_pdb/classB1
+Salida:              /home/azureuser/results/caretta/classB1
+N�mero de PDB:       15
+Hilos Caretta:       4
+Modo r�pido:         0
+Inicio:              2026-07-22 22:44:07
+============================================================
+@> 3749 atoms and 1 coordinate set(s) were parsed in 0.05s.
+@> 3749 atoms and 1 coordinate set(s) were parsed in 0.04s.
+@> 3534 atoms and 1 coordinate set(s) were parsed in 0.05s.
+@> 3534 atoms and 1 coordinate set(s) were parsed in 0.04s.
+@> 4386 atoms and 1 coordinate set(s) were parsed in 0.06s.
+@> 4386 atoms and 1 coordinate set(s) were parsed in 0.05s.
+@> 4677 atoms and 1 coordinate set(s) were parsed in 0.06s.
+@> 4677 atoms and 1 coordinate set(s) were parsed in 0.05s.
+@> 3733 atoms and 1 coordinate set(s) were parsed in 0.05s.
+@> 3733 atoms and 1 coordinate set(s) were parsed in 0.04s.
+@> 3738 atoms and 1 coordinate set(s) were parsed in 0.05s.
+@> 3738 atoms and 1 coordinate set(s) were parsed in 0.04s.
+@> 3904 atoms and 1 coordinate set(s) were parsed in 0.05s.
+@> 3904 atoms and 1 coordinate set(s) were parsed in 0.05s.
+@> 3367 atoms and 1 coordinate set(s) were parsed in 0.05s.
+@> 3367 atoms and 1 coordinate set(s) were parsed in 0.04s.
+@> 3814 atoms and 1 coordinate set(s) were parsed in 0.05s.
+@> 3814 atoms and 1 coordinate set(s) were parsed in 0.05s.
+@> 3633 atoms and 1 coordinate set(s) were parsed in 0.05s.
+@> 3633 atoms and 1 coordinate set(s) were parsed in 0.04s.
+@> 3366 atoms and 1 coordinate set(s) were parsed in 0.05s.
+@> 3366 atoms and 1 coordinate set(s) were parsed in 0.04s.
+@> 4443 atoms and 1 coordinate set(s) were parsed in 0.06s.
+@> 4443 atoms and 1 coordinate set(s) were parsed in 0.05s.
+@> 3754 atoms and 1 coordinate set(s) were parsed in 0.05s.
+@> 3754 atoms and 1 coordinate set(s) were parsed in 0.04s.
+@> 3346 atoms and 1 coordinate set(s) were parsed in 0.04s.
+@> 3346 atoms and 1 coordinate set(s) were parsed in 0.04s.
+@> 3482 atoms and 1 coordinate set(s) were parsed in 0.05s.
+@> 3482 atoms and 1 coordinate set(s) were parsed in 0.04s.
+Found 15 structure files
+Found 15 protein structures
+  0%|          | 0/15 [00:00<?, ?it/s]@> 3366 atoms and 1 coordinate set(s) were parsed in 0.08s.
+@> 3738 atoms and 1 coordinate set(s) were parsed in 0.10s.
+@> 3633 atoms and 1 coordinate set(s) were parsed in 0.19s.
+@> 4677 atoms and 1 coordinate set(s) were parsed in 0.20s.
+  7%|▋         | 1/15 [00:24<05:40, 24.32s/it]@> 3904 atoms and 1 coordinate set(s) were parsed in 0.09s.
+ 13%|█▎        | 2/15 [00:24<02:12, 10.16s/it]@> 3754 atoms and 1 coordinate set(s) were parsed in 0.10s.
+@> 3346 atoms and 1 coordinate set(s) were parsed in 0.07s.
+ 20%|██        | 3/15 [00:25<01:10,  5.88s/it]@> 3749 atoms and 1 coordinate set(s) were parsed in 0.10s.
+@> 3814 atoms and 1 coordinate set(s) were parsed in 0.11s.
+ 27%|██▋       | 4/15 [00:25<00:41,  3.76s/it]@> 3534 atoms and 1 coordinate set(s) were parsed in 0.13s.
+@> 3733 atoms and 1 coordinate set(s) were parsed in 0.09s.
+ 53%|█████▎    | 8/15 [00:26<00:08,  1.21s/it]@> 3367 atoms and 1 coordinate set(s) were parsed in 0.08s.
+@> 4443 atoms and 1 coordinate set(s) were parsed in 0.17s.
+ 67%|██████▋   | 10/15 [00:26<00:04,  1.11it/s]@> 3482 atoms and 1 coordinate set(s) were parsed in 0.13s.
+ 80%|████████  | 12/15 [00:26<00:01,  1.58it/s]@> 4386 atoms and 1 coordinate set(s) were parsed in 0.11s.
+ 87%|████████▋ | 13/15 [00:27<00:01,  1.75it/s] 93%|█████████▎| 14/15 [00:27<00:00,  1.99it/s]100%|██████████| 15/15 [00:27<00:00,  1.83s/it]
+Computed invariants in 27.52 seconds
+Found 15 structures with valid invariants
+  0%|          | 0/14 [00:00<?, ?it/s]  7%|▋         | 1/14 [00:13<02:54, 13.42s/it] 14%|█▍        | 2/14 [00:16<01:28,  7.38s/it] 21%|██▏       | 3/14 [00:19<01:00,  5.49s/it] 29%|██▊       | 4/14 [00:23<00:48,  4.83s/it] 36%|███▌      | 5/14 [00:26<00:36,  4.09s/it] 43%|████▎     | 6/14 [00:28<00:28,  3.53s/it] 50%|█████     | 7/14 [00:30<00:21,  3.03s/it] 57%|█████▋    | 8/14 [00:32<00:16,  2.68s/it] 64%|██████▍   | 9/14 [00:34<00:11,  2.37s/it] 71%|███████▏  | 10/14 [00:35<00:08,  2.05s/it] 79%|███████▊  | 11/14 [00:36<00:05,  1.77s/it] 86%|████████▌ | 12/14 [00:37<00:02,  1.47s/it] 93%|█████████▎| 13/14 [00:38<00:01,  1.24s/it]100%|██████████| 14/14 [00:38<00:00,  1.05it/s]100%|██████████| 14/14 [00:38<00:00,  2.77s/it]
+Writing guide tree distance matrix...
+Aligning:   0%|          | 0/13 [00:00<?, ?it/s]Aligning:   8%|▊         | 1/13 [00:02<00:35,  2.93s/it]Aligning:  15%|█▌        | 2/13 [00:03<00:18,  1.65s/it]Aligning:  23%|██▎       | 3/13 [00:04<00:10,  1.10s/it]Aligning:  31%|███       | 4/13 [00:04<00:07,  1.19it/s]Aligning:  38%|███▊      | 5/13 [00:05<00:05,  1.38it/s]Aligning:  46%|████▌     | 6/13 [00:05<00:04,  1.55it/s]Aligning:  54%|█████▍    | 7/13 [00:06<00:03,  1.65it/s]Aligning:  62%|██████▏   | 8/13 [00:06<00:03,  1.65it/s]Aligning:  69%|██████▉   | 9/13 [00:07<00:02,  1.57it/s]Aligning:  77%|███████▋  | 10/13 [00:08<00:02,  1.17it/s]Aligning:  85%|████████▍ | 11/13 [00:10<00:02,  1.03s/it]Aligning:  92%|█████████▏| 12/13 [00:11<00:01,  1.11s/it]Aligning: 100%|██████████| 13/13 [00:12<00:00,  1.13s/it]Aligning: 100%|██████████| 13/13 [00:12<00:00,  1.03it/s]
+Writing files...
+FASTA file: /home/azureuser/results/caretta/classB1/result.fasta
+334 core positions in alignment of length 661
+@> 4677 atoms and 1 coordinate set(s) were parsed in 0.16s.
+@> 3749 atoms and 1 coordinate set(s) were parsed in 0.16s.
+@> 3367 atoms and 1 coordinate set(s) were parsed in 0.08s.
+@> 3904 atoms and 1 coordinate set(s) were parsed in 0.08s.
+@> 3733 atoms and 1 coordinate set(s) were parsed in 0.08s.
+@> 4677 atoms and 1 coordinate set(s) were parsed in 0.21s.
+@> 4386 atoms and 1 coordinate set(s) were parsed in 0.10s.
+@> 3534 atoms and 1 coordinate set(s) were parsed in 0.07s.
+@> 3738 atoms and 1 coordinate set(s) were parsed in 0.16s.
+@> 3633 atoms and 1 coordinate set(s) were parsed in 0.12s.
+@> 3754 atoms and 1 coordinate set(s) were parsed in 0.08s.
+@> 3814 atoms and 1 coordinate set(s) were parsed in 0.10s.
+@> 3346 atoms and 1 coordinate set(s) were parsed in 0.15s.
+@> 3482 atoms and 1 coordinate set(s) were parsed in 0.07s.
+@> 3366 atoms and 1 coordinate set(s) were parsed in 0.13s.
+@> 4443 atoms and 1 coordinate set(s) were parsed in 0.13s.
+Superposed PDB files: /home/azureuser/results/caretta/classB1/result_pdb
+  0%|          | 0/14 [00:00<?, ?it/s]100%|██████████| 14/14 [00:00<00:00, 325.13it/s]
+Distance matrix files in: /home/azureuser/results/caretta/classB1/result_matrix

@@ -1,0 +1,23 @@
+nohup: ignoring input
+============================================================
+Ejecución paralela de Caretta
+Entrada:            /home/azureuser/Dataset_Structural_GPCRs/GPCRdb/alphafold_pdb
+Salida:             /home/azureuser/results/caretta
+Datasets paralelos: 1
+Hilos por dataset:  4
+Inicio:             2026-07-22 23:04:59
+============================================================
+[2026-07-22 23:04:59] Preparando: classC
+[2026-07-22 23:11:32] COMPLETADO: classC
+[2026-07-22 23:11:33] Preparando: classC_19
+[2026-07-22 23:17:15] COMPLETADO: classC_19
+
+============================================================
+Ejecución terminada
+Completados: 0
+Fallidos:    2
+Omitidos:    0
+Resumen:     /home/azureuser/results/caretta/caretta_execution_summary.tsv
+Logs:        /home/azureuser/results/caretta/logs
+Fin:         2026-07-22 23:17:15
+============================================================

@@ -1,0 +1,40 @@
+
+[0;37;1;41m      MUSTANG (v3.2.4): A MUltiple STuructural AligNment alGorithm.        [0;0m
+[1;33;4;1;46m Authors:     [0;1;37;4;1;46m    A S Konagurthu,  J Whisstock, and P J Stuckey, A M Lesk. [0m
+[0;33;4;1;46m Reference:   [0;37;4;1;46m    A S Konagurthu et al. Proteins 64(3):559-574, 2006       [0m
+[0m
+
+Parsing the PDB file: [35mcalcr_human.pdb[0m  (...contains [1m 474[0m residues.)  [ [32;4mOK[0m ]
+Parsing the PDB file: [35mcalrl_human.pdb[0m  (...contains [1m 461[0m residues.)  [ [32;4mOK[0m ]
+Parsing the PDB file: [35mcrfr1_human.pdb[0m  (...contains [1m 415[0m residues.)  [ [32;4mOK[0m ]
+Parsing the PDB file: [35mcrfr2_human.pdb[0m  (...contains [1m 411[0m residues.)  [ [32;4mOK[0m ]
+Parsing the PDB file: [35mghrhr_human.pdb[0m  (...contains [1m 423[0m residues.)  [ [32;4mOK[0m ]
+Parsing the PDB file: [35m gipr_human.pdb[0m  (...contains [1m 466[0m residues.)  [ [32;4mOK[0m ]
+Parsing the PDB file: [35mglp1r_human.pdb[0m  (...contains [1m 463[0m residues.)  [ [32;4mOK[0m ]
+Parsing the PDB file: [35mglp2r_human.pdb[0m  (...contains [1m 553[0m residues.)  [ [32;4mOK[0m ]
+Parsing the PDB file: [35m  glr_human.pdb[0m  (...contains [1m 477[0m residues.)  [ [32;4mOK[0m ]
+Parsing the PDB file: [35m pacr_human.pdb[0m  (...contains [1m 468[0m residues.)  [ [32;4mOK[0m ]
+Parsing the PDB file: [35mpth1r_human.pdb[0m  (...contains [1m 593[0m residues.)  [ [32;4mOK[0m ]
+Parsing the PDB file: [35mpth2r_human.pdb[0m  (...contains [1m 550[0m residues.)  [ [32;4mOK[0m ]
+Parsing the PDB file: [35m sctr_human.pdb[0m  (...contains [1m 440[0m residues.)  [ [32;4mOK[0m ]
+Parsing the PDB file: [35mvipr1_human.pdb[0m  (...contains [1m 457[0m residues.)  [ [32;4mOK[0m ]
+Parsing the PDB file: [35mvipr2_human.pdb[0m  (...contains [1m 438[0m residues.)  [ [32;4mOK[0m ]
+Calculating Distance Matrices...                                     [ [32;4mOK[0m ]
+Pairwise Comparisons:            1 of      105       2 of      105       3 of      105       4 of      105       5 of      105       6 of      105       7 of      105       8 of      105       9 of      105      10 of      105      11 of      105      12 of      105      13 of      105      14 of      105      15 of      105      16 of      105      17 of      105      18 of      105      19 of      105      20 of      105      21 of      105      22 of      105      23 of      105      24 of      105      25 of      105      26 of      105      27 of      105      28 of      105      29 of      105      30 of      105      31 of      105      32 of      105      33 of      105      34 of      105      35 of      105      36 of      105      37 of      105      38 of      105      39 of      105      40 of      105      41 of      105      42 of      105      43 of      105      44 of      105      45 of      105      46 of      105      47 of      105      48 of      105      49 of      105      50 of      105      51 of      105      52 of      105      53 of      105      54 of      105      55 of      105      56 of      105      57 of      105      58 of      105      59 of      105      60 of      105      61 of      105      62 of      105      63 of      105      64 of      105      65 of      105      66 of      105      67 of      105      68 of      105      69 of      105      70 of      105      71 of      105      72 of      105      73 of      105      74 of      105      75 of      105      76 of      105      77 of      105      78 of      105      79 of      105      80 of      105      81 of      105      82 of      105      83 of      105      84 of      105      85 of      105      86 of      105      87 of      105      88 of      105      89 of      105      90 of      105      91 of      105      92 of      105      93 of      105      94 of      105      95 of      105      96 of      105      97 of      105      98 of      105      99 of      105     100 of      105     101 of      105     102 of      105     103 of      105     104 of      105     105 of      105                                           [ [32;4mOK[0m ]
+Extending Edge-Weights thro' intermediate structures...              [ [32;4mOK[0m ]
+Final Alignment using the extended weights...                        [ [32;4mOK[0m ]
+Superposing structures on the core: 
+ (...writing [31;1m/home/azureuser/Dataset_Structural_GPCRs/GPCRdb/Mustang/classB1/classB1.pdb[0m) [ [32;4mOK[0m ]
+Writing rotation matrices and RMSDs:(...writing [31;1m/home/azureuser/Dataset_Structural_GPCRs/GPCRdb/Mustang/classB1/classB1.rms_rot[0m) [ [32;4mOK[0m ]
+Output alignment in fasta: 
+ (...writing [31;1m/home/azureuser/Dataset_Structural_GPCRs/GPCRdb/Mustang/classB1/classB1.afasta[0m) [ [32;4mOK[0m ]
+
+All Done! Thank you for using [1mMUSTANG[0m.
+Running Time : 1111.27  s.
+[36;4m.                                -=o0o=-                                  .[0m
+[36;3m|  Visit [0m[33;3mhttp://lcb.infotech.monash.edu.au[0m[36;3m for other supporting programs  |[0m
+[34;3m|            Some suggested utilities for you to try out:                 |
+[33;3m| SST[0m[36;3m: A Bayesian approach to assigning secondary structures.             [0m[33;3m|[0m
+[33;3m| MMLigner[0m[36;3m: Pairwise structural alignment using information & compression.[0m[33;3m|[0m
+[33;3m| Super[0m[36;3m: Rapidly screen entire PDB for well-superposable fragments.       [0m[33;3m|[0m
+[36;4m.                                -=o0o=-                                  .[0m

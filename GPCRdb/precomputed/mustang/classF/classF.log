@@ -1,0 +1,36 @@
+
+[0;37;1;41m      MUSTANG (v3.2.4): A MUltiple STuructural AligNment alGorithm.        [0;0m
+[1;33;4;1;46m Authors:     [0;1;37;4;1;46m    A S Konagurthu,  J Whisstock, and P J Stuckey, A M Lesk. [0m
+[0;33;4;1;46m Reference:   [0;37;4;1;46m    A S Konagurthu et al. Proteins 64(3):559-574, 2006       [0m
+[0m
+
+Parsing the PDB file: [35mfzd10_human.pdb[0m  (...contains [1m 581[0m residues.)  [ [32;4mOK[0m ]
+Parsing the PDB file: [35m fzd1_human.pdb[0m  (...contains [1m 647[0m residues.)  [ [32;4mOK[0m ]
+Parsing the PDB file: [35m fzd2_human.pdb[0m  (...contains [1m 565[0m residues.)  [ [32;4mOK[0m ]
+Parsing the PDB file: [35m fzd3_human.pdb[0m  (...contains [1m 666[0m residues.)  [ [32;4mOK[0m ]
+Parsing the PDB file: [35m fzd4_human.pdb[0m  (...contains [1m 537[0m residues.)  [ [32;4mOK[0m ]
+Parsing the PDB file: [35m fzd5_human.pdb[0m  (...contains [1m 585[0m residues.)  [ [32;4mOK[0m ]
+Parsing the PDB file: [35m fzd6_human.pdb[0m  (...contains [1m 706[0m residues.)  [ [32;4mOK[0m ]
+Parsing the PDB file: [35m fzd7_human.pdb[0m  (...contains [1m 574[0m residues.)  [ [32;4mOK[0m ]
+Parsing the PDB file: [35m fzd8_human.pdb[0m  (...contains [1m 694[0m residues.)  [ [32;4mOK[0m ]
+Parsing the PDB file: [35m fzd9_human.pdb[0m  (...contains [1m 591[0m residues.)  [ [32;4mOK[0m ]
+Parsing the PDB file: [35m  smo_human.pdb[0m  (...contains [1m 787[0m residues.)  [ [32;4mOK[0m ]
+Calculating Distance Matrices...                                     [ [32;4mOK[0m ]
+Pairwise Comparisons:            1 of       55       2 of       55       3 of       55       4 of       55       5 of       55       6 of       55       7 of       55       8 of       55       9 of       55      10 of       55      11 of       55      12 of       55      13 of       55      14 of       55      15 of       55      16 of       55      17 of       55      18 of       55      19 of       55      20 of       55      21 of       55      22 of       55      23 of       55      24 of       55      25 of       55      26 of       55      27 of       55      28 of       55      29 of       55      30 of       55      31 of       55      32 of       55      33 of       55      34 of       55      35 of       55      36 of       55      37 of       55      38 of       55      39 of       55      40 of       55      41 of       55      42 of       55      43 of       55      44 of       55      45 of       55      46 of       55      47 of       55      48 of       55      49 of       55      50 of       55      51 of       55      52 of       55      53 of       55      54 of       55      55 of       55                                           [ [32;4mOK[0m ]
+Extending Edge-Weights thro' intermediate structures...              [ [32;4mOK[0m ]
+Final Alignment using the extended weights...                        [ [32;4mOK[0m ]
+Superposing structures on the core: 
+ (...writing [31;1m/home/azureuser/Dataset_Structural_GPCRs/GPCRdb/Mustang/classF/classF.pdb[0m) [ [32;4mOK[0m ]
+Writing rotation matrices and RMSDs:(...writing [31;1m/home/azureuser/Dataset_Structural_GPCRs/GPCRdb/Mustang/classF/classF.rms_rot[0m) [ [32;4mOK[0m ]
+Output alignment in fasta: 
+ (...writing [31;1m/home/azureuser/Dataset_Structural_GPCRs/GPCRdb/Mustang/classF/classF.afasta[0m) [ [32;4mOK[0m ]
+
+All Done! Thank you for using [1mMUSTANG[0m.
+Running Time : 2560.16  s.
+[36;4m.                                -=o0o=-                                  .[0m
+[36;3m|  Visit [0m[33;3mhttp://lcb.infotech.monash.edu.au[0m[36;3m for other supporting programs  |[0m
+[34;3m|            Some suggested utilities for you to try out:                 |
+[33;3m| SST[0m[36;3m: A Bayesian approach to assigning secondary structures.             [0m[33;3m|[0m
+[33;3m| MMLigner[0m[36;3m: Pairwise structural alignment using information & compression.[0m[33;3m|[0m
+[33;3m| Super[0m[36;3m: Rapidly screen entire PDB for well-superposable fragments.       [0m[33;3m|[0m
+[36;4m.                                -=o0o=-                                  .[0m

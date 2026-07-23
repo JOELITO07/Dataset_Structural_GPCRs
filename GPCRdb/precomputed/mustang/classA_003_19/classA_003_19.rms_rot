@@ -1,0 +1,156 @@
+RMSD matrix (based on multiple superpostion):
+       1    2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17   18   19  
+     -----------------------------------------------------------------------------------------------
+  1|  ---  2.6  2.5  2.7  2.2  2.7  2.7  2.5  2.6  2.7  4.0  2.5  2.8  2.6  2.3  2.7  2.9  3.4  3.3
+  2|  2.6  ---  0.9  0.6  1.2  0.7  1.7  1.6  1.2  2.6  2.9  1.6  1.6  2.0  1.5  1.9  1.7  2.6  2.4
+  3|  2.5  0.9  ---  1.1  1.3  0.9  1.8  1.6  1.5  2.5  3.1  1.9  1.7  2.0  1.6  1.8  1.9  2.7  2.6
+  4|  2.7  0.6  1.1  ---  1.2  0.8  1.7  1.6  1.2  2.6  2.8  1.5  1.7  2.2  1.5  2.0  1.8  2.7  2.4
+  5|  2.2  1.2  1.3  1.2  ---  1.2  1.3  1.4  1.2  2.2  2.9  1.5  1.5  1.7  1.4  1.8  1.5  2.5  2.2
+  6|  2.7  0.7  0.9  0.8  1.2  ---  1.8  1.7  1.2  2.5  2.8  1.8  1.6  2.0  1.6  2.0  1.8  2.8  2.5
+  7|  2.7  1.7  1.8  1.7  1.3  1.8  ---  1.2  1.9  2.2  2.9  1.8  1.8  1.9  1.8  2.3  1.7  2.2  2.0
+  8|  2.5  1.6  1.6  1.6  1.4  1.7  1.2  ---  1.7  2.1  3.0  1.9  1.6  1.8  1.6  2.1  1.6  2.3  2.2
+  9|  2.6  1.2  1.5  1.2  1.2  1.2  1.9  1.7  ---  2.5  2.8  1.7  1.6  1.8  1.7  2.0  1.7  2.9  2.4
+ 10|  2.7  2.6  2.5  2.6  2.2  2.5  2.2  2.1  2.5  ---  3.7  2.7  2.1  2.1  2.6  2.7  2.5  3.2  2.8
+ 11|  4.0  2.9  3.1  2.8  2.9  2.8  2.9  3.0  2.8  3.7  ---  3.1  3.1  3.3  3.2  3.6  2.9  3.7  3.5
+ 12|  2.5  1.6  1.9  1.5  1.5  1.8  1.8  1.9  1.7  2.7  3.1  ---  2.0  2.4  1.6  2.3  1.7  2.8  2.4
+ 13|  2.8  1.6  1.7  1.7  1.5  1.6  1.8  1.6  1.6  2.1  3.1  2.0  ---  1.2  1.7  1.8  1.5  2.7  2.4
+ 14|  2.6  2.0  2.0  2.2  1.7  2.0  1.9  1.8  1.8  2.1  3.3  2.4  1.2  ---  2.0  2.1  1.8  2.9  2.4
+ 15|  2.3  1.5  1.6  1.5  1.4  1.6  1.8  1.6  1.7  2.6  3.2  1.6  1.7  2.0  ---  1.6  1.7  2.9  2.7
+ 16|  2.7  1.9  1.8  2.0  1.8  2.0  2.3  2.1  2.0  2.7  3.6  2.3  1.8  2.1  1.6  ---  2.2  3.1  3.2
+ 17|  2.9  1.7  1.9  1.8  1.5  1.8  1.7  1.6  1.7  2.5  2.9  1.7  1.5  1.8  1.7  2.2  ---  2.7  2.2
+ 18|  3.4  2.6  2.7  2.7  2.5  2.8  2.2  2.3  2.9  3.2  3.7  2.8  2.7  2.9  2.9  3.1  2.7  ---  2.4
+ 19|  3.3  2.4  2.6  2.4  2.2  2.5  2.0  2.2  2.4  2.8  3.5  2.4  2.4  2.4  2.7  3.2  2.2  2.4  ---
+
+Traslation vector for struct 1 (ccr10_human.pdb):
+   0.000   0.000   0.000
+Rotation matrix for struct 1 (ccr10_human.pdb):
+   1.000   0.000   0.000
+   0.000   1.000   0.000
+   0.000   0.000   1.000
+
+Traslation vector for struct 2 (ccr1_human.pdb):
+  -6.234   0.392  -1.614
+Rotation matrix for struct 2 (ccr1_human.pdb):
+   0.709   0.699  -0.089
+  -0.665   0.622  -0.412
+  -0.233   0.351   0.907
+
+Traslation vector for struct 3 (ccr2_human.pdb):
+  -5.289  -0.096  -1.335
+Rotation matrix for struct 3 (ccr2_human.pdb):
+   0.348   0.827  -0.441
+  -0.630  -0.143  -0.764
+  -0.695   0.544   0.471
+
+Traslation vector for struct 4 (ccr3_human.pdb):
+  -6.796   0.561  -1.932
+Rotation matrix for struct 4 (ccr3_human.pdb):
+   0.920   0.392   0.016
+  -0.391   0.920  -0.027
+  -0.026   0.019   0.999
+
+Traslation vector for struct 5 (ccr4_human.pdb):
+  -0.731  -0.354   2.120
+Rotation matrix for struct 5 (ccr4_human.pdb):
+   0.093   0.420  -0.903
+  -0.146  -0.891  -0.430
+  -0.985   0.172  -0.021
+
+Traslation vector for struct 6 (ccr5_human.pdb):
+   0.079  -1.177   2.846
+Rotation matrix for struct 6 (ccr5_human.pdb):
+   0.050   0.368  -0.928
+  -0.148  -0.917  -0.372
+  -0.988   0.156   0.008
+
+Traslation vector for struct 7 (ccr6_human.pdb):
+  -5.856   2.077  -0.950
+Rotation matrix for struct 7 (ccr6_human.pdb):
+   0.062  -0.049  -0.997
+   0.519  -0.852   0.074
+  -0.853  -0.522  -0.028
+
+Traslation vector for struct 8 (ccr7_human.pdb):
+  -1.576   0.239   2.211
+Rotation matrix for struct 8 (ccr7_human.pdb):
+   0.271   0.656  -0.705
+  -0.475  -0.546  -0.690
+  -0.838   0.521   0.163
+
+Traslation vector for struct 9 (ccr8_human.pdb):
+  -5.466   0.185  -0.852
+Rotation matrix for struct 9 (ccr8_human.pdb):
+  -0.749  -0.653   0.113
+  -0.641   0.670  -0.374
+   0.168  -0.352  -0.921
+
+Traslation vector for struct 10 (ccr9_human.pdb):
+  -1.412  -0.313   3.441
+Rotation matrix for struct 10 (ccr9_human.pdb):
+   0.485   0.825  -0.291
+  -0.684   0.151  -0.714
+  -0.545   0.545   0.637
+
+Traslation vector for struct 11 (cml1_human.pdb):
+  -4.350   2.639   0.930
+Rotation matrix for struct 11 (cml1_human.pdb):
+   0.351   0.010  -0.936
+   0.171  -0.984   0.053
+  -0.921  -0.178  -0.347
+
+Traslation vector for struct 12 (cx3c1_human.pdb):
+  -0.970  -1.142   1.779
+Rotation matrix for struct 12 (cx3c1_human.pdb):
+   0.154   0.768  -0.622
+  -0.481  -0.492  -0.726
+  -0.863   0.411   0.293
+
+Traslation vector for struct 13 (cxcr1_human.pdb):
+  -0.107  -1.866   2.019
+Rotation matrix for struct 13 (cxcr1_human.pdb):
+   0.543   0.754  -0.370
+  -0.687   0.145  -0.712
+  -0.483   0.641   0.597
+
+Traslation vector for struct 14 (cxcr2_human.pdb):
+  -0.635  -0.618   2.771
+Rotation matrix for struct 14 (cxcr2_human.pdb):
+   0.206   0.655  -0.727
+  -0.448  -0.598  -0.665
+  -0.870   0.463   0.171
+
+Traslation vector for struct 15 (cxcr3_human.pdb):
+  -0.006  -1.340   0.795
+Rotation matrix for struct 15 (cxcr3_human.pdb):
+   0.842   0.503  -0.196
+  -0.527   0.685  -0.503
+  -0.119   0.527   0.841
+
+Traslation vector for struct 16 (cxcr4_human.pdb):
+   1.042  -1.523   1.237
+Rotation matrix for struct 16 (cxcr4_human.pdb):
+   0.280   0.700  -0.657
+  -0.537  -0.454  -0.711
+  -0.796   0.552   0.249
+
+Traslation vector for struct 17 (cxcr5_human.pdb):
+  -4.951   2.087  -2.497
+Rotation matrix for struct 17 (cxcr5_human.pdb):
+   0.296  -0.391  -0.871
+   0.601  -0.633   0.488
+  -0.743  -0.668   0.048
+
+Traslation vector for struct 18 (cxcr6_human.pdb):
+  -7.642   1.374  -1.857
+Rotation matrix for struct 18 (cxcr6_human.pdb):
+   0.086   0.097  -0.992
+   0.366  -0.929  -0.059
+  -0.927  -0.358  -0.115
+
+Traslation vector for struct 19 (xcr1_human.pdb):
+  -6.289   0.994  -0.308
+Rotation matrix for struct 19 (xcr1_human.pdb):
+  -0.955  -0.297  -0.018
+  -0.294   0.934   0.200
+  -0.043   0.197  -0.980
+

@@ -1,0 +1,43 @@
+nohup: ignoring input
+============================================================
+Ejecución paralela de Caretta
+Entrada:            /home/azureuser/Dataset_Structural_GPCRs/GPCRdb/alphafold_pdb
+Salida:             /home/azureuser/results/caretta
+Datasets paralelos: 2
+Hilos por dataset:  4
+Inicio:             2026-07-22 22:28:47
+============================================================
+[2026-07-22 22:28:47] Preparando: classA_001
+[2026-07-22 22:28:47] Preparando: classA_001_19
+[2026-07-22 22:31:07] COMPLETADO: classA_001_19
+[2026-07-22 22:31:08] Preparando: classA_002
+[2026-07-22 22:33:52] COMPLETADO: classA_001
+[2026-07-22 22:33:52] Preparando: classA_002_19
+[2026-07-22 22:35:38] COMPLETADO: classA_002_19
+[2026-07-22 22:35:39] Preparando: classA_003
+[2026-07-22 22:38:30] COMPLETADO: classA_003
+[2026-07-22 22:38:32] Preparando: classA_003_19
+[2026-07-22 22:40:12] COMPLETADO: classA_003_19
+[2026-07-22 22:40:12] Preparando: classA_004
+[2026-07-22 22:43:33] COMPLETADO: classA_004
+[2026-07-22 22:43:35] Preparando: classA_004_19
+[2026-07-22 22:44:05] COMPLETADO: classA_002
+[2026-07-22 22:44:07] Preparando: classB1
+[2026-07-22 22:45:28] COMPLETADO: classA_004_19
+[2026-07-22 22:45:29] Preparando: classF
+[2026-07-22 22:46:08] COMPLETADO: classB1
+[2026-07-22 22:46:10] Preparando: classT2
+[2026-07-22 22:47:29] COMPLETADO: classF
+[2026-07-22 22:47:30] Preparando: classT2_19
+[2026-07-22 22:48:20] COMPLETADO: classT2
+[2026-07-22 22:49:01] COMPLETADO: classT2_19
+
+============================================================
+Ejecución terminada
+Completados: 0
+Fallidos:    12
+Omitidos:    0
+Resumen:     /home/azureuser/results/caretta/caretta_execution_summary.tsv
+Logs:        /home/azureuser/results/caretta/logs
+Fin:         2026-07-22 22:49:01
+============================================================
