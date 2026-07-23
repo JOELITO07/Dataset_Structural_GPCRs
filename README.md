@@ -11,7 +11,8 @@ It is designed to support **reproducible research** in structural bioinformatics
 - **GPCR classes covered:** 9 main classes/subclasses
 - **Sequence sources:** UniProt, NCBI, and GPCRdb
 - **Structure data:** AlphaFold2 predictions (JSON and PDB formats)
-- **Alignment tools evaluated:** 5 state-of-the-art MSA tools
+- **Alignment tools evaluated:** sequence-based baselines plus major structure-based tools
+- **New additions:** dedicated experiment outputs and workflow scripts for Mustang, Caretta, mTM-align, FoldMason, and US-align
 
 ---
 
@@ -76,27 +77,12 @@ The original **mTM-align** implementation enforces a hard limit of **19 PDB stru
 ├── 📁 GPCRdb/                      # Main dataset directory
 │   ├── 📄 List19Proteins.txt       # List of proteins in reduced 19-protein version
 │   ├── 📁 sequences/               # Sequence data in multiple formats
-│   │   ├── 📄 dataset_summary.csv  # Metadata and statistics
-│   │   ├── 📁 fasta/               # FASTA format sequences
-│   │   │   ├── classA_001.fasta
-│   │   │   ├── classA_001_19.fasta
-│   │   │   ├── classA_002.fasta
-│   │   │   ├── classA_002_19.fasta
-│   │   │   ├── classA_003.fasta
-│   │   │   ├── classA_003_19.fasta
-│   │   │   ├── classA_004.fasta
-│   │   │   ├── classA_004_19.fasta
-│   │   │   ├── classB1.fasta
-│   │   │   ├── classB2.fasta
-│   │   │   ├── classB2_19.fasta
-│   │   │   ├── classC.fasta
-│   │   │   ├── classC_19.fasta
-│   │   │   ├── classF.fasta
-│   │   │   ├── classT2.fasta
-│   │   │   └── classT2_19.fasta
-│   │   ├── 📁 gff3/                # GFF3 format annotations
-│   │   └── 📁 tmregions/           # Transmembrane region data
 │   ├── 📁 alphafold_pdb/           # AlphaFold2 structures (PDB format)
+│   ├── 📁 alphafold_json/          # AlphaFold2 structures (JSON format)
+│   ├── 📁 distances/               # Distance matrices from structures
+│   ├── 📁 weights/                 # Alignment weights and scoring matrices
+│   ├── 📁 reference_alignments/    # Gold-standard reference alignments
+│   ├── 📁 precomputed/             # Precomputed structural-alignment experiment outputs
 │   │   ├── classA_001/
 │   │   ├── classA_001_19/
 │   │   ├── classA_002/
@@ -112,48 +98,39 @@ The original **mTM-align** implementation enforces a hard limit of **19 PDB stru
 │   │   ├── classC_19/
 │   │   ├── classF/
 │   │   ├── classT2/
-│   │   └── classT2_19/
-│   ├── 📁 alphafold_json/          # AlphaFold2 structures (JSON format)
-│   │   └── [Same structure as alphafold_pdb/]
-│   ├── 📁 distances/               # Distance matrices from structures
-│   │   └── [Same structure as alphafold_pdb/]
-│   ├── 📁 weights/                 # Alignment weights and scoring matrices
-│   │   └── [Same structure as alphafold_pdb/]
-│   ├── 📁 reference_alignments/    # Gold-standard reference alignments
-│   │   ├── classA_001.fasta
-│   │   ├── classA_001_19.fasta
-│   │   ├── classA_002.fasta
-│   │   ├── classA_002_19.fasta
-│   │   ├── classA_003.fasta
-│   │   ├── classA_003_19.fasta
-│   │   ├── classA_004.fasta
-│   │   ├── classA_004_19.fasta
-│   │   ├── classB1.fasta
-│   │   ├── classB2.fasta
-│   │   ├── classB2_19.fasta
-│   │   ├── classC.fasta
-│   │   ├── classC_19.fasta
-│   │   ├── classF.fasta
-│   │   ├── classT2.fasta
-│   │   └── classT2_19.fasta
-│   └── 📁 resultados_software/     # Alignment results from 5 tools
+│   │   ├── classT2_19/
+│   │   └── resultados_precomputed.txt
+│   └── 📁 resultados_software/     # Alignment results from sequence-based baseline tools
 │       ├── clustalw/
 │       ├── kalign/
 │       ├── mafft/
 │       ├── tcoffee/
 │       └── tm-aligner/
-└── 📁 scripts/                     # Utility scripts for data processing
-    ├── 📄 download.py              # Download data from external sources
-    ├── 📄 downloadsequences.py     # Download GPCR sequences
+├── 📁 Tests/                      # Outputs from structural-alignment experiments
+│   ├── 📁 mustang/
+│   ├── 📁 caretta/
+│   │   ├── caretta_execution_summary.tsv
+│   │   ├── caretta_global.log
+│   │   └── logs/
+│   ├── 📁 mtmalign/
+│   ├── 📁 foldmason/
+│   └── 📁 usalign/
+└── 📁 scripts/                     # Utility scripts for data processing and workflow execution
+    ├── 📄 download.py
+    ├── 📄 downloadsequences.py
     ├── 📄 downloadmsareferences_19.py
-    ├── 📄 generar.py               # Generate full dataset
-    ├── 📄 generar_19version.py     # Generate reduced 19-protein version
-    ├── 📄 organizar.py             # Organize/prepare data
-    ├── 📄 groupfiles.py            # Group files by class
-    ├── 📄 groupsfiles2.py          # Alternative grouping script
-    ├── 📄 downloadalignmentref     # Reference alignment downloader
-    ├── 📄 gpcr_list.csv            # GPCR metadata (UniProt IDs, classifications)
-    └── 📄 adhesion_gpcr_human_33.csv # Adhesion GPCR subset data
+    ├── 📄 generar.py
+    ├── 📄 generar_19version.py
+    ├── 📄 organizar.py
+    ├── 📄 groupfiles.py
+    ├── 📄 groupsfiles2.py
+    ├── 📄 mustang_run.sh
+    ├── 📄 run_caretta.sh
+    ├── 📄 ejecutar_mtmalign_parallel.sh
+    ├── 📄 run_foldmason.sh
+    ├── 📄 run_usalign.sh
+    ├── 📄 gpcr_list.csv
+    └── 📄 adhesion_gpcr_human_33.csv
 ```
 
 ---
@@ -187,20 +164,30 @@ These serve as the ground truth for benchmarking MSA methods.
 
 ## Software Evaluation Results
 
-The directory `resultados_software/` contains processed alignment results from five established MSA tools:
+The repository now contains both baseline sequence-based alignments and a dedicated set of structural-alignment experiments. The main resources are organized as follows:
 
-| Tool | Type | Category | Reference |
+| Tool | Category | Repository location | Notes |
 |---|---|---|---|
-| **ClustalW** | Progressive | Sequence-based | [ClustalW2](http://www.clustal.org/) |
-| **Kalign** | Progressive | Sequence-based | [Kalign](https://msa.sbc.su.se/cgi-bin/msa.cgi) |
-| **MAFFT** | FFT-based | Sequence-based | [MAFFT](https://mafft.cbrc.jp/alignment/software/) |
-| **T-Coffee** | Progressive | Sequence-based | [T-Coffee](http://www.tcoffee.org/) |
-| **TM-aligner / mTM-align** | Profile | Structure-based | [mTM-align](https://yanglab.nankai.edu.cn/mTM-align/) |
+| **ClustalW / Kalign / MAFFT / T-Coffee** | Sequence-based baselines | GPCRdb/resultados_software/ | Standard MSA outputs organized by GPCR class |
+| **mTM-align** | Structure-based | Tests/mtmalign/ | Per-dataset execution folders and parallel log files |
+| **Mustang** | Structure-based | Tests/mustang/ | Class-based result folders for structural alignment experiments |
+| **Caretta** | Structure-based | Tests/caretta/ | Includes execution summary, global logs, and per-dataset outputs |
+| **FoldMason** | Structure-based | Tests/foldmason/ | Dataset-level result directories generated by the workflow script |
+| **US-align** | Structure-based | Tests/usalign/ | Batch outputs produced from the US-align workflow |
 
-**Results Organization:**
-- One subdirectory per tool
-- Organized by GPCR class (classA_001, classA_002, ..., classT2)
-- Both full and reduced (\_19) datasets evaluated
+**Results organization:**
+- Each tool has its own result directory under Tests/
+- The outputs are organized by GPCR class, including both full and reduced (_19) datasets where applicable
+- A consolidated summary of precomputed results is available in GPCRdb/precomputed/resultados_precomputed.txt
+
+### Structural-alignment workflow scripts
+- scripts/mustang_run.sh
+- scripts/run_caretta.sh
+- scripts/ejecutar_mtmalign_parallel.sh
+- scripts/run_foldmason.sh
+- scripts/run_usalign.sh
+
+These scripts automate the execution of the structure-based workflows and prepare the result folders used for downstream analysis.
 
 ---
 
@@ -210,9 +197,11 @@ The directory `resultados_software/` contains processed alignment results from f
 ✅ **Dual Versions:** Full dataset and reduced 19-protein version for flexibility  
 ✅ **Multi-format Structure Data:** PDB and JSON formats for diverse use cases  
 ✅ **Reference Alignments:** Gold-standard alignments for validation  
-✅ **Reproducible Results:** Output from 5 established alignment tools  
+✅ **Reproducible Results:** Outputs from both sequence-based and structural-alignment tools  
+✅ **Structural Alignment Benchmarks:** Dedicated experiment folders for Mustang, Caretta, mTM-align, FoldMason, and US-align  
+✅ **Precomputed Results:** Consolidated outputs stored under GPCRdb/precomputed/ for rapid reuse  
 ✅ **Transmembrane-aware:** Emphasis on TM region alignment accuracy  
-✅ **Utility Scripts:** Python scripts for data processing and generation  
+✅ **Utility Scripts:** Python and shell scripts for dataset generation, organization, and workflow execution  
 
 ---
 
@@ -251,6 +240,12 @@ This dataset is provided for **academic, educational, and research purposes only
 ---
 
 ## Changelog
+
+### v1.1 (Structural-alignment expansion)
+- Added experiment outputs and result folders for Mustang, Caretta, mTM-align, FoldMason, and US-align
+- Added new workflow scripts in the scripts/ directory to run the structural-alignment experiments
+- Added precomputed result storage under GPCRdb/precomputed/ for reuse in downstream analyses
+- Documented the organization of structural-alignment outputs under Tests/
 
 ### v1.0 (Initial Release)
 - 284 human GPCR sequences across 9 classes
