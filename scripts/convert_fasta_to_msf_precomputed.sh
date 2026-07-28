@@ -30,10 +30,6 @@ while IFS= read -r -d '' fasta; do
     # mismo nombre y misma carpeta
     msf="${fasta%.*}.msf"
 
-    echo
-    echo "FASTA: $fasta"
-    echo "MSF  : $msf"
-
     total=$((total + 1))
 
     if mview \
@@ -42,9 +38,8 @@ while IFS= read -r -d '' fasta; do
         "$fasta" \
         > "$msf"; then
 
-        # comprobar que realmente generó contenido
         if [ -s "$msf" ]; then
-            echo "[OK]"
+            echo "[OK] $msf"
             ok=$((ok + 1))
         else
             echo "[ERROR] Archivo MSF vacío."
