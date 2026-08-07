@@ -60,15 +60,23 @@ for dataset_dir in "$PRECOMP_BASE"/*; do
 
         echo "Procesando: $dataset / $software"
 
-        result=$(foldmason msa2lddt \
-            "$db" \
-            "$msa" \
-            --threads "$THREADS" \
-            --only-scoring-cols 0 \
-            -v 1 \
-            2>&1)
 
-        status=$?
+	msa_foldmason="$(mktemp --suffix=.fasta)"
+
+	sed '/^>/ s/\.\(pdb\|ent\|cif\|mmcif\)\r*$//' \
+	    "$msa" > "$msa_foldmason"
+
+	result="$(
+	    foldmason msa2lddt \
+        	"$db" \
+	        "$msa_foldmason" \
+        	--threads "$THREADS" \
+	        --only-scoring-cols 0 \
+	        2>&1
+	)"
+	
+	status=$?
+	rm -f "$msa_foldmason"
 
         if [ "$status" -ne 0 ]; then
             echo "  [ERROR] FoldMason terminó con código $status"
@@ -76,9 +84,19 @@ for dataset_dir in "$PRECOMP_BASE"/*; do
             continue
         fi
 
-        lddt=$(printf '%s\n' "$result" \
-            | sed -n 's/^Average MSA LDDT:[[:space:]]*//p' \
-            | head -1)
+ 	lddt=$(
+		 printf '%s\n' "$result" |
+		 tr -d '\r' |
+		 awk '
+		        /Average MSA LDDT:/ {
+		        value = $0
+            		sub(/^.*Average MSA LDDT:[[:space:]]*/, "", value)
+            		gsub(/[[:space:]]/, "", value)
+            		print value
+            		exit
+		        }
+		    '
+		)
 
         if [[ "$lddt" =~ ^[0-9]+([.][0-9]+)?$ ]]; then
 
