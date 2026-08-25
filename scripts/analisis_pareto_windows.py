@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Reproducible two-objective analysis of TM-M2StructAlign runs.
+"""Análisis automático de todos los datasets de TM-M2StructAlign en Windows.
 
 Expected layout (created by TM_MSAStructAlignerGPCRdb):
 
@@ -45,8 +45,6 @@ except ModuleNotFoundError as exc:
     ) from exc
 
 
-GUI_LAUNCHED = False
-
 
 @dataclass
 class Solution:
@@ -61,123 +59,82 @@ class Solution:
     combined_nd: bool = False
 
 
-def configure_windows_gui() -> None:
-    """Build command-line arguments interactively when launched by double click."""
-    global GUI_LAUNCHED
-    if len(sys.argv) > 1:
-        return
-    GUI_LAUNCHED = True
-    try:
-        import tkinter as tk
-        from tkinter import filedialog, messagebox, simpledialog
-    except ImportError as exc:
-        raise SystemExit("Tkinter no está disponible; ejecute el script desde CMD con --help") from exc
+# ============================================================================
+# CONFIGURACIÓN FIJA PARA WINDOWS
+# ============================================================================
+ROOT = Path(r"C:\GDrive2026\TM-MSA\Pruebas2")
+EXECUTIONS_ROOT = ROOT / "ejecuciones"
+OUTPUT_ROOT = EXECUTIONS_ROOT / "resultados"
+BASELINES_ROOT = Path(r"C:\GDrive2026\TM-MSA\Datasets\GPCRdb\precomputed")
 
-    root = tk.Tk()
-    root.withdraw()
-    messagebox.showinfo(
-        "Análisis multiobjetivo TM-M2StructAlign",
-        "Seleccione la carpeta que contiene 'ejecuciones'.\n\n"
-        "También puede seleccionar directamente la carpeta 'ejecuciones'.",
-        parent=root,
-    )
-    selected = filedialog.askdirectory(
-        title="Seleccione la carpeta de resultados",
-        mustexist=True,
-        parent=root,
-    )
-    if not selected:
-        root.destroy()
-        raise SystemExit(0)
+FUN_NAME = "FUN.tsv"
+F1_NAME = "Topology-aware structural SoP"
+F2_NAME = "LDDT"
+NORMALIZATION = "minmax"
 
-    selected_path = Path(selected)
-    executions = selected_path / "ejecuciones"
-    if not executions.is_dir():
-        if selected_path.name.lower() == "ejecuciones":
-            executions = selected_path
-        else:
-            messagebox.showerror(
-                "Carpeta incorrecta",
-                "La carpeta seleccionada no contiene la subcarpeta 'ejecuciones'.",
-                parent=root,
-            )
-            root.destroy()
-            raise SystemExit(2)
+# FUN.tsv ya contiene los valores reales restaurados: ambos se maximizan.
+F1_DIRECTION = "max"
+F2_DIRECTION = "max"
 
-    datasets = sorted(path.name for path in executions.iterdir() if path.is_dir())
-    if not datasets:
-        messagebox.showerror(
-            "Sin datasets",
-            "No se encontraron carpetas de datasets dentro de 'ejecuciones'.",
-            parent=root,
-        )
-        root.destroy()
-        raise SystemExit(2)
+WEIGHT_F1 = 0.5
+WEIGHT_F2 = 0.5
+SENSITIVITY_WEIGHT_F1 = 0.7
+SENSITIVITY_WEIGHT_F2 = 0.3
+EPSILON = 0.05
 
-    prompt = "Dataset disponible:\n\n" + "\n".join(datasets) + "\n\nEscriba el nombre exacto:"
-    initial = "classA_002" if "classA_002" in datasets else datasets[0]
-    dataset = simpledialog.askstring(
-        "Seleccione el dataset",
-        prompt,
-        initialvalue=initial,
-        parent=root,
-    )
-    if not dataset:
-        root.destroy()
-        raise SystemExit(0)
-    dataset = dataset.strip()
-    if dataset not in datasets:
-        messagebox.showerror(
-            "Dataset inexistente",
-            f"No existe la carpeta:\n{executions / dataset}",
-            parent=root,
-        )
-        root.destroy()
-        raise SystemExit(2)
-
-    output = filedialog.askdirectory(
-        title="Seleccione dónde guardar los resultados (Cancelar = ubicación automática)",
-        mustexist=True,
-        parent=root,
-    )
-    sys.argv.extend([str(selected_path), dataset])
-    if output:
-        sys.argv.extend(["--output", str(Path(output) / f"pareto_analysis_{dataset}")])
-    root.destroy()
+# Métodos que se excluyen ÚNICAMENTE de la figura. Se mantienen en la
+# normalización, baseline_comparison.csv y todos los cálculos estadísticos.
+PLOT_BASELINE_EXCLUSIONS = {
+    "classA_001": {"tcoffee", "usalign_clean"},
+    "classA_001_19": {"tcoffee", "usalign_clean"},
+    "classA_002_19": {"tcoffee", "usalign_clean"},
+    "classA_003_19": {"tcoffee", "usalign_clean"},
+    "classB1": {"tcoffee", "usalign_clean"},
+    "classB2": {"tcoffee", "usalign_clean"},
+    "classB2_19": {"tcoffee", "usalign_clean"},
+    "classC": {"tcoffee", "usalign_clean"},
+    "classC_19":{"tcoffee", "usalign_clean"},
+    "classF": {"tcoffee", "usalign_clean"},
+    "classT2": {"tcoffee", "usalign_clean"},
+    "classT2_19": {"tcoffee", "usalign_clean"},
+}
 
 
-def parse_args() -> argparse.Namespace:
-    configure_windows_gui()
-    parser = argparse.ArgumentParser(
-        description="Analyze the combined Pareto front from independent runs."
+def normalized_method_name(method: object) -> str:
+    """Normaliza nombres como US-align, usalign_clean o mTM-align."""
+    return re.sub(r"[^a-z0-9]+", "_", str(method).lower()).strip("_")
+
+
+def show_baseline_in_plot(dataset: str, method: object) -> bool:
+    """Decide solo la visibilidad gráfica; no altera datos ni indicadores."""
+    excluded = PLOT_BASELINE_EXCLUSIONS.get(dataset, set())
+    normalized = normalized_method_name(method)
+    return not any(
+        normalized == name or normalized.startswith(name + "_")
+        for name in excluded
     )
-    parser.add_argument("root", type=Path, help="Root containing ejecuciones/, or ejecuciones itself")
-    parser.add_argument("dataset", help="Dataset name, e.g. classA_002")
-    parser.add_argument("--output", type=Path, help="Output directory")
-    parser.add_argument("--fun-name", default="FUN.tsv", help="FUN filename (default: FUN.tsv)")
-    parser.add_argument("--f1-name", default="Topology-aware structural SoP")
-    parser.add_argument("--f2-name", default="LDDT")
-    parser.add_argument(
-        "--normalization",
-        choices=("minmax", "none"),
-        default="minmax",
-        help="Normalize pooled objectives to [0,1], or require natural [0,1] values",
+
+
+def fixed_args(dataset: str) -> argparse.Namespace:
+    """Construye la configuración fija correspondiente a un dataset."""
+    return argparse.Namespace(
+        root=ROOT,
+        dataset=dataset,
+        output=OUTPUT_ROOT / dataset,
+        fun_name=FUN_NAME,
+        f1_name=F1_NAME,
+        f2_name=F2_NAME,
+        normalization=NORMALIZATION,
+        f1_direction=F1_DIRECTION,
+        f2_direction=F2_DIRECTION,
+        weight_f1=WEIGHT_F1,
+        weight_f2=WEIGHT_F2,
+        sensitivity_weight_f1=SENSITIVITY_WEIGHT_F1,
+        sensitivity_weight_f2=SENSITIVITY_WEIGHT_F2,
+        epsilon=EPSILON,
+        baselines=BASELINES_ROOT / dataset / "baselines.csv",
+        title=None,
     )
-    parser.add_argument("--f1-direction", choices=("max", "min"), default="max")
-    parser.add_argument("--f2-direction", choices=("max", "min"), default="max")
-    parser.add_argument("--weight-f1", type=float, default=0.5)
-    parser.add_argument("--weight-f2", type=float, default=0.5)
-    parser.add_argument("--sensitivity-weight-f1", type=float, default=0.7)
-    parser.add_argument("--sensitivity-weight-f2", type=float, default=0.3)
-    parser.add_argument("--epsilon", type=float, default=0.05,
-                        help="Compromise-region tolerance in normalized distance")
-    parser.add_argument(
-        "--baselines",
-        type=Path,
-        help="Optional CSV: method,objective_1,objective_2",
-    )
-    parser.add_argument("--title", help="Optional plot title")
-    return parser.parse_args()
 
 
 def locate_dataset(root: Path, dataset: str) -> Path:
@@ -210,21 +167,42 @@ def read_fun(path: Path) -> np.ndarray:
 
 
 def find_fasta(run_dir: Path, row: int) -> Path:
-    # Current Java runner writes zero-based MSASol0.fasta. The padded patterns
-    # make the analyzer usable with archived result variants without ambiguity.
-    candidates = (
-        run_dir / f"MSASol{row}.fasta",
-        run_dir / f"MSASol{row:03d}.fasta",
-        run_dir / f"MSASol{row + 1:03d}.fasta",
-    )
-    existing = list(dict.fromkeys(path for path in candidates if path.is_file()))
-    if len(existing) == 1:
-        return existing[0].resolve()
-    if not existing:
+    """Resolve the FASTA using one unambiguous numbering convention per run.
+
+    The current Java runner is zero-based: FUN row 0 maps to MSASol0.fasta.
+    A one-based fallback is retained only for archived runs that do not contain
+    MSASol0.fasta. We never mix both conventions within the same run.
+    """
+    zero_based_marker = run_dir / "MSASol0.fasta"
+    zero_based_padded_marker = run_dir / "MSASol000.fasta"
+
+    if zero_based_marker.is_file():
+        target = run_dir / f"MSASol{row}.fasta"
+        if target.is_file():
+            return target.resolve()
         raise FileNotFoundError(
-            f"No FASTA for FUN row {row} in {run_dir}; expected MSASol{row}.fasta"
+            f"Missing zero-based FASTA for FUN row {row}: {target}"
         )
-    raise RuntimeError(f"Ambiguous FASTA mapping for row {row}: {existing}")
+
+    if zero_based_padded_marker.is_file():
+        target = run_dir / f"MSASol{row:03d}.fasta"
+        if target.is_file():
+            return target.resolve()
+        raise FileNotFoundError(
+            f"Missing padded zero-based FASTA for FUN row {row}: {target}"
+        )
+
+    # Legacy one-based archives: FUN row 0 maps to MSASol1 or MSASol001.
+    one_based = run_dir / f"MSASol{row + 1}.fasta"
+    one_based_padded = run_dir / f"MSASol{row + 1:03d}.fasta"
+    if one_based.is_file():
+        return one_based.resolve()
+    if one_based_padded.is_file():
+        return one_based_padded.resolve()
+
+    raise FileNotFoundError(
+        f"No FASTA found for FUN row {row} in {run_dir}"
+    )
 
 
 def load_solutions(dataset_dir: Path, fun_name: str) -> tuple[list[Solution], list[str]]:
@@ -253,23 +231,35 @@ def to_benefit(values: np.ndarray, direction: str) -> np.ndarray:
     return values if direction == "max" else -values
 
 
-def normalize(solutions: list[Solution], mode: str, directions: tuple[str, str]) -> None:
+def normalize(solutions: list[Solution], baselines: list[dict[str, object]],
+              mode: str, directions: tuple[str, str]) -> None:
     raw = np.asarray([[s.f1, s.f2] for s in solutions], dtype=float)
     benefit = np.column_stack(
         [to_benefit(raw[:, j], directions[j]) for j in range(2)]
     )
+    baseline_benefit = np.empty((0, 2), dtype=float)
+    if baselines:
+        baseline_raw = np.asarray([[row["f1"], row["f2"]] for row in baselines], dtype=float)
+        baseline_benefit = np.column_stack(
+            [to_benefit(baseline_raw[:, j], directions[j]) for j in range(2)]
+        )
+    pooled = np.vstack([benefit, baseline_benefit])
     if mode == "none":
-        if np.any(benefit < 0.0) or np.any(benefit > 1.0):
+        if np.any(pooled < 0.0) or np.any(pooled > 1.0):
             raise ValueError("--normalization none requires benefit values within [0,1]")
         norm = benefit
+        baseline_norm = baseline_benefit
     else:
-        low = benefit.min(axis=0)
-        span = benefit.max(axis=0) - low
+        low = pooled.min(axis=0)
+        span = pooled.max(axis=0) - low
         if np.any(span == 0.0):
             raise ValueError("Cannot min-max normalize an objective with zero pooled range")
         norm = (benefit - low) / span
+        baseline_norm = (baseline_benefit - low) / span
     for solution, (n1, n2) in zip(solutions, norm):
         solution.n1, solution.n2 = float(n1), float(n2)
+    for row, (n1, n2) in zip(baselines, baseline_norm):
+        row["n1"], row["n2"] = float(n1), float(n2)
 
 
 def nondominated_mask(points: np.ndarray) -> np.ndarray:
@@ -340,8 +330,7 @@ def read_runtime(run_dir: Path) -> float:
     return math.nan
 
 
-def load_baselines(path: Path | None, directions: tuple[str, str], mode: str,
-                   solutions: list[Solution]) -> list[dict[str, object]]:
+def load_baselines(path: Path | None) -> list[dict[str, object]]:
     if path is None:
         return []
     rows: list[dict[str, object]] = []
@@ -353,14 +342,6 @@ def load_baselines(path: Path | None, directions: tuple[str, str], mode: str,
         for row in reader:
             rows.append({"method": row["method"], "f1": float(row["objective_1"]),
                          "f2": float(row["objective_2"])})
-    raw = np.asarray([[s.f1, s.f2] for s in solutions], dtype=float)
-    benefit = np.column_stack([to_benefit(raw[:, j], directions[j]) for j in range(2)])
-    low, high = benefit.min(axis=0), benefit.max(axis=0)
-    for row in rows:
-        values = np.asarray([row["f1"], row["f2"]], dtype=float)
-        values = np.asarray([values[j] if directions[j] == "max" else -values[j] for j in range(2)])
-        norm = values if mode == "none" else (values - low) / (high - low)
-        row["n1"], row["n2"] = float(norm[0]), float(norm[1])
     return rows
 
 
@@ -374,49 +355,102 @@ def write_csv(path: Path, fieldnames: list[str], rows: list[dict[str, object]]) 
 def plot_results(solutions: list[Solution], combined: list[Solution], selections: dict[str, Solution],
                  baselines: list[dict[str, object]], output: Path, args: argparse.Namespace) -> None:
     fig, ax = plt.subplots(figsize=(7.2, 5.8), constrained_layout=True)
+    fig.patch.set_facecolor("white")
+    ax.set_facecolor("white")
+
     all_points = np.asarray([[s.n1, s.n2] for s in solutions])
-    ax.scatter(all_points[:, 0], all_points[:, 1], s=22, color="#b7bcc5", alpha=0.38,
-               linewidths=0, label="All solutions (10 runs)", zorder=1)
+    ax.scatter(
+        all_points[:, 0], all_points[:, 1],
+        s=13, color="#9ca3af", alpha=0.14, linewidths=0,
+        label="All solutions (10 runs)", zorder=1,
+    )
+
     ordered = sorted(combined, key=lambda s: (s.n1, -s.n2))
     front_points = np.asarray([[s.n1, s.n2] for s in ordered])
     ax.plot(front_points[:, 0], front_points[:, 1], "o-", color="#1769aa", linewidth=1.8,
             markersize=4.2, label="Combined non-dominated front", zorder=3)
-    markers = ["P", "X", "D", "v", "<", ">", "h"]
-    for index, row in enumerate(baselines):
-        ax.scatter(row["n1"], row["n2"], marker=markers[index % len(markers)], s=68,
-                   edgecolor="black", linewidth=0.45, label=str(row["method"]), zorder=4)
+
+    # Conventional aligners: identical blue circles, named next to each point,
+    # but deliberately excluded from the legend.
+    visible_baselines = [
+        row for row in baselines
+        if show_baseline_in_plot(args.dataset, row["method"])
+    ]
+    for row in visible_baselines:
+        ax.scatter(
+            row["n1"], row["n2"], marker="o", s=42,
+            color="#2563eb", edgecolor="white", linewidth=0.6,
+            label="_nolegend_", zorder=4,
+        )
+        ax.annotate(
+            str(row["method"]),
+            xy=(row["n1"], row["n2"]),
+            xytext=(-6, 0), textcoords="offset points",
+            ha="right", va="center", fontsize=7.5, color="#1f2937",
+            annotation_clip=True, zorder=5,
+        )
+
     styles = {
-        "extreme_f1": ("^", "#2ca02c", "Extreme objective 1"),
-        "extreme_f2": ("s", "#9467bd", "Extreme objective 2"),
+        # Extreme solutions use the same circular marker as the Pareto points.
+        # They are highlighted in red and omitted from the legend.
+        "extreme_f1": ("o", "#dc2626" , "Best Solution (f1)", 66),
+        "extreme_f2": ("o", "#dc2626" , "Best Solution (f2)", 66),
         "compromise_balanced": ("*", "#d62728", "Compromise (0.5, 0.5)"),
         "compromise_sensitivity": ("*", "#ff7f0e", "Preference sensitivity"),
     }
     plotted: set[tuple[float, float, str]] = set()
     for key, solution in selections.items():
-        marker, color, label = styles[key]
+        style = styles[key]
+        marker, color, label = style[:3]
+        size = style[3] if len(style) == 4 else 135
         signature = (solution.n1, solution.n2, label)
         if signature not in plotted:
-            ax.scatter(solution.n1, solution.n2, marker=marker, s=155, color=color,
+            ax.scatter(solution.n1, solution.n2, marker=marker, s=size, color=color,
                        edgecolor="black", linewidth=0.65, label=label, zorder=6)
             plotted.add(signature)
-    ax.scatter(1.0, 1.0, marker="D", s=65, facecolors="none", edgecolors="black",
-               linewidth=1.2, label="Ideal point", zorder=5)
-    ax.set_xlabel(f"Normalized {args.f1_name} (higher is better)")
-    ax.set_ylabel(f"Normalized {args.f2_name} (higher is better)")
+
+    ax.set_xlabel(f"Normalized {args.f1_name}")
+    ax.set_ylabel(f"Normalized {args.f2_name}")
     ax.set_title(args.title or f"Combined Pareto front — {args.dataset}")
-    ax.grid(alpha=0.2)
-    ax.set_xlim(min(-0.03, float(all_points[:, 0].min()) - 0.03),
-                max(1.03, float(all_points[:, 0].max()) + 0.03))
-    ax.set_ylim(min(-0.03, float(all_points[:, 1].min()) - 0.03),
-                max(1.03, float(all_points[:, 1].max()) + 0.03))
-    ax.legend(fontsize=8, loc="best", frameon=True)
+    ax.grid(False)
+    # Show only the range occupied by visible points, with a small margin.
+    # Excluded baselines do not affect the visual limits.
+    display_points = all_points
+    if visible_baselines:
+        baseline_points = np.asarray(
+            [[row["n1"], row["n2"]] for row in visible_baselines],
+            dtype=float,
+        )
+        display_points = np.vstack([display_points, baseline_points])
+
+    x_min, x_max = float(display_points[:, 0].min()), float(display_points[:, 0].max())
+    y_min, y_max = float(display_points[:, 1].min()), float(display_points[:, 1].max())
+    x_margin = max((x_max - x_min) * 0.04, 0.015)
+    y_margin = max((y_max - y_min) * 0.04, 0.015)
+    ax.set_xlim(x_min - x_margin, x_max + x_margin)
+    ax.set_ylim(y_min - y_margin, y_max + y_margin)
+
+    ax.legend(
+        fontsize=8,
+        loc="lower right",
+        frameon=True,
+        fancybox=False,
+        framealpha=1.0,
+        facecolor="white",
+        edgecolor="black",
+    )
     for extension in ("pdf", "svg", "png"):
-        fig.savefig(output / f"pareto_front_{args.dataset}.{extension}", dpi=350)
+        fig.savefig(
+            output / f"pareto_front_{args.dataset}.{extension}",
+            dpi=350,
+            bbox_inches="tight",
+            facecolor="white",
+        )
     plt.close(fig)
 
 
-def main() -> int:
-    args = parse_args()
+def process_dataset(dataset: str) -> dict[str, object]:
+    args = fixed_args(dataset)
     balanced = (args.weight_f1, args.weight_f2)
     sensitivity = (args.sensitivity_weight_f1, args.sensitivity_weight_f2)
     validate_weights(balanced, "Main")
@@ -425,14 +459,15 @@ def main() -> int:
         raise ValueError("--epsilon must be non-negative")
 
     dataset_dir = locate_dataset(args.root.resolve(), args.dataset)
-    output = (args.output or args.root / "pareto_analysis" / args.dataset).resolve()
+    output = args.output.resolve()
     output.mkdir(parents=True, exist_ok=True)
     selected_dir = output / "selected_alignments"
     selected_dir.mkdir(exist_ok=True)
 
     solutions, warnings = load_solutions(dataset_dir, args.fun_name)
     directions = (args.f1_direction, args.f2_direction)
-    normalize(solutions, args.normalization, directions)
+    baselines = load_baselines(args.baselines)
+    normalize(solutions, baselines, args.normalization, directions)
     points = np.asarray([[s.n1, s.n2] for s in solutions])
     combined_mask = nondominated_mask(points)
     for solution, keep in zip(solutions, combined_mask):
@@ -517,7 +552,6 @@ def main() -> int:
                          "median": float(np.mean(reached_values)), "q1": "", "q3": "", "iqr": ""})
     write_csv(output / "indicator_summary.csv", ["metric", "n", "median", "q1", "q3", "iqr"], summary_rows)
 
-    baselines = load_baselines(args.baselines, directions, args.normalization, solutions)
     if baselines:
         baseline_rows = []
         for row in baselines:
@@ -535,22 +569,85 @@ def main() -> int:
     print(f"Combined non-dominated objective vectors: {len(combined)}")
     print(f"Balanced compromise: {compromise.run}/MSASol{compromise.row}.fasta")
     print(f"Results: {output}")
-    if GUI_LAUNCHED:
+    return {
+        "dataset": dataset,
+        "solutions": len(solutions),
+        "runs": len(indicator_rows),
+        "pareto_points": len(combined),
+        "balanced_run": compromise.run,
+        "balanced_fasta": compromise.fasta.name,
+        "output": str(output),
+        "status": "ok",
+        "error": "",
+    }
+
+
+def discover_datasets() -> list[str]:
+    if not EXECUTIONS_ROOT.is_dir():
+        raise FileNotFoundError(f"No existe la carpeta: {EXECUTIONS_ROOT}")
+
+    datasets = []
+    for directory in EXECUTIONS_ROOT.iterdir():
+        if not directory.is_dir() or directory.name.lower() == "resultados":
+            continue
+        if any(directory.glob(f"*/{FUN_NAME}")):
+            datasets.append(directory.name)
+        else:
+            print(f"[OMITIDO] {directory.name}: no contiene */{FUN_NAME}")
+    return sorted(datasets, key=str.lower)
+
+
+def main() -> int:
+    OUTPUT_ROOT.mkdir(parents=True, exist_ok=True)
+    datasets = discover_datasets()
+    if not datasets:
+        raise RuntimeError(f"No se encontraron datasets en {EXECUTIONS_ROOT}")
+
+    print(f"Root:       {ROOT}")
+    print(f"Ejecuciones:{EXECUTIONS_ROOT}")
+    print(f"Resultados: {OUTPUT_ROOT}")
+    print(f"Baselines:  {BASELINES_ROOT}")
+    print(f"Datasets:   {len(datasets)}")
+    print()
+
+    batch_rows: list[dict[str, object]] = []
+    failures = 0
+
+    for index, dataset in enumerate(datasets, 1):
+        print("=" * 78)
+        print(f"[{index}/{len(datasets)}] Procesando {dataset}")
+        print(f"Baseline: {BASELINES_ROOT / dataset / 'baselines.csv'}")
+        print("=" * 78)
         try:
-            import tkinter as tk
-            from tkinter import messagebox
-            window = tk.Tk()
-            window.withdraw()
-            messagebox.showinfo(
-                "Análisis terminado",
-                f"Se analizaron {len(solutions)} soluciones de {len(indicator_rows)} ejecuciones.\n\n"
-                f"Los resultados se guardaron en:\n{output}",
-                parent=window,
-            )
-            window.destroy()
-        except Exception:
-            pass
-    return 0
+            row = process_dataset(dataset)
+            batch_rows.append(row)
+            print(f"[OK] {dataset}\n")
+        except Exception as error:
+            failures += 1
+            print(f"[ERROR] {dataset}: {error}\n", file=sys.stderr)
+            batch_rows.append({
+                "dataset": dataset,
+                "solutions": "",
+                "runs": "",
+                "pareto_points": "",
+                "balanced_run": "",
+                "balanced_fasta": "",
+                "output": str(OUTPUT_ROOT / dataset),
+                "status": "failed",
+                "error": str(error),
+            })
+
+    write_csv(
+        OUTPUT_ROOT / "batch_summary.csv",
+        ["dataset", "solutions", "runs", "pareto_points", "balanced_run",
+         "balanced_fasta", "output", "status", "error"],
+        batch_rows,
+    )
+
+    print("=" * 78)
+    print(f"Finalizado: {len(datasets) - failures}/{len(datasets)} datasets correctos")
+    print(f"Resumen: {OUTPUT_ROOT / 'batch_summary.csv'}")
+    return 1 if failures else 0
 
 
 if __name__ == "__main__":
